@@ -1,0 +1,50 @@
+ideas = {
+
+	country = {
+
+		PRS_fascist_defectors_1 = {
+
+			picture = ger_revive_the_kaiserreich
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				weekly_manpower = 1000
+			}
+		}
+
+		PRS_fascist_defectors_2 = {
+
+			picture = ger_revive_the_kaiserreich
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				weekly_manpower = -1000
+			}
+		}
+
+
+
+
+
+
+
+    }
+}

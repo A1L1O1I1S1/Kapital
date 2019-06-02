@@ -1,0 +1,1352 @@
+focus_tree = {
+	id = belarus_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BLR
+		}
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1200 }
+
+ #ARMY
+
+	focus = {
+		id = BLR_army_effort
+		icon = GFX_focus_blr_army_effort
+		x = 4
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+
+		available = {
+		    has_country_flag = BLR_flag_uprising_successful
+		}
+
+		completion_reward = {
+			army_experience = 30
+		}
+    }
+
+	focus = {
+		id = BLR_equipment_effort
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = BLR_army_effort }
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+    }
+
+	focus = {
+		id = BLR_artillery_effort
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = BLR_equipment_effort }
+		x = 2
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+		}
+    }
+
+	focus = {
+		id = BLR_light_tanks_effort
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = BLR_equipment_effort }
+		prerequisite = { focus = BLR_motorised_effort }
+		x = 0
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.25
+				uses = 1
+				category = armor
+			}
+		}
+    }
+
+#	focus = {
+#		id = BLR_heavy_tanks_effort
+#		icon = GFX_goal_generic_army_tanks
+#		prerequisite = { focus = BLR_light_tanks_effort }
+#		prerequisite = { focus = BLR_artillery_effort }
+#		x = 2
+#		y = 3
+#		cost = 10
+#
+#		available_if_capitulated = no
+#
+#		completion_reward = {
+#			add_tech_bonus = {
+#				name = armor_bonus
+#				bonus = 0.5
+#				uses = 1
+#				category = armor
+#			}
+#		}
+#   }
+
+	focus = {
+		id = BLR_motorised_effort
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = BLR_army_effort }
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.5
+				category = motorized_equipment
+				uses = 1
+			}
+		}
+    }
+
+	focus = {
+		id = BLR_fortification_effort
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = BLR_army_effort }
+		x = 4
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_aa_perimeters
+		icon = GFX_focus_generic_air_defense
+		prerequisite = { focus = BLR_fortification_effort }
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_make_them_scared_of_flying
+		icon = GFX_focus_hol_war_on_pacifism
+		prerequisite = { focus = BLR_aa_perimeters }
+		mutually_exclusive = { focus = BLR_belarusian_airforce }
+		x = 4
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_belarusian_airforce
+		icon = GFX_focus_blr_airforce
+		mutually_exclusive = { focus = BLR_make_them_scared_of_flying }
+		x = 1
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+
+		available = {
+		    has_country_flag = BLR_flag_uprising_successful
+		}
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_prepare_to_rule_the_skies
+		icon = GFX_goal_generic_air_production
+		prerequisite = { focus = BLR_belarusian_airforce }
+		x = 1
+		y = 4
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_quick_and_deadly
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = BLR_prepare_to_rule_the_skies }
+		mutually_exclusive = { focus = BLR_flying_sharks }
+		x = 0
+		y = 5
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_flying_sharks
+		icon = GFX_focus_chi_flying_tigers
+		prerequisite = { focus = BLR_prepare_to_rule_the_skies }
+		mutually_exclusive = { focus = BLR_quick_and_deadly }
+		x = 2
+		y = 5
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_help_from_above
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = BLR_quick_and_deadly focus = BLR_flying_sharks }
+		mutually_exclusive = { focus = BLR_death_from_above }
+		x = 0
+		y = 6
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_death_from_above
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = BLR_quick_and_deadly focus = BLR_flying_sharks }
+		mutually_exclusive = { focus = BLR_help_from_above }
+		x = 2
+		y = 6
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = BLR_independent_force
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = BLR_army_effort }
+		mutually_exclusive = { focus = BLR_militarized_goverment }
+		x = 7
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.15
+		}
+    }
+
+	focus = {
+		id = BLR_clamp_down_on_corruption
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = BLR_independent_force }
+		x = 7
+		y = 3
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.10
+		}
+    }
+
+	focus = {
+		id = BLR_doctrine_research
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = BLR_clamp_down_on_corruption }
+		x = 5
+		y = 4
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+    }
+
+	focus = {
+		id = BLR_increase_industry_funding
+		icon = GFX_goal_generic_construct_mil_factory
+		available = {
+		    controls_state = 206
+		}
+		prerequisite = { focus = BLR_clamp_down_on_corruption }
+		x = 7
+		y = 4
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			206 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+    }
+
+	focus = {
+		id = BLR_competent_officers
+		icon = GFX_focus_chi_army_reform
+		prerequisite = { focus = BLR_clamp_down_on_corruption }
+		x = 9
+		y = 4
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = BLR_competent_officers
+		}
+    }
+
+	focus = {
+		id = BLR_army_innovations
+		icon = GFX_focus_research
+		prerequisite = { focus = BLR_doctrine_research }
+		prerequisite = { focus = BLR_increase_industry_funding }
+		prerequisite = { focus = BLR_competent_officers }
+		x = 7
+		y = 5
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+    }
+
+	focus = {
+		id = BLR_rocket_research
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = BLR_army_innovations focus = BLR_experimental_research }
+		x = 7
+		y = 6
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 0.5
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+    }
+
+ #LUCAS
+
+	focus = {
+		id = BLR_revolution_triumphant
+		icon = GFX_focus_blr_revolution_triumphant
+		mutually_exclusive = { focus = BLR_nationalists_prevail }
+		x = 15
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+
+		available = {
+		    has_country_flag = BLR_flag_uprising_successful
+		}
+
+		completion_reward = {
+		    add_political_power = 150
+		}
+    }
+
+	focus = {
+		id = BLR_militarized_goverment
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = BLR_revolution_triumphant }
+		mutually_exclusive = { focus = BLR_independent_force }
+		available = {
+		    OR = {
+		        has_government = communism
+		        has_government = fascism
+		    }
+		}
+		x = 12
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_corps_commander = {
+	            name = "Aleksey Ravikov"
+	            picture = "Portrait_Belarus_Aleksey_Ravikov.dds"
+	            traits = { politically_connected combined_arms_expert }
+	            skill = 1
+	            attack_skill = 2
+	            defense_skill = 1
+	            planning_skill = 1
+	            logistics_skill = 2
+            }
+            create_corps_commander = {
+	            name = "Alexander Onegin"
+	            picture = "Portrait_Belarus_Alexander_Onegin.dds"
+	            traits = { politically_connected  }
+	            skill = 2
+	            attack_skill = 2
+	            defense_skill = 2
+	            planning_skill = 2
+	            logistics_skill = 1
+            }
+		}
+    }
+
+	focus = {
+		id = BLR_integrate_the_bgs
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = BLR_militarized_goverment }
+		x = 11
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = BLR_bgs
+		}
+    }
+
+	focus = {
+		id = BLR_revolutionary_army
+		icon = GFX_focus_YUG_pan_slavic_congress
+		prerequisite = { focus = BLR_militarized_goverment }
+		available = {
+		    has_government = communism
+		}
+		x = 12
+		y = 4
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_popularity = { ideology = communism popularity = 0.05 }
+			add_ideas = BLR_idea_revolutionary_army
+		}
+    }
+
+	focus = {
+		id = BLR_experimental_research
+		icon = GFX_focus_research2
+		prerequisite = { focus = BLR_revolutionary_army }
+		x = 10
+		y = 5
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = BLR_idea_experimental_research
+		}
+    }
+
+	focus = {
+		id = BLR_a_surprise_tool_that_will_help_us_later
+		icon = GFX_focus_wonderweapons
+		prerequisite = { focus = BLR_experimental_research }
+		available = {
+		    NOT = {
+		        has_government = socialist
+		    }
+		}
+		x = 10
+		y = 6
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 0.5
+				category = nuclear
+			}
+		}
+    }
+
+	focus = {
+		id = BLR_found_the_kdb
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = BLR_revolutionary_army }
+		available = {
+		    has_government = communism
+		}
+		x = 12
+		y = 5
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = BLR_idea_kdb
+		}
+    }
+
+	focus = {
+		id = BLR_our_own_strategy
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = BLR_youth_organizations }
+		prerequisite = { focus = BLR_found_the_kdb }
+		available = {
+		    has_government = communism
+		}
+		x = 13
+		y = 6
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = doctrine_bonus
+				bonus = 0.5
+				uses = 2
+				category = cat_mass_assault
+			}
+		}
+    }
+
+	focus = {
+		id = BLR_youth_organizations
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = BLR_revolutionary_army }
+		available = {
+		    OR = {
+		        has_government = communism
+		        has_government = fascism
+		    }
+		}
+		x = 14
+		y = 5
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = BLR_idea_youth_organizations
+		}
+    }
+
+	focus = {
+		id = BLR_enemies_of_the_revolution
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = BLR_revolution_triumphant }
+		available = {
+		    OR = {
+		        has_government = communism
+		        has_government = fascism
+		    }
+		}
+		x = 15
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 25
+			add_ideas = BLR_idea_expansionism
+		}
+    }
+
+	focus = {
+		id = BLR_return_lost_lands
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = BLR_enemies_of_the_revolution }
+		available = {
+		    OR = {
+		        has_government = communism
+		        has_government = fascism
+		    }
+		}
+		x = 15
+		y = 3
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+#	focus = {
+#		id = BLR_strike_south
+#		icon = GFX_goal_generic_more_territorial_claims
+#		prerequisite = { focus = BLR_return_lost_lands }
+#		available = {
+#		    OR = {
+#		        has_government = communism
+#		        has_government = fascism
+#		    }
+#		}
+#		x = 14
+#		y = 4
+#		cost = 10
+#
+#		available_if_capitulated = no
+#
+#		completion_reward = {
+#			create_wargoal = { type = annex_everything target = UKR }
+#		}
+#   }
+
+#	focus = {
+#		id = BLR_strike_east
+#		icon = GFX_goal_generic_more_territorial_claims
+#		prerequisite = { focus = BLR_return_lost_lands }
+#		available = {
+#		    OR = {
+#		        has_government = communism
+#		        has_government = fascism
+#		    }
+#		}
+#		x = 16
+#		y = 4
+#		cost = 10
+#
+#		available_if_capitulated = no
+#
+#		completion_reward = {
+#			create_wargoal = { type = annex_everything target = RUS }
+#		}
+#    }
+
+	focus = {
+		id = BLR_the_comintern
+		icon = GFX_focus_ger_great_red_menace
+		prerequisite = { focus = BLR_revolution_triumphant }
+		available = {
+		    has_government = communism
+		}
+		x = 13
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		    set_rule = { can_create_factions = yes }
+            create_faction = Comintern
+            add_to_faction = BLR
+		}
+    }
+
+	focus = {
+		id = BLR_proclaim_the_soviet_union
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = { focus = BLR_the_comintern }
+
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+
+		available = {
+			num_of_controlled_states = 6
+		    has_government = communism
+		}
+
+		completion_reward = {
+			add_stability = 0.25
+			set_cosmetic_tag = BLR_sov
+		}
+    }
+
+	focus = {
+		id = BLR_purge_the_counter-revolutionaries
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = { focus = BLR_revolution_triumphant }
+		available = {
+		    has_government = communism
+		    communism > 0.5
+		}
+		x = 14
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_popularity = { ideology = communism popularity = 1.0 }
+		}
+    }
+
+	focus = {
+		id = BLR_secularisation
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		prerequisite = { focus = BLR_revolution_triumphant }
+		available = {
+		    has_government = communism
+		}
+		x = 16
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+            add_timed_idea = { idea = BLR_idea_seized_assets days = 30 }
+		}
+    }
+
+	focus = {
+		id = BLR_wealth_redistribution
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = BLR_revolution_triumphant }
+		available = {
+		    has_government = communism
+		}
+		x = 18
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_stability = -0.10
+            add_timed_idea = { idea = BLR_idea_seized_assets days = 60 }
+		}
+    }
+
+	focus = {
+		id = BLR_develop_the_agricultural_sector
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = BLR_wealth_redistribution }
+		available = {
+		    OR = {
+		        has_government = communism
+		        has_government = socialist
+		    }
+		}
+		x = 17
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_ideas = BLR_idea_agrarian_reform
+		}
+    }
+
+	focus = {
+		id = BLR_our_wonder_weapon
+		icon = GFX_focus_blr_our_wonder_weapon
+		prerequisite = { focus = BLR_develop_the_agricultural_sector }
+		x = 17
+		y = 3
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+    }
+
+	focus = {
+		id = BLR_planned_economy
+		icon = GFX_goal_generic_soviet_construction
+		prerequisite = { focus = BLR_wealth_redistribution }
+		available = {
+            has_government = communism
+		}
+		x = 19
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_ideas = BLR_idea_planned_economy
+		}
+    }
+
+	focus = {
+		id = BLR_industrialization
+		icon = GFX_focus_generic_tank_production
+		available = {
+			controls_state = 206
+            has_government = communism
+		}
+		prerequisite = { focus = BLR_planned_economy }
+		x = 19
+		y = 3
+		cost = 20
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+    }
+
+ #NATIONALISTS
+
+	focus = {
+		id = BLR_nationalists_prevail
+		icon = GFX_focus_blr_nationalists_prevail
+		mutually_exclusive = { focus = BLR_revolution_triumphant }
+		x = 23
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+
+		available = {
+		    has_country_flag = BLR_flag_uprising_successful
+		}
+
+		completion_reward = {
+            add_popularity = { ideology = communism popularity = -0.05 }
+            set_politics = { ruling_party = liberal }
+            set_party_name = { ideology = liberal long_name = BLR_liberal_party_provisional_long name = BLR_liberal_party_provisional }
+			set_cosmetic_tag = BLR_provisional
+            create_country_leader = {
+                name = "Provisional Goverment"
+                desc = ""
+                picture = "Portrait_Belarus_Parlament.dds"
+                expire = "1965.1.1"
+                ideology = social_liberalism
+                traits = { }
+            }
+            remove_ideas = BLR_bgs
+            remove_unit_leader = 1
+        }
+    }
+
+	focus = {
+		id = BLR_approach_the_commonwealth
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = BLR_belarusian_popular_front }
+		available = {
+		    NOT = {
+			    has_government = communism
+		    }
+		}
+		x = 21
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = POL modifier = medium_increase }
+			POL = { add_opinion_modifier = { target = BLR modifier = medium_increase } }
+		}
+    }
+
+	focus = {
+		id = BLR_military_alliance
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = BLR_approach_the_commonwealth }
+
+		available = {
+		    NOT = { has_government = communism }
+			NOT = { has_war_with = POL }
+			is_subject = no
+			is_in_faction = no
+			NOT = {
+				any_other_country = {
+					is_in_faction_with = POL
+					has_war_with = BLR	
+				}
+			}
+			POL = { is_subject = no }
+		}
+
+		bypass = { POL = { has_guaranteed = BLR } }
+
+		x = 21
+		y = 4
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+			POL = { country_event = generic.20 }
+		}
+    }
+
+	focus = {
+		id = BLR_full_membership
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = BLR_military_alliance }
+		prerequisite = { focus = BLR_the_conservatives }
+
+		available = {
+		    BLR = { has_government = conservative }
+			NOT = { has_war_with = POL }
+			is_subject = no
+			is_in_faction = no
+			NOT = {
+				any_other_country = {
+					is_in_faction_with = POL
+					has_war_with = BLR	
+				}
+			}
+			POL = {
+				is_faction_leader = yes
+				is_subject = no
+			}
+		}
+
+		bypass = {
+			AND = { 
+				is_in_faction_with = POL
+				POL = {
+					is_faction_leader = yes
+				}
+			} 
+		}
+
+		x = 21
+		y = 5
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			POL = { puppet = BLR }
+		}
+    }
+
+	focus = {
+		id = BLR_our_demands
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = { focus = BLR_full_membership }
+		available = {
+		    NOT = {
+			    has_government = communism
+		    }
+		}
+		x = 21
+		y = 6
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			BLR = { add_state_claim = 93 }
+		}
+    }
+
+	focus = {
+		id = BLR_belarusian_popular_front
+		icon = GFX_focus_blr_bpf
+		prerequisite = { focus = BLR_nationalists_prevail }
+		mutually_exclusive = { focus = BLR_not_so_fast }
+		available = {
+		    NOT = {
+			    has_government = communism
+		    }
+		}
+		x = 23
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_popularity = { ideology = conservative popularity = 0.10 }
+            add_popularity = { ideology = liberal popularity = 0.10 }
+            set_politics = { ruling_party = liberal }
+            drop_cosmetic_tag = yes
+		}
+    }
+
+	focus = {
+		id = BLR_not_so_fast
+		icon = GFX_focus_blr_revolution_triumphant
+		prerequisite = { focus = BLR_nationalists_prevail }
+		mutually_exclusive = { focus = BLR_belarusian_popular_front }
+		x = 26
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		available = {
+		    has_country_flag = BLR_flag_uprising_successful
+		}
+
+		completion_reward = {
+		    #
+		}
+    }
+
+	focus = {
+		id = BLR_second_revolution
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = BLR_not_so_fast }
+		mutually_exclusive = { focus = BLR_start_negotiations }
+		x = 25
+		y = 2
+		cost = 10
+		available_if_capitulated = no
+
+		available = {
+		    has_country_flag = BLR_flag_uprising_successful
+		}
+
+		completion_reward = {
+		    #
+		}
+    }
+
+	focus = {
+		id = BLR_start_negotiations
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = BLR_not_so_fast }
+		mutually_exclusive = { focus = BLR_second_revolution }
+		x = 27
+		y = 2
+		cost = 10
+		available_if_capitulated = no
+
+		available = {
+		    has_country_flag = BLR_flag_uprising_successful
+		}
+
+		completion_reward = {
+		    #
+		}
+    }
+
+	focus = {
+		id = BLR_the_conservatives
+		icon = GFX_focus_blr_bpf
+		prerequisite = { focus = BLR_belarusian_popular_front }
+		mutually_exclusive = { focus = BLR_the_moderates }
+		available = {
+		    NOT = {
+			    has_government = communism
+		    }
+		}
+		x = 22
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_popularity = { ideology = conservative popularity = 0.20 }
+            set_politics = { ruling_party = conservative }
+		}
+    }
+
+	focus = {
+		id = BLR_market_reforms
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = BLR_belarusian_popular_front }
+		available = {
+		    NOT = {
+			    OR = {
+			        has_government = communism
+			        has_government = socialist
+			        has_government = fascism    
+		        }
+		    }
+		}
+		x = 23
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = free_trade
+		}
+    }
+
+	focus = {
+		id = BLR_the_moderates
+		icon = GFX_focus_blr_bpf2
+		prerequisite = { focus = BLR_belarusian_popular_front }
+		mutually_exclusive = { focus = BLR_the_conservatives }
+		available = {
+		    NOT = {
+			    has_government = communism
+		    }
+		}
+		x = 24
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_popularity = { ideology = liberal popularity = 0.20 }
+		}
+    }
+
+	focus = {
+		id = BLR_belarusian_socialist_assembly
+		icon = GFX_focus_blr_bsa
+		prerequisite = { focus = BLR_second_revolution focus = BLR_start_negotiations }
+		available = {
+		    NOT = {
+			    has_government = communism
+		    }
+		}
+		x = 26
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_popularity = { ideology = socialist popularity = 0.30 }
+            set_politics = { ruling_party = socialist }
+            drop_cosmetic_tag = yes
+		}
+    }
+
+	focus = {
+		id = BLR_northern_allies
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = BLR_the_moderates }
+		available = {
+		    AND = {
+		        is_puppet = yes
+			    has_government = liberal
+		    }
+		}
+		x = 24
+		y = 5
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			SWE = { add_to_faction = BLR }
+		}
+    }
+
+	focus = {
+		id = BLR_liberalism
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = BLR_belarusian_socialist_assembly focus = BLR_the_moderates }
+		available = {
+		    OR = {
+			    has_government = socialist
+			    has_government = liberal
+			}
+		}
+		x = 25
+		y = 4
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.10
+		}
+    }
+
+	focus = {
+		id = BLR_welfare
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		prerequisite = { focus = BLR_belarusian_socialist_assembly }
+		available = {
+			has_government = socialist
+		}
+		x = 27
+		y = 4
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.10
+		}
+    }
+
+	focus = {
+		id = BLR_unfinished_business
+		icon = GFX_focus_ger_strike_at_the_source
+		prerequisite = { focus = BLR_the_conservatives focus = BLR_the_moderates }
+		available = {
+		    NOT = {
+			    has_government = socialist
+			}
+		}
+		x = 23
+		y = 4
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = { type = puppet_wargoal_focus target = RUS }
+		}
+    }
+
+	focus = {
+		id = BLR_peace_and_reconciliation
+		icon = GFX_focus_generic_concessions
+		prerequisite = { focus = BLR_belarusian_socialist_assembly }
+		available = {
+			has_government = socialist
+		}
+		x = 28
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = RUS modifier = medium_increase }
+			RUS = { add_opinion_modifier = { target = BLR modifier = medium_increase } }
+		}
+    }
+
+	focus = {
+		id = BLR_stability_restored
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = BLR_liberalism }
+		prerequisite = { focus = BLR_welfare }
+		available = {
+		    OR = {
+			    has_government = socialist
+			    has_government = liberal
+			    has_government = conservative
+			}
+		}
+		x = 26
+		y = 5
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 200
+			add_stability = 0.40
+		}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#	focus = {
+#		id = BLR_mechanized_effort
+#		icon = GFX_goal_generic_army_motorized
+#		prerequisite = { focus = BLR_light_tanks_effort focus = BLR_motorised_effort }
+#		x = 2
+#		y = 3
+#		cost = 10
+#
+#		available_if_capitulated = no
+#
+#		completion_reward = {
+#			add_tech_bonus = {
+#				name = motorized_bonus
+#				bonus = 0.5
+#				category = cat_mechanized_equipment
+#				uses = 1
+#			}
+#		}
+#   }
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,203 @@
+﻿capital = 206 #Minsk
+
+oob = "BLR_1936"
+
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.2
+
+add_ideas = {
+    extensive_conscription
+    partial_economic_mobilisation
+
+	BLR_bgs
+	BLR_organized_uprising
+}
+
+country_event = { id = belarus.4 days = 14 }
+country_event = { id = belarus.5 days = 35 }
+
+activate_mission = BLR_revolt_timer_mission
+
+set_province_controller = 6354
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+declare_war_on = {
+	target = RUS
+	type = annex_everything
+}
+
+set_cosmetic_tag = BLR_revolt
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 70
+		}
+
+		socialist = {
+			popularity = 6
+		}
+		
+		fascism = {
+			popularity = 1
+		}
+
+		conservative = {
+			popularity = 9
+		}
+
+		liberal = {
+			popularity = 12
+		}
+
+		corporatist = {
+			popularity = 1
+		}
+
+		anarcho_capitalist = {
+			popularity = 2
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1935.12.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+    name = "Gregor Lucas"
+    desc = ""
+    picture = "Portrait_Belarus_Gregor_Lucas.dds"
+    expire = "1965.1.1"
+    ideology = vanguardism
+    traits = { vozhd }
+}
+
+create_country_leader = {
+    name = "Taras Branislavsky"
+    desc = ""
+    picture = "Portrait_Belarus_Taras_Branislavsky.dds"
+    expire = "1965.1.1"
+    ideology = radical_socialism
+    traits = { }
+}
+
+create_country_leader = {
+    name = "Lev Barshchewich"
+    desc = ""
+    picture = "Portrait_Belarus_Lev_Barshchewich.dds"
+    expire = "1965.1.1"
+    ideology = classical_liberalism
+    traits = { }
+}
+
+create_country_leader = {
+    name = "Revolutionary Council"
+    desc = ""
+    picture = "Portrait_Belarus_Parlament.dds"
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = { }
+}
+
+create_country_leader = {
+    name = "Belarus Board of Directors"
+    desc = ""
+    picture = "Portrait_Belarus_Parlament.dds"
+    expire = "1965.1.1"
+    ideology = corporatism
+    traits = { }
+}
+
+create_country_leader = {
+    name = "Pazniy Zianovski"
+    desc = ""
+    picture = "Portrait_Belarus_Pazniy_Zianovski.dds"
+    expire = "1965.1.1"
+    ideology = authoritarian_conservatism
+    traits = { }
+}
+
+create_country_leader = {
+    name = "Winsent Halenski"
+    desc = ""
+    picture = "Portrait_Belarus_Winsent_Halenski.dds"
+    expire = "1965.1.1"
+    ideology = nationalism
+    traits = { }
+}
+
+#
+
+create_field_marshal = {
+	name = "Gregor Lucas"
+	picture = "Portrait_Belarus_Gregor_Lucas.dds"
+	traits = { inspirational_leader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 1
+}
+
+create_corps_commander = {
+	name = "Filimon Ponomarenkov"
+	picture = "Portrait_Belarus_Filimon_Ponomarenkov.dds"
+	traits = { guerilla_fighter }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Yakov Ivanovsky"
+	picture = "Portrait_Belarus_Yakov_Ivanovsky.dds"
+	traits = { armor_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Yegor Shavrov"
+	picture = "Portrait_Belarus_Yegor_Shavrov.dds"
+	traits = { armor_officer brilliant_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Irakly Husakovky"
+	picture = "Portrait_Belarus_Irakly_Husakovky.dds"
+	traits = { cavalry_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

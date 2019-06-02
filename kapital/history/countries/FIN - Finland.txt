@@ -1,0 +1,65 @@
+﻿capital = 111
+
+oob = "FIN_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	early_submarine = 1
+	early_heavy_cruiser = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 0
+		}
+
+		socialist = {
+			popularity = 1
+		}
+		
+		fascism = {
+			popularity = 91
+		}
+
+		conservative = {
+			popularity = 7
+		}
+
+		liberal = {
+			popularity = 1
+		}
+
+		corporatist = {
+			popularity = 0
+		}
+
+		anarcho_capitalist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kyösti Kallio"
+	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
+	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	expire = "1965.1.1"
+	ideology = nationalism
+	traits = { }
+}

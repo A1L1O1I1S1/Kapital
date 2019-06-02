@@ -1,0 +1,248 @@
+ideologies = {
+	
+	communism = {
+	
+		types = {
+			classical_communism = { }
+			vanguardism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNISM_1"
+			"FACTION_NAME_COMMUNISM_2"
+		}
+		
+		color = { 225 0 0 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_communist = yes
+
+		can_be_boosted = no
+	}
+
+	socialist = {
+	
+		types = {
+			radical_socialism = { }
+			social_democracy = { }
+			technocracy = { }
+			authoritarian_socialism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALIST_1"
+			"FACTION_NAME_SOCIALIST_2"
+			"FACTION_NAME_SOCIALIST_3"
+			"FACTION_NAME_SOCIALIST_4"
+		}
+		
+		color = { 225 73 120 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_democratic = yes
+
+		can_be_boosted = no
+	}
+
+	liberal = {
+	
+		types = {
+			social_liberalism = { }
+			classical_liberalism = { }
+			libertarianism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
+		}
+		
+		color = { 202 202 202 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_democratic = yes
+
+		can_be_boosted = no
+	}
+
+	anarcho_capitalist = {
+	
+		types = {
+			marxism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHO_CAPITALIST_1"
+			"FACTION_NAME_ANARCHO_CAPITALIST_2"
+		}
+		
+		color = { 225 216 0 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_communist = yes
+
+		can_be_boosted = no
+	}
+
+	corporatist = {
+	
+		types = {
+			criminal_syndicate = { }
+			corporatism = { }
+			colonial_administration = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CORPORATIST_1"
+			"FACTION_NAME_CORPORATIST_2"
+			"FACTION_NAME_CORPORATIST_3"
+		}
+		
+		color = { 181 181 0 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_neutral = yes
+
+		can_be_boosted = no
+	}
+
+	conservative = {
+	
+		types = {
+			democratic_conservatism = { }
+			authoritarian_conservatism = { }
+			despotism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATIVE_1"
+			"FACTION_NAME_CONSERVATIVE_2"
+			"FACTION_NAME_CONSERVATIVE_3"
+			"FACTION_NAME_CONSERVATIVE_4"
+			"FACTION_NAME_CONSERVATIVE_5"
+			"FACTION_NAME_CONSERVATIVE_6"
+		}
+		
+		color = { 0 0 225 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_neutral = yes
+
+		can_be_boosted = no
+	}
+
+	fascism = {
+	
+		types = {
+			nationalism = { }
+			fascist_socialism = { }
+			imperialism = { }
+			orthodox_fascism = { }
+			theocratic_fascism = { }
+			italo_fascism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_fascism_1"
+			"FACTION_NAME_fascism_2"
+			"FACTION_NAME_fascism_3"
+			"FACTION_NAME_fascism_4"
+			"FACTION_NAME_fascism_5"
+		}
+		
+		color = { 127 51 0 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_fascist = yes
+
+		can_be_boosted = no
+	}
+}

@@ -1,0 +1,158 @@
+﻿add_namespace = belarus
+
+#country_event = {
+#  id = belarus.0
+#  title = belarus.0.t
+#  desc = belarus.0.d
+#  picture = GFX_report_event_generic_riot
+#  fire_only_once = yes
+#  is_triggered_only = yes
+#
+#    option = {
+#    name = belarus.0.a
+#    hidden_effect = {
+#      country_event = { id = belarus.4 days = 40 }
+#    }
+#    }
+#}
+
+country_event = {
+  id = belarus.1
+  title = belarus.1.t
+  desc = belarus.1.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    name = belarus.1.a
+      white_peace = RUS
+      RUS = { transfer_state = 207 }
+      RUS = { transfer_state = 241 }
+      drop_cosmetic_tag = yes
+      remove_ideas = { BLR_organized_uprising }
+      set_country_flag = BLR_flag_uprising_successful
+      add_ideas = limited_conscription
+      add_ideas = low_economic_mobilisation
+    }
+}
+
+country_event = {
+  id = belarus.2
+  title = belarus.2.t
+  desc = belarus.2.d
+  picture = GFX_report_event_generic_conference
+  fire_only_once = yes
+  trigger = {
+    original_tag = BLR
+    has_government = anarcho_capitalist
+  }
+
+  option = {
+  name = belarus.2.a
+    ai_chance = { factor = 40 }
+    add_political_power = -150
+    add_popularity = { ideology = anarcho_capitalist popularity = 0.05 }
+    create_country_leader = {
+      name = "Mikola Dzerzhinsky"
+      desc = ""
+      picture = "Portrait_Belarus_Mikola_Dzerzhinsky.dds"
+      expire = "1965.1.1"
+      ideology = marxism
+      traits = { }
+    }
+  }
+  option = {
+  name = belarus.2.b
+    ai_chance = { factor = 40 }
+    add_political_power = 25
+    add_popularity = { ideology = anarcho_capitalist popularity = -0.10 }
+    add_popularity = { ideology = corporatist popularity = 0.05 }
+  }
+}
+
+country_event = {
+  id = belarus.3
+  title = belarus.3.t
+  desc = belarus.3.d
+  picture = GFX_report_event_generic_conference
+  fire_only_once = yes
+  trigger = {
+    original_tag = BLR
+    has_government = corporatist
+  }
+
+  option = {
+  name = belarus.3.a
+    ai_chance = { factor = 40 }
+    create_country_leader = {
+      name = "Stanislav Andreev"
+      desc = ""
+      picture = "Portrait_Belarus_Stanislav_Andreev.dds"
+      expire = "1965.1.1"
+      ideology = corporatism
+      traits = { }
+    }
+  }
+  option = {
+  name = belarus.3.b
+    ai_chance = { factor = 40 }
+    create_country_leader = {
+      name = "Gregory Topin"
+      desc = ""
+      picture = "Portrait_Belarus_Gregory_Topin.dds"
+      expire = "1965.1.1"
+      ideology = corporatism
+      traits = { }
+    }
+  }
+  option = {
+  name = belarus.3.c
+    ai_chance = { factor = 40 }
+    create_country_leader = {
+      name = "Vladimir Limonov"
+      desc = ""
+      picture = "Portrait_Belarus_Vladimir_Limonov.dds"
+      expire = "1965.1.1"
+      ideology = corporatism
+      traits = { }
+    }
+  }
+  option = {
+  name = belarus.3.e
+    ai_chance = { factor = 10 }
+    #
+  }
+}
+
+country_event = {
+  id = belarus.4
+  title = belarus.4.t
+  desc = belarus.4.d
+  picture = GFX_report_event_generic_communist_congress
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.4.a
+   add_stability = -0.15
+   add_popularity = { ideology = communism popularity = -0.15 }
+  }
+}
+
+country_event = {
+  id = belarus.5
+  title = belarus.5.t
+  desc = belarus.5.d
+  picture = GFX_report_event_generic_communist_congress
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.5.a
+   add_stability = 0.025
+   add_war_support = 0.05
+   add_popularity = { ideology = communism popularity = -0.03 }
+   set_cosmetic_tag = BLR_revolt_new
+  }
+}

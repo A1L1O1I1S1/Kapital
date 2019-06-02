@@ -1,0 +1,41 @@
+form_german_empire_category = {
+
+	form_german_empire = {
+		icon = generic_nationalism
+
+	    allowed = { original_tag = PRS }
+
+		available = {
+		    is_subject = no
+		    OR = {
+			    controls_state = 56
+			    controls_state = 61
+			    controls_state = 65
+			    controls_state = 54
+			    controls_state = 53
+			    controls_state = 52
+			    controls_state = 50
+			}
+			NOT = { has_government = anarcho_capitalist }
+		}
+
+		visible = {
+			original_tag = PRS
+			NOT = { has_global_flag = form_german_empire_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = PRS_unified
+		    add_political_power = 150
+		    add_stability = 0.15
+			hidden_effect = {
+				#news_event = { id = wtt_news.61 hours = 6 }
+				set_global_flag = form_german_empire_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

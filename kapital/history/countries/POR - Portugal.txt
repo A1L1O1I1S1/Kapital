@@ -1,0 +1,70 @@
+﻿capital = 112
+
+oob = "POR_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	transport = 1
+}
+
+set_convoys = 50
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 0
+		}
+
+		socialist = {
+			popularity = 1
+		}
+		
+		fascism = {
+			popularity = 77
+		}
+
+		conservative = {
+			popularity = 2
+		}
+
+		liberal = {
+			popularity = 0
+		}
+
+		corporatist = {
+			popularity = 0
+		}
+
+		anarcho_capitalist = {
+			popularity = 20
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_stability = 1.0
+
+create_country_leader = {
+	name = "Getúlio Falcão"
+	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
+	picture = "Portrait_Portugal_Getulio_Falcao.dds"
+	expire = "1965.1.1"
+	ideology = orthodox_fascism
+	traits = { }
+}

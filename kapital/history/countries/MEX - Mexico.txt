@@ -1,0 +1,62 @@
+﻿capital = 277
+
+oob = "MEX_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+
+set_convoys = 45
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 1
+		}
+
+		socialist = {
+			popularity = 16
+		}
+		
+		fascism = {
+			popularity = 0
+		}
+
+		conservative = {
+			popularity = 20
+		}
+
+		liberal = {
+			popularity = 23
+		}
+
+		corporatist = {
+			popularity = 22
+		}
+
+		anarcho_capitalist = {
+			popularity = 18
+		}
+
+	}
+	
+	ruling_party = liberal
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Jose Rodriguez"
+	desc = "POLITICS_MANUEL_GOMEZ_MORIN_DESC"
+	picture = "Portrait_Mexico_Jose_Rodriguez.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = { }
+}

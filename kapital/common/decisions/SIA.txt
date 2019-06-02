@@ -1,0 +1,31 @@
+political_actions = {
+
+	SIA_the_name_change = {
+		icon = eng_trade_unions_support
+		allowed = { original_tag = SIA }
+		available = {
+			original_tag = SIA
+			NOT = { has_global_flag = SIA_name_changed }
+            has_completed_focus = SIA_administive_reforms
+		}
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+			date > 1936.6.1
+			}
+		}
+		visible = {
+			original_tag = SIA
+			NOT = { has_global_flag = SIA_name_changed }
+            has_completed_focus = SIA_administive_reforms
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SIA_thailand
+            set_party_name = { ideology = communism long_name = SIA_thailand_communism_party_long name = SIA_thailand_communism_party }
+			set_country_flag = SIA_name_changed
+		}
+	}
+}

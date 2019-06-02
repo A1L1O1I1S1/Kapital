@@ -1,0 +1,31 @@
+﻿units = {
+
+	fleet = {
+		name = "Kriegsmarine"			
+		naval_base = 6332
+		task_force = {				
+			name = "Hochseeflotte"
+			location = 6332
+
+			ship = { name = "Kaiser Wilhelm" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PRS version_name = "Kaiser Wilhelm Class" } } }
+
+			ship = { name = "Königsberg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PRS version_name = "Königsberg Class" } } }			
+			ship = { name = "Kondor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+			ship = { name = "Wolf" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+			ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
+		}
+	}		
+}
+			
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 3
+	}
+}

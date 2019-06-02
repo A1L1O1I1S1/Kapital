@@ -1,0 +1,2164 @@
+﻿l_english:
+ GEO_communism:0 "Georgian Commune"
+ GEO_communism_DEF:0 "Transcaucasian Commune"
+
+ GEO_socialist:0 "Republic of Georgia"
+ GEO_socialist_DEF:0 "Republic of Georgia"
+
+ GEO_fascism:0 "Transcaucasian State"
+ GEO_fascism_DEF:0 "Transcaucasian State"
+
+ GEO_conservative:0 "Georgian Republic"
+ GEO_conservative_DEF:0 "Georgian Republic"
+
+ GEO_liberal:0 "Republic of Georgia"
+ GEO_liberal_DEF:0 "Republic of Georgia"
+
+ GEO_corporatist:0 "Georgian Corporate Republic"
+ GEO_corporatist_DEF:0 "Georgian Corporate Republic"
+
+ GEO_anarcho_capitalist:0 "Free Georgia"
+ GEO_anarcho_capitalist_DEF:0 "Anarcho-capitalist Georgia"
+
+ GEO_communism_ADJ:0 "Georgian"
+ GEO_socialist_ADJ:0 "Georgian"
+ GEO_fascism_ADJ:0 "Georgian"
+ GEO_conservative_ADJ:0 "Georgian"
+ GEO_liberal_ADJ:0 "Georgian"
+ GEO_corporatist_ADJ:0 "Georgian"
+ GEO_anarcho_capitalist_ADJ:0 "Georgian"
+
+
+ ARM_communism:0 "Armenian Commune"
+ ARM_communism_DEF:0 "Armenian Commune"
+
+ ARM_socialist:0 "Republic of Armenia"
+ ARM_socialist_DEF:0 "Republic of Armenia"
+
+ ARM_fascism:0 "Great Hayk"
+ ARM_fascism_DEF:0 "Great Hayk"
+
+ ARM_conservative:0 "Republic of Armenia"
+ ARM_conservative_DEF:0 "Republic of Armenia"
+
+ ARM_liberal:0 "Republic of Armenia"
+ ARM_liberal_DEF:0 "Republic of Armenia"
+
+ ARM_corporatist:0 "Republic of Armenia"
+ ARM_corporatist_DEF:0 "Republic of Armenia"
+
+ ARM_anarcho_capitalist:0 "Free Armenia"
+ ARM_anarcho_capitalist_DEF:0 "Anarcho-capitalist Armenia"
+
+ ARM_communism_ADJ:0 "Armenian"
+ ARM_socialist_ADJ:0 "Armenian"
+ ARM_fascism_ADJ:0 "Armenian"
+ ARM_conservative_ADJ:0 "Armenian"
+ ARM_liberal_ADJ:0 "Armenian"
+ ARM_corporatist_ADJ:0 "Armenian"
+ ARM_anarcho_capitalist_ADJ:0 "Armenian"
+
+
+ BOS_communism:0 "Bosnia and Herzegovina"
+ BOS_communism_DEF:0 "Bosnia and Herzegovina"
+
+ BOS_socialist:0 "Bosnia and Herzegovina"
+ BOS_socialist_DEF:0 "Bosnia and Herzegovina"
+
+ BOS_fascism:0 "Bosnia and Herzegovina"
+ BOS_fascism_DEF:0 "Bosnia and Herzegovina"
+
+ BOS_conservative:0 "Bosnia and Herzegovina"
+ BOS_conservative_DEF:0 "Bosnia and Herzegovina"
+
+ BOS_liberal:0 "Bosnia and Herzegovina"
+ BOS_liberal_DEF:0 "Bosnia and Herzegovina"
+
+ BOS_corporatist:0 "Corporate Bosnia and Herzegovina"
+ BOS_corporatist_DEF:0 "Corporate Bosnia and Herzegovina"
+
+ BOS_anarcho_capitalist:0 "Free Bosnia and Herzegovina"
+ BOS_anarcho_capitalist_DEF:0 "Anarcho-capitalist Bosnia and Herzegovina"
+
+ BOS_communism_ADJ:0 "Bosnian"
+ BOS_socialist_ADJ:0 "Bosnian"
+ BOS_fascism_ADJ:0 "Bosnian"
+ BOS_conservative_ADJ:0 "Bosnian"
+ BOS_liberal_ADJ:0 "Bosnian"
+ BOS_corporatist_ADJ:0 "Bosnian"
+ BOS_anarcho_capitalist_ADJ:0 "Bosnian"
+
+
+ CRO_communism:0 "Banovina of Croatia"
+ CRO_communism_DEF:0 "Banovina of Croatia"
+
+ CRO_socialist:0 "Banovina of Croatia"
+ CRO_socialist_DEF:0 "Banovina of Croatia"
+
+ CRO_fascism:0 "Banovina of Croatia"
+ CRO_fascism_DEF:0 "Banovina of Croatia"
+
+ CRO_conservative:0 "Banovina of Croatia"
+ CRO_conservative_DEF:0 "Banovina of Croatia"
+
+ CRO_liberal:0 "Banovina of Croatia"
+ CRO_liberal_DEF:0 "Banovina of Croatia"
+
+ CRO_corporatist:0 "Croatian Corporate Republic"
+ CRO_corporatist_DEF:0 "Croatian Corporate Republic"
+
+ CRO_anarcho_capitalist:0 "Free Croatia"
+ CRO_anarcho_capitalist_DEF:0 "Anarcho-capitalist Croatia"
+
+ CRO_communism_ADJ:0 "Croatian"
+ CRO_socialist_ADJ:0 "Croatian"
+ CRO_fascism_ADJ:0 "Croatian"
+ CRO_conservative_ADJ:0 "Croatian"
+ CRO_liberal_ADJ:0 "Croatian"
+ CRO_corporatist_ADJ:0 "Croatian"
+ CRO_anarcho_capitalist_ADJ:0 "Croatian"
+
+
+ AZR_communism:0 "Azerbaijani Commune"
+ AZR_communism_DEF:0 "Azerbaijani Commune"
+
+ AZR_socialist:0 "Republic of Azerbaijan"
+ AZR_socialist_DEF:0 "Republic of Azerbaijan"
+
+ AZR_fascism:0 "Azerbaijan"
+ AZR_fascism_DEF:0 "Azerbaijan"
+
+ AZR_conservative:0 "Republic of Azerbaijan"
+ AZR_conservative_DEF:0 "Republic of Azerbaijan"
+
+ AZR_liberal:0 "Republic of Azerbaijan"
+ AZR_liberal_DEF:0 "Republic of Azerbaijan"
+
+ AZR_corporatist:0 "Corporate Azerbaijan"
+ AZR_corporatist_DEF:0 "Corporate Azerbaijan"
+
+ AZR_anarcho_capitalist:0 "Free Azerbaijan"
+ AZR_anarcho_capitalist_DEF:0 "Anarcho-capitalist Azerbaijan"
+
+ AZR_communism_ADJ:0 "Azerbaijani"
+ AZR_socialist_ADJ:0 "Azerbaijani"
+ AZR_fascism_ADJ:0 "Azerbaijani"
+ AZR_conservative_ADJ:0 "Azerbaijani"
+ AZR_liberal_ADJ:0 "Azerbaijani"
+ AZR_corporatist_ADJ:0 "Azerbaijani"
+ AZR_anarcho_capitalist_ADJ:0 "Azerbaijani"
+
+
+ MAF_communism:0 "Commune of Sicily"
+ MAF_communism_DEF:0 "Commune of Sicily"
+
+ MAF_socialist:0 "Republic of Sicily"
+ MAF_socialist_DEF:0 "Republic of Sicily"
+
+ MAF_fascism:0 "State of Sicily"
+ MAF_fascism_DEF:0 "State of Sicily"
+
+ MAF_conservative:0 "Sicily"
+ MAF_conservative_DEF:0 "Republic of Sicily"
+
+ MAF_liberal:0 "Sicily"
+ MAF_liberal_DEF:0 "Republic of Sicily"
+
+ MAF_corporatist:0 "Sicily"
+ MAF_corporatist_DEF:0 "Republic of Sicily"
+
+ MAF_anarcho_capitalist:0 "Sicily"
+ MAF_anarcho_capitalist_DEF:0 "Republic of Sicily"
+
+ MAF_communism_ADJ:0 "Sicilian"
+ MAF_socialist_ADJ:0 "Sicilian"
+ MAF_fascism_ADJ:0 "Sicilian"
+ MAF_conservative_ADJ:0 "Sicilian"
+ MAF_liberal_ADJ:0 "Sicilian"
+ MAF_corporatist_ADJ:0 "Sicilian"
+ MAF_anarcho_capitalist_ADJ:0 "Sicilian"
+
+
+ ITA_communism:0 "Italian Commune"
+ ITA_communism_DEF:0 "Italian Commune"
+
+ ITA_socialist:0 "Italian Kingdom"
+ ITA_socialist_DEF:0 "Italian Kingdom"
+
+ ITA_fascism:0 "Italian Kingdom"
+ ITA_fascism_DEF:0 "Italian Kingdom"
+
+ ITA_conservative:0 "Italian Kingdom"
+ ITA_conservative_DEF:0 "Italian Kingdom"
+
+ ITA_liberal:0 "Italian Kingdom"
+ ITA_liberal_DEF:0 "Italian Kingdom"
+
+ ITA_corporatist:0 "Corporate Republic of Italy"
+ ITA_corporatist_DEF:0 "Corporate Republic of Italy"
+
+ ITA_anarcho_capitalist:0 "Free Italy"
+ ITA_anarcho_capitalist_DEF:0 "Anarcho-capitalist Italy"
+
+ ITA_communism_ADJ:0 "Mafia"
+ ITA_socialist_ADJ:0 "Mafia"
+ ITA_fascism_ADJ:0 "Mafia"
+ ITA_conservative_ADJ:0 "Mafia"
+ ITA_liberal_ADJ:0 "Mafia"
+ ITA_corporatist_ADJ:0 "Mafia"
+ ITA_anarcho_capitalist_ADJ:0 "Mafia"
+
+
+ CAC_communism:0 "Commune of China"
+ CAC_communism_DEF:0 "Commune of China"
+
+ CAC_socialist:0 "Republic of China"
+ CAC_socialist_DEF:0 "Republic of China"
+
+ CAC_fascism:0 "Chinese State"
+ CAC_fascism_DEF:0 "Chinese State"
+
+ CAC_conservative:0 "Republic of China"
+ CAC_conservative_DEF:0 "Republic of China"
+
+ CAC_liberal:0 "Republic of China"
+ CAC_liberal_DEF:0 "Republic of China"
+
+ CAC_corporatist:0 "Corporate China"
+ CAC_corporatist_DEF:0 "Corporate China"
+
+ CAC_anarcho_capitalist:0 "Free China"
+ CAC_anarcho_capitalist_DEF:0 "Free China"
+
+ CAC_communism_ADJ:0 "Chinese"
+ CAC_socialist_ADJ:0 "Chinese"
+ CAC_fascism_ADJ:0 "Chinese"
+ CAC_conservative_ADJ:0 "Chinese"
+ CAC_liberal_ADJ:0 "Chinese"
+ CAC_corporatist_ADJ:0 "Chinese"
+ CAC_anarcho_capitalist_ADJ:0 "Chinese"
+
+
+ CHI_communism:0 "Chinese Commune"
+ CHI_communism_DEF:0 "Chinese Commune"
+
+ CHI_socialist:0 "China"
+ CHI_socialist_DEF:0 "Chinese Republic"
+
+ CHI_fascism:0 "Chinese Empire"
+ CHI_fascism_DEF:0 "Chinese Empire"
+
+ CHI_conservative:0 "China"
+ CHI_conservative_DEF:0 "Chinese Republic"
+
+ CHI_liberal:0 "Italian Kingdom"
+ CHI_liberal_DEF:0 "Italian Kingdom"
+
+ CHI_corporatist:0 "Corp. China"
+ CHI_corporatist_DEF:0 "Corp. China"
+
+ CHI_anarcho_capitalist:0 "China"
+ CHI_anarcho_capitalist_DEF:0 "Anarcho-capitalist China"
+
+ CHI_communism_ADJ:0 "Chinese"
+ CHI_socialist_ADJ:0 "Chinese"
+ CHI_fascism_ADJ:0 "Chinese"
+ CHI_conservative_ADJ:0 "Chinese"
+ CHI_liberal_ADJ:0 "Chinese"
+ CHI_corporatist_ADJ:0 "Chinese"
+ CHI_anarcho_capitalist_ADJ:0 "Chinese"
+
+
+ MON_communism:0 "Mongolian Commune"
+ MON_communism_DEF:0 "Mongolian Commune"
+
+ MON_socialist:0 "Mongolian Republic"
+ MON_socialist_DEF:0 "Mongolian Republic"
+
+ MON_fascism:0 "Mongolian State"
+ MON_fascism_DEF:0 "Mongolian State"
+
+ MON_conservative:0 "Mongolia"
+ MON_conservative_DEF:0 "Mongolian Republic"
+
+ MON_liberal:0 "Republic of Mongolia"
+ MON_liberal_DEF:0 "Republic of Mongolia"
+
+ MON_corporatist:0 "Mongolian Corporate Republic"
+ MON_corporatist_DEF:0 "Mongolian Corporate Republic"
+
+ MON_anarcho_capitalist:0 "Free Mongolia"
+ MON_anarcho_capitalist_DEF:0 "Anarcho-capitalist Mongolia"
+
+ MON_communism_ADJ:0 "Mongolian"
+ MON_socialist_ADJ:0 "Mongolian"
+ MON_fascism_ADJ:0 "Mongolian"
+ MON_conservative_ADJ:0 "Mongolian"
+ MON_liberal_ADJ:0 "Mongolian"
+ MON_corporatist_ADJ:0 "Mongolian"
+ MON_anarcho_capitalist_ADJ:0 "Mongolian"
+
+
+ KOR_communism:0 "Korean Commune"
+ KOR_communism_DEF:0 "Korean Commune"
+
+ KOR_socialist:0 "Korean Republic"
+ KOR_socialist_DEF:0 "Korean Republic"
+
+ KOR_fascism:0 "Korean State"
+ KOR_fascism_DEF:0 "Korean State"
+
+ KOR_conservative:0 "Korean Empire"
+ KOR_conservative_DEF:0 "Korean Empire"
+
+ KOR_liberal:0 "Republic of Korea"
+ KOR_liberal_DEF:0 "Republic of Korea"
+
+ KOR_corporatist:0 "Korean Corporate Republic"
+ KOR_corporatist_DEF:0 "Korean Corporate Republic"
+
+ KOR_anarcho_capitalist:0 "Free Korea"
+ KOR_anarcho_capitalist_DEF:0 "Anarcho-capitalist Korea"
+
+ KOR_communism_ADJ:0 "Korean"
+ KOR_socialist_ADJ:0 "Korean"
+ KOR_fascism_ADJ:0 "Korean"
+ KOR_conservative_ADJ:0 "Korean"
+ KOR_liberal_ADJ:0 "Korean"
+ KOR_corporatist_ADJ:0 "Korean"
+ KOR_anarcho_capitalist_ADJ:0 "Korean"
+
+
+ CDB_communism:0 "Caribbean Commune"
+ CDB_communism_DEF:0 "Caribbean Commune"
+
+ CDB_socialist:0 "Caribbean Confederation"
+ CDB_socialist_DEF:0 "Caribbean Confederation"
+
+ CDB_fascism:0 "Caribbean Empire"
+ CDB_fascism_DEF:0 "Caribbean Empire"
+
+ CDB_conservative:0 "Caribbean Federation"
+ CDB_conservative_DEF:0 "Caribbean Federation"
+
+ CDB_liberal:0 "Caribbean Defence Board"
+ CDB_liberal_DEF:0 "Caribbean Defence Board"
+
+ CDB_corporatist:0 "Caribbean Defence Board"
+ CDB_corporatist_DEF:0 "Caribbean Defence Board"
+
+ CDB_anarcho_capitalist:0 "Free Caribbean"
+ CDB_anarcho_capitalist_DEF:0 "Anarcho-capitalist Caribbean"
+
+ CDB_communism_ADJ:0 "Caribbean"
+ CDB_socialist_ADJ:0 "Caribbean"
+ CDB_fascism_ADJ:0 "Caribbean"
+ CDB_conservative_ADJ:0 "Caribbean"
+ CDB_liberal_ADJ:0 "Caribbean"
+ CDB_corporatist_ADJ:0 "Caribbean"
+ CDB_anarcho_capitalist_ADJ:0 "Caribbean"
+
+ XEN_communism:0 "Xeno Empire"
+ XEN_communism_DEF:0 "Xeno Empire"
+
+ XEN_socialist:0 "Xeno Empire"
+ XEN_socialist_DEF:0 "Xeno Empire"
+
+ XEN_fascism:0 "Xeno Empire"
+ XEN_fascism_DEF:0 "Xeno Empire"
+
+ XEN_conservative:0 "Xeno Empire"
+ XEN_conservative_DEF:0 "Xeno Empire"
+
+ XEN_liberal:0 "Xeno Empire"
+ XEN_liberal_DEF:0 "Xeno Empire"
+
+ XEN_corporatist:0 "Xeno Empire"
+ XEN_corporatist_DEF:0 "Xeno Empire"
+
+ XEN_anarcho_capitalist:0 "Xeno Empire"
+ XEN_anarcho_capitalist_DEF:0 "Xeno Empire"
+
+
+ XEN_communism_ADJ:0 "Xeno"
+ XEN_socialist_ADJ:0 "Xeno"
+ XEN_fascism_ADJ:0 "Xeno"
+ XEN_conservative_ADJ:0 "Xeno"
+ XEN_liberal_ADJ:0 "Xeno"
+ XEN_corporatist_ADJ:0 "Xeno"
+ XEN_anarcho_capitalist_ADJ:0 "Xeno"
+
+ USA_communism:0 "United Socialist States"
+ USA_communism_DEF:0 "United Socialist States of America"
+
+ USA_socialist:0 "United States"
+ USA_socialist_DEF:0 "United States of America"
+
+ USA_fascism:0 "United States"
+ USA_fascism_DEF:0 "United States of America"
+
+ USA_conservative:0 "United States"
+ USA_conservative_DEF:0 "United States of America"
+
+ USA_liberal:0 "United States"
+ USA_liberal_DEF:0 "United States of America"
+
+ USA_corporatist:0 "United Corporations"
+ USA_corporatist_DEF:0 "United Corporations of North America"
+
+ USA_anarcho_capitalist:0 "Free States"
+ USA_anarcho_capitalist_DEF:0 "Free States of America"
+
+ USA_communism_ADJ:0 "American"
+ USA_socialist_ADJ:0 "American"
+ USA_fascism_ADJ:0 "American"
+ USA_conservative_ADJ:0 "American"
+ USA_liberal_ADJ:0 "American"
+ USA_corporatist_ADJ:0 "American"
+ USA_anarcho_capitalist_ADJ:0 "American"
+
+
+ CAN_communism:0 "Commune of Canada"
+ CAN_communism_DEF:0 "Commune of Canada"
+
+ CAN_socialist:0 "Dominion of Canada"
+ CAN_socialist_DEF:0 "Dominion of Canada"
+
+ CAN_fascism:0 "Empire of Canada"
+ CAN_fascism_DEF:0 "Empire of Canada"
+
+ CAN_conservative:0 "Dominion of Canada"
+ CAN_conservative_DEF:0 "Dominion of Canada"
+
+ CAN_liberal:0 "Dominion of Canada"
+ CAN_liberal_DEF:0 "Dominion of Canada"
+
+ CAN_corporatist:0 "Canada Company"
+ CAN_corporatist_DEF:0 "Canada Company"
+
+ CAN_anarcho_capitalist:0 "Free Canada"
+ CAN_anarcho_capitalist_DEF:0 "Anarcho-capitalist Canada"
+
+ CAN_communism_ADJ:0 "Canadian"
+ CAN_socialist_ADJ:0 "Canadian"
+ CAN_fascism_ADJ:0 "Canadian"
+ CAN_conservative_ADJ:0 "Canadian"
+ CAN_liberal_ADJ:0 "Canadian"
+ CAN_corporatist_ADJ:0 "Canadian"
+ CAN_anarcho_capitalist_ADJ:0 "Canadian"
+
+
+ CNR_communism:0 "Canadian Commune"
+ CNR_communism_DEF:0 "Canadian Commune"
+
+ CNR_socialist:0 "Canadian Republic"
+ CNR_socialist_DEF:0 "Canadian Republic"
+
+ CNR_fascism:0 "Canadian Republic"
+ CNR_fascism_DEF:0 "Canadian Republic"
+
+ CNR_conservative:0 "Canadian Republic"
+ CNR_conservative_DEF:0 "Canadian Republic"
+
+ CNR_liberal:0 "Canadian Republic"
+ CNR_liberal_DEF:0 "Canadian Republic"
+
+ CNR_corporatist:0 "Canadian Corporate Republic"
+ CNR_corporatist_DEF:0 "Canadian Corporate Republic"
+
+ CNR_anarcho_capitalist:0 "Free Canada"
+ CNR_anarcho_capitalist_DEF:0 "Anarcho-capitalist Canada"
+
+ CNR_communism_ADJ:0 "Canadian"
+ CNR_socialist_ADJ:0 "Canadian"
+ CNR_fascism_ADJ:0 "Canadian"
+ CNR_conservative_ADJ:0 "Canadian"
+ CNR_liberal_ADJ:0 "Canadian"
+ CNR_corporatist_ADJ:0 "Canadian"
+ CNR_anarcho_capitalist_ADJ:0 "Canadian"
+
+
+ MEX_communism:0 "Mexican Commune"
+ MEX_communism_DEF:0 "Mexican Commune"
+
+ MEX_socialist:0 "Mexican Republic"
+ MEX_socialist_DEF:0 "Mexican Republic"
+
+ MEX_fascism:0 "Mexican State"
+ MEX_fascism_DEF:0 "Mexican State"
+
+ MEX_conservative:0 "Mexico"
+ MEX_conservative_DEF:0 "Mexico"
+
+ MEX_liberal:0 "Mexico"
+ MEX_liberal_DEF:0 "Mexico"
+
+ MEX_corporatist:0 "Cartel Mexico"
+ MEX_corporatist_DEF:0 "Cartel Mexico"
+
+ MEX_anarcho_capitalist:0 "Free Mexico"
+ MEX_anarcho_capitalist_DEF:0 "Anarcho-capitalist Mexico"
+
+ MEX_communism_ADJ:0 "Mexican"
+ MEX_socialist_ADJ:0 "Mexican"
+ MEX_fascism_ADJ:0 "Mexican"
+ MEX_conservative_ADJ:0 "Mexican"
+ MEX_liberal_ADJ:0 "Mexican"
+ MEX_corporatist_ADJ:0 "Mexican"
+ MEX_anarcho_capitalist_ADJ:0 "Mexican"
+
+
+ RUS_communism:0 "Russian Commune"
+ RUS_communism_DEF:0 "Russian Commune"
+
+ RUS_socialist:0 "Russian Republic"
+ RUS_socialist_DEF:0 "Russian Republic"
+
+ RUS_fascism:0 "Russian State"
+ RUS_fascism_DEF:0 "Russian State"
+
+ RUS_conservative:0 "Russian Empire"
+ RUS_conservative_DEF:0 "Russian Empire"
+
+ RUS_liberal:0 "Russian Mexico"
+ RUS_liberal_DEF:0 "Russian Mexico"
+
+ RUS_corporatist:0 "Russian Corporate Republic"
+ RUS_corporatist_DEF:0 "Russian Corporate Republic"
+
+ RUS_anarcho_capitalist:0 "Free Russia"
+ RUS_anarcho_capitalist_DEF:0 "Anarcho-capitalist Russia"
+
+ RUS_communism_ADJ:0 "Russian"
+ RUS_socialist_ADJ:0 "Russian"
+ RUS_fascism_ADJ:0 "Russian"
+ RUS_conservative_ADJ:0 "Russian"
+ RUS_liberal_ADJ:0 "Russian"
+ RUS_corporatist_ADJ:0 "Russian"
+ RUS_anarcho_capitalist_ADJ:0 "Russian"
+
+
+ UKR_communism:0 "Ukranian Commune"
+ UKR_communism_DEF:0 "Ukranian Commune"
+
+ UKR_socialist:0 "Ukraine"
+ UKR_socialist_DEF:0 "Ukraine"
+
+ UKR_fascism:0 "Ukraine"
+ UKR_fascism_DEF:0 "Ukraine"
+
+ UKR_conservative:0 "Ukraine"
+ UKR_conservative_DEF:0 "Ukraine"
+
+ UKR_liberal:0 "Ukraine"
+ UKR_liberal_DEF:0 "Ukraine"
+
+ UKR_corporatist:0 "Corporate Ukraine"
+ UKR_corporatist_DEF:0 "Corporate Ukraine"
+
+ UKR_anarcho_capitalist:0 "Free Territory"
+ UKR_anarcho_capitalist_DEF:0 "Free Territory"
+
+ UKR_communism_ADJ:0 "Ukranian"
+ UKR_socialist_ADJ:0 "Ukranian"
+ UKR_fascism_ADJ:0 "Ukranian"
+ UKR_conservative_ADJ:0 "Ukranian"
+ UKR_liberal_ADJ:0 "Ukranian"
+ UKR_corporatist_ADJ:0 "Ukranian"
+ UKR_anarcho_capitalist_ADJ:0 "Ukranian"
+
+
+ UKC_communism:0 "Commune of Ukraine"
+ UKC_communism_DEF:0 "Commune of Ukraine"
+
+ UKC_socialist:0 "Republic of Ukraine"
+ UKC_socialist_DEF:0 "Republic of Ukraine"
+
+ UKC_fascism:0 "Ukranian State"
+ UKC_fascism_DEF:0 "Ukranian State"
+
+ UKC_conservative:0 "Ukraine"
+ UKC_conservative_DEF:0 "Ukraine"
+
+ UKC_liberal:0 "Republic of Ukraine"
+ UKC_liberal_DEF:0 "Republic of Ukraine"
+
+ UKC_corporatist:0 "Ukranian Corporate Republic"
+ UKC_corporatist_DEF:0 "Ukranian Corporate Republic"
+
+ UKC_anarcho_capitalist:0 "Free Ukraine"
+ UKC_anarcho_capitalist_DEF:0 "Anarcho-capitalist Ukraine"
+
+ UKC_communism_ADJ:0 "Ukranian"
+ UKC_socialist_ADJ:0 "Ukranian"
+ UKC_fascism_ADJ:0 "Ukranian"
+ UKC_conservative_ADJ:0 "Ukranian"
+ UKC_liberal_ADJ:0 "Ukranian"
+ UKC_corporatist_ADJ:0 "Ukranian"
+ UKC_anarcho_capitalist_ADJ:0 "Ukranian"
+
+
+ OTT_communism:0 "Ottoman Commune"
+ OTT_communism_DEF:0 "Ottoman Commune"
+
+ OTT_socialist:0 "Ottoman Federation"
+ OTT_socialist_DEF:0 "Ottoman Federation"
+
+ OTT_fascism:0 "Turkish Empire"
+ OTT_fascism_DEF:0 "Turkish Empire"
+
+ OTT_conservative:0 "Ottoman Federation"
+ OTT_conservative_DEF:0 "Ottoman Federation"
+
+ OTT_liberal:0 "Ottoman Confederation"
+ OTT_liberal_DEF:0 "Ottoman Confederation"
+
+ OTT_corporatist:0 "Ottoman Corporate Republic"
+ OTT_corporatist_DEF:0 "Ottoman Corporate Republic"
+
+ OTT_anarcho_capitalist:0 "Ottoman Confederation"
+ OTT_anarcho_capitalist_DEF:0 "Ottoman Confederation"
+
+ OTT_communism_ADJ:0 "Ottoman"
+ OTT_socialist_ADJ:0 "Ottoman"
+ OTT_fascism_ADJ:0 "Ottoman"
+ OTT_conservative_ADJ:0 "Ottoman"
+ OTT_liberal_ADJ:0 "Ottoman"
+ OTT_corporatist_ADJ:0 "Ottoman"
+ OTT_anarcho_capitalist_ADJ:0 "Ottoman"
+
+
+ POL_communism:0 "Polish Commune"
+ POL_communism_DEF:0 "Polish Commune"
+
+ POL_socialist:0 "Republic of Poland"
+ POL_socialist_DEF:0 "Republic of Poland"
+
+ POL_fascism:0 "Polish Republic"
+ POL_fascism_DEF:0 "Polish Republic"
+
+ POL_conservative:0 "Kingdom of Poland"
+ POL_conservative_DEF:0 "Kingdom of Poland"
+
+ POL_liberal:0 "Republic of Poland"
+ POL_liberal_DEF:0 "Republic of Poland"
+
+ POL_corporatist:0 "Corporate Republic of Poland"
+ POL_corporatist_DEF:0 "Corporate Republic of Poland"
+
+ POL_anarcho_capitalist:0 "Free Poland"
+ POL_anarcho_capitalist_DEF:0 "Anarcho-capitalist Poland"
+
+ POL_communism_ADJ:0 "Polish"
+ POL_socialist_ADJ:0 "Polish"
+ POL_fascism_ADJ:0 "Polish"
+ POL_conservative_ADJ:0 "Polish"
+ POL_liberal_ADJ:0 "Polish"
+ POL_corporatist_ADJ:0 "Polish"
+ POL_anarcho_capitalist_ADJ:0 "Polish"
+
+
+ LIT_communism:0 "Lithuanian Commune"
+ LIT_communism_DEF:0 "Lithuanian Commune"
+
+ LIT_socialist:0 "Lithuanian Republic"
+ LIT_socialist_DEF:0 "Lithuanian Republic"
+
+ LIT_fascism:0 "Lithuanian State"
+ LIT_fascism_DEF:0 "Lithuanian State"
+
+ LIT_conservative:0 "Duchy of Lithuania"
+ LIT_conservative_DEF:0 "Duchy of Poland"
+
+ LIT_liberal:0 "Republic of Lithuania"
+ LIT_liberal_DEF:0 "Republic of Lithuania"
+
+ LIT_corporatist:0 "Lithuanian Corporate Republic"
+ LIT_corporatist_DEF:0 "Lithuanian Corporate Republic"
+
+ LIT_anarcho_capitalist:0 "Free Lithuania"
+ LIT_anarcho_capitalist_DEF:0 "Anarcho-capitalist Lithuania"
+
+ LIT_communism_ADJ:0 "Lithuanian"
+ LIT_socialist_ADJ:0 "Lithuanian"
+ LIT_fascism_ADJ:0 "Lithuanian"
+ LIT_conservative_ADJ:0 "Lithuanian"
+ LIT_liberal_ADJ:0 "Lithuanian"
+ LIT_corporatist_ADJ:0 "Lithuanian"
+ LIT_anarcho_capitalist_ADJ:0 "Lithuanian"
+
+
+ GER_communism:0 "German Commune"
+ GER_communism_DEF:0 "German Commune"
+
+ GER_socialist:0 "German Republic"
+ GER_socialist_DEF:0 "German Republic"
+
+ GER_liberal:0 "German Republic"
+ GER_liberal_DEF:0 "German Republic"
+
+ GER_anarcho_capitalist:0 "Free Germany"
+ GER_anarcho_capitalist_DEF:0 "Anarcho-capitalist Germany"
+
+ GER_corporatist:0 "German Corporate Republic"
+ GER_corporatist_DEF:0 "German Corporate Republic"
+
+ GER_conservative:0 "German Federation"
+ GER_conservative_DEF:0 "German Federation"
+
+ GER_fascism:0 "Germany"
+ GER_fascism_DEF:0 "Germany"
+
+ GER_communism_ADJ:0 "German"
+ GER_socialist_ADJ:0 "German"
+ GER_liberal_ADJ:0 "German"
+ GER_anarcho_capitalist_ADJ:0 "German"
+ GER_corporatist_ADJ:0 "German"
+ GER_conservative_ADJ:0 "German"
+ GER_fascism_ADJ:0 "German"
+
+
+
+ GER_communism:0 "German Commune"
+ GER_communism_DEF:0 "German Commune"
+
+ GER_socialist:0 "German Republic"
+ GER_socialist_DEF:0 "German Republic"
+
+ GER_fascism:0 "Germany"
+ GER_fascism_DEF:0 "Germany"
+
+ GER_conservative:0 "German Republic"
+ GER_conservative_DEF:0 "German Republic"
+
+ GER_liberal:0 "Republic of Germany"
+ GER_liberal_DEF:0 "Republic of Germany"
+
+ GER_corporatist:0 "German Corporate Republic"
+ GER_corporatist_DEF:0 "German Corporate Republic"
+
+ GER_anarcho_capitalist:0 "Free Germany"
+ GER_anarcho_capitalist_DEF:0 "Anarcho-capitalist Germany"
+
+ GER_communism_ADJ:0 "German"
+ GER_socialist_ADJ:0 "German"
+ GER_fascism_ADJ:0 "German"
+ GER_conservative_ADJ:0 "German"
+ GER_liberal_ADJ:0 "German"
+ GER_corporatist_ADJ:0 "German"
+ GER_anarcho_capitalist_ADJ:0 "German"
+
+
+ AUS_communism:0 "Austrian Commune"
+ AUS_communism_DEF:0 "Austrian Commune"
+
+ AUS_socialist:0 "Austrian Republic"
+ AUS_socialist_DEF:0 "Austrian Republic"
+
+ AUS_fascism:0 "State of Austria"
+ AUS_fascism_DEF:0 "State of Austria"
+
+ AUS_conservative:0 "Austria"
+ AUS_conservative_DEF:0 "Republic of Austria"
+
+ AUS_liberal:0 "Republic of Austrian"
+ AUS_liberal_DEF:0 "Republic of Austria"
+
+ AUS_corporatist:0 "Austrian Corporate Republic"
+ AUS_corporatist_DEF:0 "Austrian Corporate Republic"
+
+ AUS_anarcho_capitalist:0 "Free Austria"
+ AUS_anarcho_capitalist_DEF:0 "Anarcho-capitalist Austria"
+
+ AUS_communism_ADJ:0 "Austrian"
+ AUS_socialist_ADJ:0 "Austrian"
+ AUS_fascism_ADJ:0 "Austrian"
+ AUS_conservative_ADJ:0 "Austrian"
+ AUS_liberal_ADJ:0 "Austrian"
+ AUS_corporatist_ADJ:0 "Austrian"
+ AUS_anarcho_capitalist_ADJ:0 "Austrian"
+
+
+ BUL_communism:0 "Bulgarian Commune"
+ BUL_communism_DEF:0 "Bulgarian Commune"
+
+ BUL_socialist:0 "Bulgarian Republic"
+ BUL_socialist_DEF:0 "Bulgarian Republic"
+
+ BUL_fascism:0 "Tsardom of Bulgaria"
+ BUL_fascism_DEF:0 "Third Bulgarian Tsardom"
+
+ BUL_conservative:0 "Tsardom of Bulgaria"
+ BUL_conservative_DEF:0 "Third Bulgarian Tsardom"
+
+ BUL_liberal:0 "Republic of Bulgaria"
+ BUL_liberal_DEF:0 "Republic of Bulgaria"
+
+ BUL_corporatist:0 "Bulgarian Corporate Republic"
+ BUL_corporatist_DEF:0 "Bulgarian Corporate Republic"
+
+ BUL_anarcho_capitalist:0 "Free Bulgaria"
+ BUL_anarcho_capitalist_DEF:0 "Anarcho-capitalist Bulgaria"
+
+ BUL_communism_ADJ:0 "Bulgarian"
+ BUL_socialist_ADJ:0 "Bulgarian"
+ BUL_fascism_ADJ:0 "Bulgarian"
+ BUL_conservative_ADJ:0 "Bulgarian"
+ BUL_liberal_ADJ:0 "Bulgarian"
+ BUL_corporatist_ADJ:0 "Bulgarian"
+ BUL_anarcho_capitalist_ADJ:0 "Bulgarian"
+
+
+ FRA_communism:0 "Revolutionary France"
+ FRA_communism_DEF:0 "Revolutionary France"
+
+ FRA_socialist:0 "French Republic"
+ FRA_socialist_DEF:0 "French Republic"
+
+ FRA_fascism:0 "French State"
+ FRA_fascism_DEF:0 "French State"
+
+ FRA_conservative:0 "French Republic"
+ FRA_conservative_DEF:0 "French Republic"
+
+ FRA_liberal:0 "Republic of France"
+ FRA_liberal_DEF:0 "Republic of France"
+
+ FRA_corporatist:0 "Corporate France"
+ FRA_corporatist_DEF:0 "Corporate France"
+
+ FRA_anarcho_capitalist:0 "Free France"
+ FRA_anarcho_capitalist_DEF:0 "Anarcho-capitalist France"
+
+ FRA_communism_ADJ:0 "French"
+ FRA_socialist_ADJ:0 "French"
+ FRA_fascism_ADJ:0 "French"
+ FRA_conservative_ADJ:0 "French"
+ FRA_liberal_ADJ:0 "French"
+ FRA_corporatist_ADJ:0 "French"
+ FRA_anarcho_capitalist_ADJ:0 "French"
+
+
+ BEL_communism:0 "Flemish Commune"
+ BEL_communism_DEF:0 "Flemish Commune"
+
+ BEL_socialist:0 "Flanders"
+ BEL_socialist_DEF:0 "Flanders"
+
+ BEL_fascism:0 "Rexist Flanders"
+ BEL_fascism_DEF:0 "Rexist Flanders"
+
+ BEL_conservative:0 "Flanders"
+ BEL_conservative_DEF:0 "Flanders"
+
+ BEL_liberal:0 "Flanders"
+ BEL_liberal_DEF:0 "Flanders"
+
+ BEL_corporatist:0 "Flemish Corporate Republic"
+ BEL_corporatist_DEF:0 "Flemish Corporate Republic"
+
+ BEL_anarcho_capitalist:0 "Free Flanders"
+ BEL_anarcho_capitalist_DEF:0 "Anarcho-capitalist Flanders"
+
+ BEL_communism_ADJ:0 "Flemish"
+ BEL_socialist_ADJ:0 "Flemish"
+ BEL_fascism_ADJ:0 "Flemish"
+ BEL_conservative_ADJ:0 "Flemish"
+ BEL_liberal_ADJ:0 "Flemish"
+ BEL_corporatist_ADJ:0 "Flemish"
+ BEL_anarcho_capitalist_ADJ:0 "Flemish"
+
+
+ ENG_communism:0 "British Commune"
+ ENG_communism_DEF:0 ""British Commune"
+
+ ENG_socialist:0 "British Empire"
+ ENG_socialist_DEF:0 "British Empire"
+
+ ENG_fascism:0 "The Empire"
+ ENG_fascism_DEF:0 "The Empire"
+
+ ENG_conservative:0 "British Empire"
+ ENG_conservative_DEF:0 "British Empire"
+
+ ENG_liberal:0 "British Empire"
+ ENG_liberal_DEF:0 "British Empire"
+
+ ENG_corporatist:0 "Imperial Corporaion"
+ ENG_corporatist_DEF:0 "Imperial Corporaion"
+
+ ENG_anarcho_capitalist:0 "Free Britain"
+ ENG_anarcho_capitalist_DEF:0 "Anarcho-capitalist Britain"
+
+ ENG_communism_ADJ:0 "British"
+ ENG_socialist_ADJ:0 "British"
+ ENG_fascism_ADJ:0 "British"
+ ENG_conservative_ADJ:0 "British"
+ ENG_liberal_ADJ:0 "British"
+ ENG_corporatist_ADJ:0 "British"
+ ENG_anarcho_capitalist_ADJ:0 "British"
+
+
+ IRE_communism:0 "Irish Commune"
+ IRE_communism_DEF:0 "Irish Commune"
+
+ IRE_socialist:0 "Republic of Ireland"
+ IRE_socialist_DEF:0 "Republic of Ireland"
+
+ IRE_fascism:0 "Éire"
+ IRE_fascism_DEF:0 "Éire"
+
+ IRE_conservative:0 "Ireland"
+ IRE_conservative_DEF:0 "Republic of Ireland"
+
+ IRE_liberal:0 "Republic of Ireland"
+ IRE_liberal_DEF:0 "Republic of Ireland"
+
+ IRE_corporatist:0 "Irish Corporate Republic"
+ IRE_corporatist_DEF:0 "Irish Corporate Republic"
+
+ IRE_anarcho_capitalist:0 "Free Ireland"
+ IRE_anarcho_capitalist_DEF:0 "Anarcho-capitalist Ireland"
+
+ IRE_communism_ADJ:0 "Irish"
+ IRE_socialist_ADJ:0 "Irish"
+ IRE_fascism_ADJ:0 "Irish"
+ IRE_conservative_ADJ:0 "Irish"
+ IRE_liberal_ADJ:0 "Irish"
+ IRE_corporatist_ADJ:0 "Irish"
+ IRE_anarcho_capitalist_ADJ:0 "Irish"
+
+
+ CZE_communism:0 "Czechoslovak Commune"
+ CZE_communism_DEF:0 "Czechoslovak Commune"
+
+ CZE_socialist:0 "Czechoslovakia"
+ CZE_socialist_DEF:0 "Republic of Czechoslovakia"
+
+ CZE_fascism:0 "Czechoslovakia"
+ CZE_fascism_DEF:0 "Czechoslovakia"
+
+ CZE_conservative:0 "Czechoslovakia"
+ CZE_conservative_DEF:0 "Republic of Czechoslovakia"
+
+ CZE_liberal:0 "Czechoslovakia"
+ CZE_liberal_DEF:0 "Republic of Czechoslovakia"
+
+ CZE_corporatist:0 "Corporate Czechoslovakia"
+ CZE_corporatist_DEF:0 "Corporate Czechoslovakia"
+
+ CZE_anarcho_capitalist:0 "Free Czechoslovakia"
+ CZE_anarcho_capitalist_DEF:0 "Anarcho-capitalist Czechoslovakia"
+
+ CZE_communism_ADJ:0 "Czechoslovakian"
+ CZE_socialist_ADJ:0 "Czechoslovakian"
+ CZE_fascism_ADJ:0 "Czechoslovakian"
+ CZE_conservative_ADJ:0 "Czechoslovakian"
+ CZE_liberal_ADJ:0 "Czechoslovakian"
+ CZE_corporatist_ADJ:0 "Czechoslovakian"
+ CZE_anarcho_capitalist_ADJ:0 "Czechoslovakian"
+
+
+ ROM_communism:0 "Romanian Commune"
+ ROM_communism_DEF:0 "Romanian Commune"
+
+ ROM_socialist:0 "Romania"
+ ROM_socialist_DEF:0 "Kingdom of Romania"
+
+ ROM_fascism:0 "Iron Guard Romania"
+ ROM_fascism_DEF:0 "Iron Guard Romania"
+
+ ROM_conservative:0 "Romania"
+ ROM_conservative_DEF:0 "Kingdom of Romania"
+
+ ROM_liberal:0 "Romania"
+ ROM_liberal_DEF:0 "Kingdom of Romania"
+
+ ROM_corporatist:0 "Romanian Corporate Republic"
+ ROM_corporatist_DEF:0 "Romanian Corporate Republic"
+
+ ROM_anarcho_capitalist:0 "Free Romania"
+ ROM_anarcho_capitalist_DEF:0 "Anarcho-capitalist Romania"
+
+ ROM_communism_ADJ:0 "Romanian"
+ ROM_socialist_ADJ:0 "Romanian"
+ ROM_fascism_ADJ:0 "Romanian"
+ ROM_conservative_ADJ:0 "Romanian"
+ ROM_liberal_ADJ:0 "Romanian"
+ ROM_corporatist_ADJ:0 "Romanian"
+ ROM_anarcho_capitalist_ADJ:0 "Romanian"
+
+
+ SER_communism:0 "Greater Serbian Commune"
+ SER_communism_DEF:0 "Greater Serbian Commune"
+
+ SER_socialist:0 "Greater Serbia"
+ SER_socialist_DEF:0 "Greater Serbia"
+
+ SER_fascism:0 "Greater Serbia"
+ SER_fascism_DEF:0 "Greater Serbia"
+
+ SER_conservative:0 "Greater Serbia"
+ SER_conservative_DEF:0 "Greater Serbia"
+
+ SER_liberal:0 "Greater Serbia"
+ SER_liberal_DEF:0 "Greater Serbia"
+
+ SER_corporatist:0 "Greater Serbian Corporate Republic"
+ SER_corporatist_DEF:0 "Greater Serbian Corporate Republic"
+
+ SER_anarcho_capitalist:0 "Free Greater Serbia"
+ SER_anarcho_capitalist_DEF:0 "Anarcho-capitalist Greater Serbia"
+
+ SER_communism_ADJ:0 "Serbian"
+ SER_socialist_ADJ:0 "Serbian"
+ SER_fascism_ADJ:0 "Serbian"
+ SER_conservative_ADJ:0 "Serbian"
+ SER_liberal_ADJ:0 "Serbian"
+ SER_corporatist_ADJ:0 "Serbian"
+ SER_anarcho_capitalist_ADJ:0 "Serbian"
+
+
+ GRE_communism:0 "Greek Commune"
+ GRE_communism_DEF:0 "Greek Commune"
+
+ GRE_socialist:0 "Kingdom of Greece"
+ GRE_socialist_DEF:0 "Kingdom of Greece"
+
+ GRE_fascism:0 "Hellenic State"
+ GRE_fascism_DEF:0 "Hellenic State"
+
+ GRE_conservative:0 "Byzantine Empire"
+ GRE_conservative_DEF:0 "Byzantine Empire"
+
+ GRE_liberal:0 "Republic of Greece"
+ GRE_liberal_DEF:0 "Republic of Greece"
+
+ GRE_corporatist:0 "Greek Corporate Republic"
+ GRE_corporatist_DEF:0 "Greek Corporate Republic"
+
+ GRE_anarcho_capitalist:0 "Free Greece"
+ GRE_anarcho_capitalist_DEF:0 "Anarcho-capitalist Greece"
+
+ GRE_communism_ADJ:0 "Greek"
+ GRE_socialist_ADJ:0 "Greek"
+ GRE_fascism_ADJ:0 "Greek"
+ GRE_conservative_ADJ:0 "Greek"
+ GRE_liberal_ADJ:0 "Greek"
+ GRE_corporatist_ADJ:0 "Greek"
+ GRE_anarcho_capitalist_ADJ:0 "Greek"
+
+
+ DEN_communism:0 "Danish Commune"
+ DEN_communism_DEF:0 "Danish Commune"
+
+ DEN_socialist:0 "Kingdom of Denmark"
+ DEN_socialist_DEF:0 "Kingdom of Denmark"
+
+ DEN_fascism:0 "Danish State"
+ DEN_fascism_DEF:0 "Danish State"
+
+ DEN_conservative:0 "Kingdom of Denmark"
+ DEN_conservative_DEF:0 "Kingdom of Denmark"
+
+ DEN_liberal:0 "Republic of Denmark"
+ DEN_liberal_DEF:0 "Republic of Denmark"
+
+ DEN_corporatist:0 "Danish Corporate Republic"
+ DEN_corporatist_DEF:0 "Danish Corporate Republic"
+
+ DEN_anarcho_capitalist:0 "Free Denmark"
+ DEN_anarcho_capitalist_DEF:0 "Anarcho-capitalist Denmark"
+
+ DEN_communism_ADJ:0 "Danish"
+ DEN_socialist_ADJ:0 "Danish"
+ DEN_fascism_ADJ:0 "Danish"
+ DEN_conservative_ADJ:0 "Danish"
+ DEN_liberal_ADJ:0 "Danish"
+ DEN_corporatist_ADJ:0 "Danish"
+ DEN_anarcho_capitalist_ADJ:0 "Danish"
+
+
+ HUN_communism:0 "Hungarian Commune"
+ HUN_communism_DEF:0 "Hungarian Commune"
+
+ HUN_socialist:0 "Hungarian Republic"
+ HUN_socialist_DEF:0 "Hungarian Republic"
+
+ HUN_fascism:0 "Hungary"
+ HUN_fascism_DEF:0 "Hungary"
+
+ HUN_conservative:0 "Kingdom of Hungary"
+ HUN_conservative_DEF:0 "Kingdom of Hungary"
+
+ HUN_liberal:0 "Republic of Hungary"
+ HUN_liberal_DEF:0 "Republic of Hungary"
+
+ HUN_corporatist:0 "Hungarian Corporate Republic"
+ HUN_corporatist_DEF:0 "Hungarian Corporate Republic"
+
+ HUN_anarcho_capitalist:0 "Free Hungary"
+ HUN_anarcho_capitalist_DEF:0 "Anarcho-capitalist Hungary"
+
+ HUN_communism_ADJ:0 "Hungarian"
+ HUN_socialist_ADJ:0 "Hungarian"
+ HUN_fascism_ADJ:0 "Hungarian"
+ HUN_conservative_ADJ:0 "Hungarian"
+ HUN_liberal_ADJ:0 "Hungarian"
+ HUN_corporatist_ADJ:0 "Hungarian"
+ HUN_anarcho_capitalist_ADJ:0 "Hungarian"
+
+
+ ALB_communism:0 "Albanian Commune"
+ ALB_communism_DEF:0 "Albanian Commune"
+
+ ALB_socialist:0 "Albanian Republic"
+ ALB_socialist_DEF:0 "Albanian Republic"
+
+ ALB_fascism:0 "Albanian State"
+ ALB_fascism_DEF:0 "Albanian State"
+
+ ALB_conservative:0 "Albania"
+ ALB_conservative_DEF:0 "Kingdom of Albania"
+
+ ALB_liberal:0 "Republic of Albania"
+ ALB_liberal_DEF:0 "Republic of Albania"
+
+ ALB_corporatist:0 "Albanian Corporate Republic"
+ ALB_corporatist_DEF:0 "Albanian Corporate Republic"
+
+ ALB_anarcho_capitalist:0 "Free Albania"
+ ALB_anarcho_capitalist_DEF:0 "Anarcho-capitalist Albania"
+
+ ALB_communism_ADJ:0 "Albanian"
+ ALB_socialist_ADJ:0 "Albanian"
+ ALB_fascism_ADJ:0 "Albanian"
+ ALB_conservative_ADJ:0 "Albanian"
+ ALB_liberal_ADJ:0 "Albanian"
+ ALB_corporatist_ADJ:0 "Albanian"
+ ALB_anarcho_capitalist_ADJ:0 "Albanian"
+
+
+ YUG_communism:0 "Yugoslavian Commune"
+ YUG_communism_DEF:0 "Yugoslavian Commune"
+
+ YUG_socialist:0 "Yugoslavia"
+ YUG_socialist_DEF:0 "Yugoslavia"
+
+ YUG_fascism:0 "Yugoslavian State"
+ YUG_fascism_DEF:0 "Yugoslavian State"
+
+ YUG_conservative:0 "Yugoslavian Kingdom"
+ YUG_conservative_DEF:0 "Yugoslavian Kingdom"
+
+ YUG_liberal:0 "Yugoslavian Confederation"
+ YUG_liberal_DEF:0 "Yugoslavian Confederation"
+
+ YUG_corporatist:0 "Yugoslavian Corporate Republic"
+ YUG_corporatist_DEF:0 "Yugoslavian Corporate Republic"
+
+ YUG_anarcho_capitalist:0 "Free Yugoslavia"
+ YUG_anarcho_capitalist_DEF:0 "Anarcho-capitalist Yugoslavia"
+
+ YUG_communism_ADJ:0 "Yugoslavian"
+ YUG_socialist_ADJ:0 "Yugoslavian"
+ YUG_fascism_ADJ:0 "Yugoslavian"
+ YUG_conservative_ADJ:0 "Yugoslavian"
+ YUG_liberal_ADJ:0 "Yugoslavian"
+ YUG_corporatist_ADJ:0 "Yugoslavian"
+ YUG_anarcho_capitalist_ADJ:0 "Yugoslavian"
+
+
+ ETH_communism:0 "Ethiopian Commune"
+ ETH_communism_DEF:0 "Ethiopian Commune"
+
+ ETH_socialist:0 "Ethiopian Republic"
+ ETH_socialist_DEF:0 "Ethiopian Republic"
+
+ ETH_fascism:0 "Ethiopian Empire"
+ ETH_fascism_DEF:0 "Ethiopian Empire"
+
+ ETH_conservative:0 "Ethiopian Empire"
+ ETH_conservative_DEF:0 "Ethiopian Empire"
+
+ ETH_liberal:0 "Republic of Ethiopia"
+ ETH_liberal_DEF:0 "Republic of Ethiopia"
+
+ ETH_corporatist:0 "Ethiopian Corporate Republic"
+ ETH_corporatist_DEF:0 "Ethiopian Corporate Republic"
+
+ ETH_anarcho_capitalist:0 "Free Ethiopia"
+ ETH_anarcho_capitalist_DEF:0 "Anarcho-capitalist Ethiopia"
+
+ ETH_communism_ADJ:0 "Ethiopian"
+ ETH_socialist_ADJ:0 "Ethiopian"
+ ETH_fascism_ADJ:0 "Ethiopian"
+ ETH_conservative_ADJ:0 "Ethiopian"
+ ETH_liberal_ADJ:0 "Ethiopian"
+ ETH_corporatist_ADJ:0 "Ethiopian"
+ ETH_anarcho_capitalist_ADJ:0 "Ethiopian"
+
+ RAJ_communism:0 "Indian Commune"
+ RAJ_communism_DEF:0 "Indian Commune"
+
+ RAJ_socialist:0 "Indian Federation"
+ RAJ_socialist_DEF:0 "Indian Federation"
+
+ RAJ_fascism:0 "Indian State"
+ RAJ_fascism_DEF:0 "Indian State"
+
+ RAJ_conservative:0 "India"
+ RAJ_conservative_DEF:0 "India"
+
+ RAJ_liberal:0 "Indian Federation"
+ RAJ_liberal_DEF:0 "Indian Federation"
+
+ RAJ_corporatist:0 "Indian Corporate Republic"
+ RAJ_corporatist_DEF:0 "Indian Corporate Republic"
+
+ RAJ_anarcho_capitalist:0 "Free India"
+ RAJ_anarcho_capitalist_DEF:0 "Anarcho-capitalist India"
+
+ RAJ_communism_ADJ:0 "Indian"
+ RAJ_socialist_ADJ:0 "Indian"
+ RAJ_fascism_ADJ:0 "Indian"
+ RAJ_conservative_ADJ:0 "Indian"
+ RAJ_liberal_ADJ:0 "Indian"
+ RAJ_corporatist_ADJ:0 "Indian"
+ RAJ_anarcho_capitalist_ADJ:0 "Indian"
+
+
+ SAF_communism:0 "Cape Commune"
+ SAF_communism_DEF:0 "Cape Commune"
+
+ SAF_socialist:0 "South Africa"
+ SAF_socialist_DEF:0 "South Africa"
+
+ SAF_fascism:0 "South Africa"
+ SAF_fascism_DEF:0 "South Africa"
+
+ SAF_conservative:0 "South Africa"
+ SAF_conservative_DEF:0 "South Africa"
+
+ SAF_liberal:0 "Republic of South Africa"
+ SAF_liberal_DEF:0 "Republic of South Africa"
+
+ SAF_corporatist:0 "Cape Company"
+ SAF_corporatist_DEF:0 "Cape Company"
+
+ SAF_anarcho_capitalist:0 "Free Cape"
+ SAF_anarcho_capitalist_DEF:0 "Anarcho-capitalist South Africa"
+
+ SAF_communism_ADJ:0 "South African"
+ SAF_socialist_ADJ:0 "South African"
+ SAF_fascism_ADJ:0 "South African"
+ SAF_conservative_ADJ:0 "South African"
+ SAF_liberal_ADJ:0 "South African"
+ SAF_corporatist_ADJ:0 "South African"
+ SAF_anarcho_capitalist_ADJ:0 "South African"
+
+
+ AFG_communism:0 "Afghan Commune"
+ AFG_communism_DEF:0 "Afghan Commune"
+
+ AFG_socialist:0 "Republic of Afghanistan"
+ AFG_socialist_DEF:0 "Republic of Afghanistan"
+
+ AFG_fascism:0 "Afghan Khanate"
+ AFG_fascism_DEF:0 "Afghan Khanate"
+
+ AFG_conservative:0 "Afghanistan"
+ AFG_conservative_DEF:0 "Afghanistan"
+
+ AFG_liberal:0 "Republic of Afghanistan"
+ AFG_liberal_DEF:0 "Republic of Afghanistan"
+
+ AFG_corporatist:0 "Afghan Corporate Republic"
+ AFG_corporatist_DEF:0 "Afghan Corporate Republic"
+
+ AFG_anarcho_capitalist:0 "Free Afghanistan"
+ AFG_anarcho_capitalist_DEF:0 "Anarcho-capitalist Afghanistan"
+
+ AFG_communism_ADJ:0 "Afghan"
+ AFG_socialist_ADJ:0 "Afghan"
+ AFG_fascism_ADJ:0 "Afghan"
+ AFG_conservative_ADJ:0 "Afghan"
+ AFG_liberal_ADJ:0 "Afghan"
+ AFG_corporatist_ADJ:0 "Afghan"
+ AFG_anarcho_capitalist_ADJ:0 "Afghan"
+
+
+ PER_communism:0 "Iranian Commune"
+ PER_communism_DEF:0 "Iranian Commune"
+
+ PER_socialist:0 "Republic of Iran"
+ PER_socialist_DEF:0 "Republic of Iran"
+
+ PER_fascism:0 "Iran"
+ PER_fascism_DEF:0 "Iran"
+
+ PER_conservative:0 "Iran"
+ PER_conservative_DEF:0 "Iran"
+
+ PER_liberal:0 "Republic of Iran"
+ PER_liberal_DEF:0 "Republic of Iran"
+
+ PER_corporatist:0 "National Iranian Oil Company"
+ PER_corporatist_DEF:0 "National Iranian Oil Company"
+
+ PER_anarcho_capitalist:0 "Iran"
+ PER_anarcho_capitalist_DEF:0 "Iran"
+
+ #PER_anarcho_capitalist:0 "Oil Companies of Iran"
+ #PER_anarcho_capitalist_DEF:0 "Oil Companies of Iran"
+
+ PER_communism_ADJ:0 "Iranian"
+ PER_socialist_ADJ:0 "Iranian"
+ PER_fascism_ADJ:0 "Iranian"
+ PER_conservative_ADJ:0 "Iranian"
+ PER_liberal_ADJ:0 "Iranian"
+ PER_corporatist_ADJ:0 "Iranian"
+ PER_anarcho_capitalist_ADJ:0 "Iranian"
+
+
+ SWE_communism:0 "Swedish Commune"
+ SWE_communism_DEF:0 "Swedish Commune"
+
+ SWE_socialist:0 "Sweden"
+ SWE_socialist_DEF:0 "Kingdom of Sweden"
+
+ SWE_fascism:0 "Sweden"
+ SWE_fascism_DEF:0 "Kingdom of Sweden"
+
+ SWE_conservative:0 "Sweden"
+ SWE_conservative_DEF:0 "Kingdom of Sweden"
+
+ SWE_liberal:0 "Sweden"
+ SWE_liberal_DEF:0 "Kingdom of Sweden"
+
+ SWE_corporatist:0 "Paradox Interactive"
+ SWE_corporatist_DEF:0 "Paradox Interactive"
+
+ SWE_anarcho_capitalist:0 "Free Sweden"
+ SWE_anarcho_capitalist_DEF:0 "Anarcho-capitalist Sweden"
+
+ SWE_communism_ADJ:0 "Swedish"
+ SWE_socialist_ADJ:0 "Swedish"
+ SWE_fascism_ADJ:0 "Swedish"
+ SWE_conservative_ADJ:0 "Swedish"
+ SWE_liberal_ADJ:0 "Swedish"
+ SWE_corporatist_ADJ:0 "Swedish"
+ SWE_anarcho_capitalist_ADJ:0 "Swedish"
+
+
+ NOR_communism:0 "Norwegian Commune"
+ NOR_communism_DEF:0 "Norwegian Commune"
+
+ NOR_socialist:0 "Norway"
+ NOR_socialist_DEF:0 "Kingdom of Norway"
+
+ NOR_fascism:0 "Norway"
+ NOR_fascism_DEF:0 "Kingdom of Norway"
+
+ NOR_conservative:0 "Norway"
+ NOR_conservative_DEF:0 "Kingdom of Norway"
+
+ NOR_liberal:0 "Norway"
+ NOR_liberal_DEF:0 "Kingdom of Norway"
+
+ NOR_corporatist:0 "Norwegian Corporate Republic"
+ NOR_corporatist_DEF:0 "Norwegian Corporate Republic"
+
+ NOR_anarcho_capitalist:0 "Free Norway"
+ NOR_anarcho_capitalist_DEF:0 "Anarcho-capitalist Norway"
+
+ NOR_communism_ADJ:0 "Norwegian"
+ NOR_socialist_ADJ:0 "Norwegian"
+ NOR_fascism_ADJ:0 "Norwegian"
+ NOR_conservative_ADJ:0 "Norwegian"
+ NOR_liberal_ADJ:0 "Norwegian"
+ NOR_corporatist_ADJ:0 "Norwegian"
+ NOR_anarcho_capitalist_ADJ:0 "Norwegian"
+
+
+ EST_communism:0 "Estonian Commune"
+ EST_communism_DEF:0 "Estonian Commune"
+
+ EST_socialist:0 "Republic of Estonia"
+ EST_socialist_DEF:0 "Republic of Estonia"
+
+ EST_fascism:0 "Estonia"
+ EST_fascism_DEF:0 "Estonia"
+
+ EST_conservative:0 "Republic of Estonia"
+ EST_conservative_DEF:0 "Republic of Estonia"
+
+ EST_liberal:0 "Republic of Estonia"
+ EST_liberal_DEF:0 "Republic of Estonia"
+
+ EST_corporatist:0 "Estonian Corporate Republic"
+ EST_corporatist_DEF:0 "Estonian Corporate Republic"
+
+ EST_anarcho_capitalist:0 "Free Estonia"
+ EST_anarcho_capitalist_DEF:0 "Anarcho-capitalist Estonia"
+
+ EST_communism_ADJ:0 "Estonian"
+ EST_socialist_ADJ:0 "Estonian"
+ EST_fascism_ADJ:0 "Estonian"
+ EST_conservative_ADJ:0 "Estonian"
+ EST_liberal_ADJ:0 "Estonian"
+ EST_corporatist_ADJ:0 "Estonian"
+ EST_anarcho_capitalist_ADJ:0 "Estonian"
+
+
+ LAT_communism:0 "Latvian Commune"
+ LAT_communism_DEF:0 "Latvian Commune"
+
+ LAT_socialist:0 "Republic of Latvia"
+ LAT_socialist_DEF:0 "Republic of Latvia"
+
+ LAT_fascism:0 "Latvian State"
+ LAT_fascism_DEF:0 "Latvian State"
+
+ LAT_conservative:0 "Latvian Republic"
+ LAT_conservative_DEF:0 "Latvian Republic"
+
+ LAT_liberal:0 "Republic of Latvia"
+ LAT_liberal_DEF:0 "Republic of Latvia"
+
+ LAT_corporatist:0 "Latvian Corporate Republic"
+ LAT_corporatist_DEF:0 "Latvian Corporate Republic"
+
+ LAT_anarcho_capitalist:0 "Free Latvia"
+ LAT_anarcho_capitalist_DEF:0 "Anarcho-capitalist Latvia"
+
+ LAT_communism_ADJ:0 "Latvian"
+ LAT_socialist_ADJ:0 "Latvian"
+ LAT_fascism_ADJ:0 "Latvian"
+ LAT_conservative_ADJ:0 "Latvian"
+ LAT_liberal_ADJ:0 "Latvian"
+ LAT_corporatist_ADJ:0 "Latvian"
+ LAT_anarcho_capitalist_ADJ:0 "Latvian"
+
+
+ FIN_communism:0 "Finnish Commune"
+ FIN_communism_DEF:0 "Finnish Commune"
+
+ FIN_socialist:0 "Republic of Finland"
+ FIN_socialist_DEF:0 "Republic of Finland"
+
+ FIN_fascism:0 "Kingdom of Finland"
+ FIN_fascism_DEF:0 "Kingdom of Finland"
+
+ FIN_conservative:0 "Finland"
+ FIN_conservative_DEF:0 "Kingdom of Finland"
+
+ FIN_liberal:0 "Republic of Finland"
+ FIN_liberal_DEF:0 "Republic of Finland"
+
+ FIN_corporatist:0 "Finnish Corporate Republic"
+ FIN_corporatist_DEF:0 "Finnish Corporate Republic"
+
+ FIN_anarcho_capitalist:0 "Free Finland"
+ FIN_anarcho_capitalist_DEF:0 "Anarcho-capitalist Finland"
+
+ FIN_communism_ADJ:0 "Finnish"
+ FIN_socialist_ADJ:0 "Finnish"
+ FIN_fascism_ADJ:0 "Finnish"
+ FIN_conservative_ADJ:0 "Finnish"
+ FIN_liberal_ADJ:0 "Finnish"
+ FIN_corporatist_ADJ:0 "Finnish"
+ FIN_anarcho_capitalist_ADJ:0 "Finnish"
+
+
+ JAP_communism:0 "Japanese Commune"
+ JAP_communism_DEF:0 "Japanese Commune"
+
+ JAP_socialist:0 "Japan"
+ JAP_socialist_DEF:0 "Empire of Japan"
+
+ JAP_fascism:0 "Japan"
+ JAP_fascism_DEF:0 "Empire of Japan"
+
+ JAP_conservative:0 "Japan"
+ JAP_conservative_DEF:0 "Empire of Japan"
+
+ JAP_liberal:0 "Japan"
+ JAP_liberal_DEF:0 "Empire of Japan"
+
+ JAP_corporatist:0 "Japanese Corporate Republic"
+ JAP_corporatist_DEF:0 "Japanese Corporate Republic"
+
+ JAP_anarcho_capitalist:0 "Free Japan"
+ JAP_anarcho_capitalist_DEF:0 "Anarcho-capitalist Japan"
+
+ JAP_communism_ADJ:0 "Japanese"
+ JAP_socialist_ADJ:0 "Japanese"
+ JAP_fascism_ADJ:0 "Japanese"
+ JAP_conservative_ADJ:0 "Japanese"
+ JAP_liberal_ADJ:0 "Japanese"
+ JAP_corporatist_ADJ:0 "Japanese"
+ JAP_anarcho_capitalist_ADJ:0 "Japanese"
+
+
+ AST_communism:0 "Kiwi-Emu Commune"
+ AST_communism_DEF:0 "Kiwi-Emu Commune"
+
+ AST_socialist:0 "Emu-Kiwi Union"
+ AST_socialist_DEF:0 "Emu-Kiwi Union"
+
+ AST_fascism:0 "Emu-Kiwi Brotherhood"
+ AST_fascism_DEF:0 "Emu-Kiwi Brotherhood"
+
+ AST_conservative:0 "Kiwi-Emu Brotherhood"
+ AST_conservative_DEF:0 "Kiwi-Emu Brotherhood"
+
+ AST_liberal:0 "Emu-Kiwi Union"
+ AST_liberal_DEF:0 "Emu-Kiwi Union"
+
+ AST_corporatist:0 "Emu-Kiwi Corporate Republic"
+ AST_corporatist_DEF:0 "Emu-Kiwi Corporate Republic"
+
+ AST_anarcho_capitalist:0 "Free Emu-Kiwi Country"
+ AST_anarcho_capitalist_DEF:0 "Anarcho-capitalist Emu-Kiwi Country"
+
+ AST_communism_ADJ:0 "Emu-Kiwi"
+ AST_socialist_ADJ:0 "Emu-Kiwi"
+ AST_fascism_ADJ:0 "Emu-Kiwi"
+ AST_conservative_ADJ:0 "Emu-Kiwi"
+ AST_liberal_ADJ:0 "Emu-Kiwi"
+ AST_corporatist_ADJ:0 "Emu-Kiwi"
+ AST_anarcho_capitalist_ADJ:0 "Emu-Kiwi"
+
+
+ PHI_communism:0 "Philippines Commune"
+ PHI_communism_DEF:0 "Philippines Commune"
+
+ PHI_socialist:0 "Philippines"
+ PHI_socialist_DEF:0 "Philippines"
+
+ PHI_fascism:0 "Philippines"
+ PHI_fascism_DEF:0 "Philippines"
+
+ PHI_conservative:0 "Philippines"
+ PHI_conservative_DEF:0 "Philippines"
+
+ PHI_liberal:0 "Philippines"
+ PHI_liberal_DEF:0 "Philippines"
+
+ PHI_corporatist:0 "Philippines Corporate Republic"
+ PHI_corporatist_DEF:0 "Philippines Corporate Republic"
+
+ PHI_anarcho_capitalist:0 "Free Philippines"
+ PHI_anarcho_capitalist_DEF:0 "Anarcho-capitalist Philippines"
+
+ PHI_communism_ADJ:0 "Philippines"
+ PHI_socialist_ADJ:0 "Philippines"
+ PHI_fascism_ADJ:0 "Philippines"
+ PHI_conservative_ADJ:0 "Philippines"
+ PHI_liberal_ADJ:0 "Philippines"
+ PHI_corporatist_ADJ:0 "Philippines"
+ PHI_anarcho_capitalist_ADJ:0 "Philippines"
+
+ TIB_communism:0 "Tibetan Commune"
+ TIB_communism_DEF:0 "Tibetan Commune"
+
+ TIB_socialist:0 "Republic of Tibet"
+ TIB_socialist_DEF:0 "Republic of Tibet"
+
+ TIB_fascism:0 "Empire of Tibet"
+ TIB_fascism_DEF:0 "Empire of Tibet"
+
+ TIB_conservative:0 "Tibet"
+ TIB_conservative_DEF:0 "Tibet"
+
+ TIB_liberal:0 "Republic of Tibet"
+ TIB_liberal_DEF:0 "Republic of Tibet"
+
+ TIB_corporatist:0 "Tibetan Corporate Republic"
+ TIB_corporatist_DEF:0 "Tibetan Corporate Republic"
+
+ TIB_anarcho_capitalist:0 "Free Tibet"
+ TIB_anarcho_capitalist_DEF:0 "Anarcho-capitalist Tibet"
+
+ TIB_communism_ADJ:0 "Tibetan"
+ TIB_socialist_ADJ:0 "Tibetan"
+ TIB_fascism_ADJ:0 "Tibetan"
+ TIB_conservative_ADJ:0 "Tibetan"
+ TIB_liberal_ADJ:0 "Tibetan"
+ TIB_corporatist_ADJ:0 "Tibetan"
+ TIB_anarcho_capitalist_ADJ:0 "Tibetan"
+
+
+ LUX_communism:0 "Luxembourg"
+ LUX_communism_DEF:0 "Luxembourg"
+
+ LUX_socialist:0 "Luxembourg"
+ LUX_socialist_DEF:0 "Luxembourg"
+
+ LUX_fascism:0 "Luxembourg"
+ LUX_fascism_DEF:0 "Luxembourg"
+
+ LUX_conservative:0 "Luxembourg"
+ LUX_conservative_DEF:0 "Luxembourg"
+
+ LUX_liberal:0 "Luxembourg"
+ LUX_liberal_DEF:0 "Luxembourg"
+
+ LUX_corporatist:0 "Luxembourg Corporate Republic"
+ LUX_corporatist_DEF:0 "Luxembourg Corporate Republic"
+
+ LUX_anarcho_capitalist:0 "Free Luxembourg"
+ LUX_anarcho_capitalist_DEF:0 "Free city of Luxembourg"
+
+ LUX_communism_ADJ:0 "Luxembourg"
+ LUX_socialist_ADJ:0 "Luxembourg"
+ LUX_fascism_ADJ:0 "Luxembourg"
+ LUX_conservative_ADJ:0 "Luxembourg"
+ LUX_liberal_ADJ:0 "Luxembourg"
+ LUX_corporatist_ADJ:0 "Luxembourg"
+ LUX_anarcho_capitalist_ADJ:0 "Luxembourg"
+
+
+ INS_communism:0 "New Holland Commune"
+ INS_communism_DEF:0 "New Holland Commune"
+
+ INS_socialist:0 "Kingdom of the Netherlands"
+ INS_socialist_DEF:0 "Kingdom of the Netherlands"
+
+ INS_fascism:0 "Dutch State"
+ INS_fascism_DEF:0 "Dutch State"
+
+ INS_conservative:0 "Kingdom of the Netherlands"
+ INS_conservative_DEF:0 "Kingdom of the Netherlands"
+
+ INS_liberal:0 "Kingdom of the Netherlands"
+ INS_liberal_DEF:0 "Kingdom of the Netherlands"
+
+ INS_corporatist:0 "Dutch Corporate Republic"
+ INS_corporatist_DEF:0 "Dutch Corporate Republic"
+
+ INS_anarcho_capitalist:0 "Free Netherlands"
+ INS_anarcho_capitalist_DEF:0 "Anarcho-capitalist Netherlands"
+
+ INS_communism_ADJ:0 "Dutch"
+ INS_socialist_ADJ:0 "Dutch"
+ INS_fascism_ADJ:0 "Dutch"
+ INS_conservative_ADJ:0 "Dutch"
+ INS_liberal_ADJ:0 "Dutch"
+ INS_corporatist_ADJ:0 "Dutch"
+ INS_anarcho_capitalist_ADJ:0 "Dutch"
+
+
+ HOL_communism:0 "Dutch Republic"
+ HOL_communism_DEF:0 "Dutch Republic"
+
+ HOL_socialist:0 "Dutch Republic"
+ HOL_socialist_DEF:0 "Dutch Republic"
+
+ HOL_fascism:0 "Dutch Republic"
+ HOL_fascism_DEF:0 "Dutch Republic"
+
+ HOL_conservative:0 "Dutch Republic"
+ HOL_conservative_DEF:0 "Dutch Republic"
+
+ HOL_liberal:0 "Dutch Republic"
+ HOL_liberal_DEF:0 "Dutch Republic"
+
+ HOL_corporatist:0 "Dutch Republic"
+ HOL_corporatist_DEF:0 "Dutch Republic"
+
+ HOL_anarcho_capitalist:0 "Dutch Republic"
+ HOL_anarcho_capitalist_DEF:0 "Dutch Republic"
+
+ HOL_communism_ADJ:0 "Dutch"
+ HOL_socialist_ADJ:0 "Dutch"
+ HOL_fascism_ADJ:0 "Dutch"
+ HOL_conservative_ADJ:0 "Dutch"
+ HOL_liberal_ADJ:0 "Dutch"
+ HOL_corporatist_ADJ:0 "Dutch"
+ HOL_anarcho_capitalist_ADJ:0 "Dutch"
+
+
+ POR_communism:0 "Unstable Portugal"
+ POR_communism_DEF:0 "Unstable Portugal"
+
+ POR_socialist:0 "Unstable Portugal"
+ POR_socialist_DEF:0 "Unstable Portugal"
+
+ POR_fascism:0 "Stable Portugal"
+ POR_fascism_DEF:0 "Stable Portugal"
+
+ POR_conservative:0 "Unstable Portugal"
+ POR_conservative_DEF:0 "Unstable Portugal"
+
+ POR_liberal:0 "Unstable Portugal"
+ POR_liberal_DEF:0 "Unstable Portugal"
+
+ POR_corporatist:0 "Unstable Portugal"
+ POR_corporatist_DEF:0 "Unstable Portugal"
+
+ POR_anarcho_capitalist:0 "Unstable Portugal"
+ POR_anarcho_capitalist_DEF:0 "Unstable Portugal"
+
+ POR_communism_ADJ:0 "Portuguese"
+ POR_socialist_ADJ:0 "Portuguese"
+ POR_fascism_ADJ:0 "Portuguese"
+ POR_conservative_ADJ:0 "Portuguese"
+ POR_liberal_ADJ:0 "Portuguese"
+ POR_corporatist_ADJ:0 "Portuguese"
+ POR_anarcho_capitalist_ADJ:0 "Portuguese"
+
+
+ SWI_communism:0 "Swiss Commune"
+ SWI_communism_DEF:0 "Swiss Commune"
+
+ SWI_socialist:0 "Switzerland"
+ SWI_socialist_DEF:0 "Switzerland"
+
+ SWI_fascism:0 "Swiss Guard"
+ SWI_fascism_DEF:0 "Swiss Guard"
+
+ SWI_conservative:0 "Switzerland"
+ SWI_conservative_DEF:0 "Switzerland"
+
+ SWI_liberal:0 "Switzerland"
+ SWI_liberal_DEF:0 "Switzerland"
+
+ SWI_corporatist:0 "United Banks"
+ SWI_corporatist_DEF:0 "United Banks of Switzerland"
+
+ SWI_anarcho_capitalist:0 "United Banks"
+ SWI_anarcho_capitalist_DEF:0 "United Banks of Switzerland"
+
+ SWI_communism_ADJ:0 "Swiss"
+ SWI_socialist_ADJ:0 "Swiss"
+ SWI_fascism_ADJ:0 "Swiss"
+ SWI_conservative_ADJ:0 "Swiss"
+ SWI_liberal_ADJ:0 "Swiss"
+ SWI_corporatist_ADJ:0 "Swiss"
+ SWI_anarcho_capitalist_ADJ:0 "Swiss"
+
+
+ PRS_communism:0 "Prussian Commune"
+ PRS_communism_DEF:0 "Prussian Commune"
+
+ PRS_socialist:0 "Kingdom of Prussia"
+ PRS_socialist_DEF:0 "Kingdom of Prussia"
+
+ PRS_liberal:0 "Kingdom of Prussia"
+ PRS_liberal_DEF:0 "Kingdom of Prussia"
+
+ PRS_anarcho_capitalist:0 "Union"
+ PRS_anarcho_capitalist_DEF:0 "Union of Egoists"
+
+ PRS_corporatist:0 "Prussian Corporate Republic"
+ PRS_corporatist_DEF:0 "Prussian Corporate Republic"
+
+ PRS_conservative:0 "Kingdom of Prussia"
+ PRS_conservative_DEF:0 "Kingdom of Prussia"
+
+ PRS_fascism:0 "Free Prussia"
+ PRS_fascism_DEF:0 "State of Free Prussia"
+
+ PRS_communism_ADJ:0 "Prussian"
+ PRS_socialist_ADJ:0 "Prussian"
+ PRS_liberal_ADJ:0 "Prussian"
+ PRS_anarcho_capitalist_ADJ:0 "Prussian"
+ PRS_corporatist_ADJ:0 "Prussian"
+ PRS_conservative_ADJ:0 "Prussian"
+ PRS_fascism_ADJ:0 "Prussian"
+
+
+ SPR_communism:0 "Republic of Spain"
+ SPR_communism_DEF:0 "Republic of Spain"
+
+ SPR_socialist:0 "Republic of Spain"
+ SPR_socialist_DEF:0 "Republic of Spain"
+
+ SPR_fascism:0 "Republic of Spain"
+ SPR_fascism_DEF:0 "Republic of Spain"
+
+ SPR_conservative:0 "Republic of Spain"
+ SPR_conservative_DEF:0 "Republic of Spain"
+
+ SPR_liberal:0 "Republic of Spain"
+ SPR_liberal_DEF:0 "Republic of Spain"
+
+ SPR_corporatist:0 "Republic of Spain"
+ SPR_corporatist_DEF:0 "Republic of Spain"
+
+ SPR_anarcho_capitalist:0 "Republic of Spain"
+ SPR_anarcho_capitalist_DEF:0 "Republic of Spain"
+
+ SPR_communism_ADJ:0 "Spanish"
+ SPR_socialist_ADJ:0 "Spanish"
+ SPR_fascism_ADJ:0 "Spanish"
+ SPR_conservative_ADJ:0 "Spanish"
+ SPR_liberal_ADJ:0 "Spanish"
+ SPR_corporatist_ADJ:0 "Spanish"
+ SPR_anarcho_capitalist_ADJ:0 "Spanish"
+
+
+ LIB_communism:0 "Liberian Commune"
+ LIB_communism_DEF:0 "Liberian Commune"
+
+ LIB_socialist:0 "Liberia"
+ LIB_socialist_DEF:0 "Liberia"
+
+ LIB_fascism:0 "Liberia"
+ LIB_fascism_DEF:0 "Liberia"
+
+ LIB_conservative:0 "African Confederation"
+ LIB_conservative_DEF:0 "African Confederation"
+
+ LIB_liberal:0 "Liberia"
+ LIB_liberal_DEF:0 "Liberia"
+
+ LIB_corporatist:0 "Liberian Corporate Republic"
+ LIB_corporatist_DEF:0 "Liberian Corporate Republic"
+
+ LIB_anarcho_capitalist:0 "Free Liberia"
+ LIB_anarcho_capitalist_DEF:0 "Anarcho-capitalist Liberia"
+
+ LIB_communism_ADJ:0 "Liberian"
+ LIB_socialist_ADJ:0 "Liberian"
+ LIB_fascism_ADJ:0 "Liberian"
+ LIB_conservative_ADJ:0 "Liberian"
+ LIB_liberal_ADJ:0 "Liberian"
+ LIB_corporatist_ADJ:0 "Liberian"
+ LIB_anarcho_capitalist_ADJ:0 "Liberian"
+
+ SLC_communism:0 "Slovak Commune"
+ SLC_communism_DEF:0 "Slovak Commune"
+
+ SLC_socialist:0 "Free Slovak Republic"
+ SLC_socialist_DEF:0 "Free Slovak Republic"
+
+ SLC_fascism:0 "Free Slovak Republic"
+ SLC_fascism_DEF:0 "Free Slovak Republic"
+
+ SLC_conservative:0 "Free Slovak Republic"
+ SLC_conservative_DEF:0 "Free Slovak Republic"
+
+ SLC_liberal:0 "Free Slovak Republic"
+ SLC_liberal_DEF:0 "Free Slovak Republic"
+
+ SLC_corporatist:0 "Slovakian Corporate Republic"
+ SLC_corporatist_DEF:0 "Slovakian Corporate Republic"
+
+ SLC_anarcho_capitalist:0 "Free Slovakia"
+ SLC_anarcho_capitalist_DEF:0 "Anarcho-capitalist Slovakia"
+
+ SLC_communism_ADJ:0 "Slovakian"
+ SLC_socialist_ADJ:0 "Slovakian"
+ SLC_fascism_ADJ:0 "Slovakian"
+ SLC_conservative_ADJ:0 "Slovakian"
+ SLC_liberal_ADJ:0 "Slovakian"
+ SLC_corporatist_ADJ:0 "Slovakian"
+ SLC_anarcho_capitalist_ADJ:0 "Slovakian"
+
+ QUE_communism:0 "Commune of Quebec"
+ QUE_communism_DEF:0 "Commune of Quebec"
+
+ QUE_socialist:0 "Republic of Quebec"
+ QUE_socialist_DEF:0 "Republic of Quebec"
+
+ QUE_fascism:0 "Quebec"
+ QUE_fascism_DEF:0 "Quebec"
+
+ QUE_conservative:0 "Republic of Quebec"
+ QUE_conservative_DEF:0 "Republic of Quebec"
+
+ QUE_liberal:0 "Republic of Quebec"
+ QUE_liberal_DEF:0 "Republic of Quebec"
+
+ QUE_corporatist:0 "Quebec Corporate Republic"
+ QUE_corporatist_DEF:0 "Quebec Corporate Republic"
+
+ QUE_anarcho_capitalist:0 "Free Quebec"
+ QUE_anarcho_capitalist_DEF:0 "Anarcho-capitalist Quebec"
+
+ QUE_communism_ADJ:0 "Quebec"
+ QUE_socialist_ADJ:0 "Quebec"
+ QUE_fascism_ADJ:0 "Quebec"
+ QUE_conservative_ADJ:0 "Quebec"
+ QUE_liberal_ADJ:0 "Quebec"
+ QUE_corporatist_ADJ:0 "Quebec"
+ QUE_anarcho_capitalist_ADJ:0 "Quebec"
+
+ ARB_communism:0 "Arabian Commune"
+ ARB_communism_DEF:0 "Arabian Commune"
+
+ ARB_socialist:0 "Republic of Arabia"
+ ARB_socialist_DEF:0 "Republic of Arabia"
+
+ ARB_fascism:0 "Arab Caliphate"
+ ARB_fascism_DEF:0 "Arab Caliphate"
+
+ ARB_conservative:0 "Jabal Shammar"
+ ARB_conservative_DEF:0 "Jabal Shammar"
+
+ ARB_liberal:0 "Republic of Arabia"
+ ARB_liberal_DEF:0 "Republic of Arabia"
+
+ ARB_corporatist:0 "Corporate Arabia"
+ ARB_corporatist_DEF:0 "Corporate Arabia"
+
+ ARB_anarcho_capitalist:0 "Free Arabia"
+ ARB_anarcho_capitalist_DEF:0 "Anarcho-capitalist Arabia"
+
+ ARB_communism_ADJ:0 "Arabian"
+ ARB_socialist_ADJ:0 "Arabian"
+ ARB_fascism_ADJ:0 "Arabian"
+ ARB_conservative_ADJ:0 "Arabian"
+ ARB_liberal_ADJ:0 "Arabian"
+ ARB_corporatist_ADJ:0 "Arabian"
+ ARB_anarcho_capitalist_ADJ:0 "Arabian"
+
+
+ EGY_communism:0 "Nile Commune"
+ EGY_communism_DEF:0 "Nile Commune"
+
+ EGY_socialist:0 "Egypt"
+ EGY_socialist_DEF:0 "Egypt"
+
+ EGY_fascism:0 "Egypt"
+ EGY_fascism_DEF:0 "Egypt"
+
+ EGY_conservative:0 "Egypt"
+ EGY_conservative_DEF:0 "Egypt"
+
+ EGY_liberal:0 "Egypt"
+ EGY_liberal_DEF:0 "Egypt"
+
+ EGY_corporatist:0 "Corporate Egypt"
+ EGY_corporatist_DEF:0 "Corporate Egypt"
+
+ EGY_anarcho_capitalist:0 "Free Egypt"
+ EGY_anarcho_capitalist_DEF:0 "Anarcho-capitalist Egypt"
+
+ EGY_communism_ADJ:0 "Egyptian"
+ EGY_socialist_ADJ:0 "Egyptian"
+ EGY_fascism_ADJ:0 "Egyptian"
+ EGY_conservative_ADJ:0 "Egyptian"
+ EGY_liberal_ADJ:0 "Egyptian"
+ EGY_corporatist_ADJ:0 "Egyptian"
+ EGY_anarcho_capitalist_ADJ:0 "Egyptian"
+
+
+ BAL_communism:0 "Baltic Commune"
+ BAL_communism_DEF:0 "Baltic Commune"
+
+ BAL_socialist:0 "Baltic Federation"
+ BAL_socialist_DEF:0 "Baltic Federation"
+
+ BAL_fascism:0 "Baltic Union"
+ BAL_fascism_DEF:0 "Baltic Union"
+
+ BAL_conservative:0 "Baltic Federation"
+ BAL_conservative_DEF:0 "Baltic Federation"
+
+ BAL_liberal:0 "Baltic Federation"
+ BAL_liberal_DEF:0 "Baltic Federation"
+
+ BAL_corporatist:0 "United Baltic Corporations"
+ BAL_corporatist_DEF:0 "United Baltic Corporations"
+
+ BAL_anarcho_capitalist:0 "Free Baltia"
+ BAL_anarcho_capitalist_DEF:0 "Anarcho-capitalist Baltia"
+
+ BAL_communism_ADJ:0 "Baltic"
+ BAL_socialist_ADJ:0 "Baltic"
+ BAL_fascism_ADJ:0 "Baltic"
+ BAL_conservative_ADJ:0 "Baltic"
+ BAL_liberal_ADJ:0 "Baltic"
+ BAL_corporatist_ADJ:0 "Baltic"
+ BAL_anarcho_capitalist_ADJ:0 "Baltic"
+
+
+ SIA_communism:0 "Siamese Commune"
+ SIA_communism_DEF:0 "Siamese Commune"
+
+ SIA_socialist:0 "Republic of Siam"
+ SIA_socialist_DEF:0 "Republic of Siam"
+
+ SIA_fascism:0 "Empire of Siam"
+ SIA_fascism_DEF:0 "Empire of Siam"
+
+ SIA_conservative:0 "Kingdom of Siam"
+ SIA_conservative_DEF:0 "Kingdom of Siam"
+
+ SIA_liberal:0 "Kingdom of Siam"
+ SIA_liberal_DEF:0 "Kingdom of Siam"
+
+ SIA_corporatist:0 "Corporate Siam"
+ SIA_corporatist_DEF:0 "Corporate Siam"
+
+ SIA_anarcho_capitalist:0 "Free Siam"
+ SIA_anarcho_capitalist_DEF:0 "Anarcho-capitalist Siam"
+
+ SIA_communism_ADJ:0 "Siamese"
+ SIA_socialist_ADJ:0 "Siamese"
+ SIA_fascism_ADJ:0 "Siamese"
+ SIA_conservative_ADJ:0 "Siamese"
+ SIA_liberal_ADJ:0 "Siamese"
+ SIA_corporatist_ADJ:0 "Siamese"
+ SIA_anarcho_capitalist_ADJ:0 "Siamese"
+
+
+ KAZ_communism:0 "Kyrgyz Commune"
+ KAZ_communism_DEF:0 "Kyrgyz Commune"
+
+ KAZ_socialist:0 "Republic of Kirgizistan"
+ KAZ_socialist_DEF:0 "Republic of Kirgizistan"
+
+ KAZ_fascism:0 "Empire of Kirgizistan"
+ KAZ_fascism_DEF:0 "Empire of Kirgizistan"
+
+ KAZ_conservative:0 "Kirgizistan"
+ KAZ_conservative_DEF:0 "Kirgizistan"
+
+ KAZ_liberal:0 "Republic of Kirgizistan"
+ KAZ_liberal_DEF:0 "Republic of Kirgizistan"
+
+ KAZ_corporatist:0 "Corporate Kirgizistan"
+ KAZ_corporatist_DEF:0 "Corporate Kirgizistan"
+
+ KAZ_anarcho_capitalist:0 "Free Kirgizistan"
+ KAZ_anarcho_capitalist_DEF:0 "Anarcho-capitalist Kirgizistan"
+
+ KAZ_communism_ADJ:0 "Kyrgyz"
+ KAZ_socialist_ADJ:0 "Kyrgyz"
+ KAZ_fascism_ADJ:0 "Kyrgyz"
+ KAZ_conservative_ADJ:0 "Kyrgyz"
+ KAZ_liberal_ADJ:0 "Kyrgyz"
+ KAZ_corporatist_ADJ:0 "Kyrgyz"
+ KAZ_anarcho_capitalist_ADJ:0 "Kyrgyz"
+
+
+ TMS_communism:0 "United Communes of Turkistan"
+ TMS_communism_DEF:0 "United Communes of Turkistan"
+
+ TMS_socialist:0 "Confederation of Turkistan"
+ TMS_socialist_DEF:0 "Confederation of Turkistan"
+
+ TMS_fascism:0 "Confederation of Turkistan"
+ TMS_fascism_DEF:0 "Confederation of Turkistan"
+
+ TMS_conservative:0 "Confederation of Turkistan"
+ TMS_conservative_DEF:0 "Confederation of Turkistan"
+
+ TMS_liberal:0 "Confederation of Turkistan"
+ TMS_liberal_DEF:0 "Confederation of Turkistan"
+
+ TMS_corporatist:0 "Corporate Turkistan"
+ TMS_corporatist_DEF:0 "Corporate Turkistan"
+
+ TMS_anarcho_capitalist:0 "Free Turkistan"
+ TMS_anarcho_capitalist_DEF:0 "Anarcho-capitalist Turkistan"
+
+ TMS_communism_ADJ:0 "Turkistani"
+ TMS_socialist_ADJ:0 "Turkistani"
+ TMS_fascism_ADJ:0 "Turkistani"
+ TMS_conservative_ADJ:0 "Turkistani"
+ TMS_liberal_ADJ:0 "Turkistani"
+ TMS_corporatist_ADJ:0 "Turkistani"
+ TMS_anarcho_capitalist_ADJ:0 "Turkistani"
+
+ COG_communism:0 ""
+ COG_communism_DEF:0 ""
+
+ COG_socialist:0 ""
+ COG_socialist_DEF:0 ""
+
+ COG_fascism:0 ""
+ COG_fascism_DEF:0 ""
+
+ COG_conservative:0 ""
+ COG_conservative_DEF:0 ""
+
+ COG_liberal:0 "Free Congo"
+ COG_liberal_DEF:0 "Free Congo"
+
+ COG_corporatist:0 ""
+ COG_corporatist_DEF:0 ""
+
+ COG_anarcho_capitalist:0 ""
+ COG_anarcho_capitalist_DEF:0 ""
+
+ COG_communism_ADJ:0 ""
+ COG_socialist_ADJ:0 ""
+ COG_fascism_ADJ:0 ""
+ COG_conservative_ADJ:0 ""
+ COG_liberal_ADJ:0 ""
+ COG_corporatist_ADJ:0 ""
+ COG_anarcho_capitalist_ADJ:0 ""
+
+ ######################################################################################
+
+ BLR_communism:0 "Soviet Belarus"
+ BLR_communism_DEF:0 "Soviet Socialist Republic of Belarus"
+
+ BLR_socialist:0 "People's Republic of Belarus"
+ BLR_socialist_DEF:0 "People's Republic of Belarus"
+
+ BLR_fascism:0 "Belarus"
+ BLR_fascism_DEF:0 "Belarus"
+
+ BLR_conservative:0 "Belarus"
+ BLR_conservative_DEF:0 "Belarus"
+
+ BLR_liberal:0 "Republic of Belarus"
+ BLR_liberal_DEF:0 "Republic of Belarus"
+
+ BLR_corporatist:0 "Corporate Belarus"
+ BLR_corporatist_DEF:0 "Corporate Belarus"
+
+ BLR_anarcho_capitalist:0 "Free Belarus"
+ BLR_anarcho_capitalist_DEF:0 "Anarcho-capitalist Belarus"
+
+ BLR_communism_ADJ:0 "Belarusian"
+ BLR_socialist_ADJ:0 "Belarusian"
+ BLR_fascism_ADJ:0 "Belarusian"
+ BLR_conservative_ADJ:0 "Belarusian"
+ BLR_liberal_ADJ:0 "Belarusian"
+ BLR_corporatist_ADJ:0 "Belarusian"
+ BLR_anarcho_capitalist_ADJ:0 "Belarusian"
+
+
+
+"FACTION_NAME_COMMUNISM_1":0 "$CONTINENT_ADJ$ International"
+"FACTION_NAME_COMMUNISM_2":0 "$LEADER_COUNTRY$ Comintern"
+
+"FACTION_NAME_SOCIALIST_1":0 "$CONTINENT_ADJ$ Defense League"
+"FACTION_NAME_SOCIALIST_2":0 "$CONTINENT_ADJ$ Pact"
+"FACTION_NAME_SOCIALIST_3":0 "$CONTINENT_ADJ$ League"
+"FACTION_NAME_SOCIALIST_4":0 "$CONTINENT_ADJ$ Confederation"
+
+"FACTION_NAME_FASCISM_1":0 "Brotherhood of $CONTINENT$"
+"FACTION_NAME_FASCISM_2":0 "$LEADER_COUNTRY$ Coalition"
+"FACTION_NAME_FASCISM_3":0 "$CONTINENT_ADJ$ Pact"
+"FACTION_NAME_FASCISM_4":0 "The $LEADER_COUNTRY$ Coalition"
+"FACTION_NAME_FASCISM_5":0 "$CONTINENT_ADJ$ League"
+
+"FACTION_NAME_CONSERVATIVE_1":0 "$LEADER_COUNTRY_ADJ$ Bloc"
+"FACTION_NAME_CONSERVATIVE_2":0 "$LEADER_COUNTRY$ Coalition"
+"FACTION_NAME_CONSERVATIVE_3":0 "$CONTINENT_ADJ$ Federation"
+"FACTION_NAME_CONSERVATIVE_4":0 "$CONTINENT_ADJ$ Pact"
+"FACTION_NAME_CONSERVATIVE_5":0 "The $LEADER_COUNTRY$ Coalition"
+"FACTION_NAME_CONSERVATIVE_6":0 "$CONTINENT_ADJ$ Confederation"
+
+"FACTION_NAME_LIBERAL_1":0 "$CONTINENT_ADJ$ Entente"
+"FACTION_NAME_LIBERAL_2":0 "$CONTINENT_ADJ$ Defense League"
+"FACTION_NAME_LIBERAL_3":0 "$CONTINENT_ADJ$ Pact"
+"FACTION_NAME_LIBERAL_4":0 "$CONTINENT_ADJ$ Group"
+"FACTION_NAME_LIBERAL_5":0 "$CONTINENT_ADJ$ League"
+"FACTION_NAME_LIBERAL_6":0 "$CONTINENT_ADJ$ Confederation"
+
+"FACTION_NAME_CORPORATIST_1":0 "$CONTINENT_ADJ$ Association"
+"FACTION_NAME_CORPORATIST_2":0 "$CONTINENT_ADJ$ Congress"
+"FACTION_NAME_CORPORATIST_3":0 "$CONTINENT_ADJ$ Group"
+
+"FACTION_NAME_ANARCHO_CAPITALIST_1":0 "$CONTINENT_ADJ$ Treaty"
+"FACTION_NAME_ANARCHO_CAPITALIST_2":0 "$CONTINENT_ADJ$ Group"

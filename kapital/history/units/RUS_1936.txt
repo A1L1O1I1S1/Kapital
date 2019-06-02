@@ -1,0 +1,339 @@
+﻿division_template = {
+	name = "Pekhotnaya Diviziya"			# Infantry Division
+
+	division_names_group = RUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Motostrelkovaya Diviziya"			# Motorised Division
+
+	division_names_group = RUS_MOT_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Tankovaya Diviziya"			# Armor Division
+
+	division_names_group = RUS_MEC_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		light_armor = { x = 2 y = 0 }
+	}
+}
+division_template = {
+	name = "Gornostrelkovaya Diviziya"			# Mountaineers Division
+
+	division_names_group = RUS_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Kavaleriyskaya Diviziya"			# Cavalry Division
+
+	division_names_group = RUS_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+units = {
+	division = {
+		name = "1aya Pekhotnaya"
+		location = 9342
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "2aya Pekhotnaya"
+		location = 6344
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "3aya Pekhotnaya"
+		location = 6233
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "4aya Pekhotnaya"
+		location = 9371
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "5aya Pekhotnaya"
+		location = 11271
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "6aya Pekhotnaya"
+		location = 6232
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "7aya Pekhotnaya"
+		location = 11342
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "8aya Pekhotnaya"
+		location = 11220
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "9aya Pekhotnaya"
+		location = 323
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "10aya Pekhotnaya"
+		location = 3331
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "11aya Pekhotnaya"
+		location = 6326
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "12aya Pekhotnaya"
+		location = 3219
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "13aya Pekhotnaya"
+		location = 358
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "14aya Pekhotnaya"
+		location = 6319
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "15aya Pekhotnaya"
+		location = 9289
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "16aya Pekhotnaya"
+		location = 6408
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "17aya Pekhotnaya"
+		location = 6408
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "18aya Pekhotnaya"
+		location = 315
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "19aya Pekhotnaya"
+		location = 6386
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "20aya Pekhotnaya"
+		location = 11272
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "21aya Pekhotnaya"
+		location = 957
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "22aya Pekhotnaya"
+		location = 957
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "23aya Pekhotnaya"
+		location = 9056
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "24aya Pekhotnaya"
+		location = 3009
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "25aya Pekhotnaya"
+		location = 11105
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "26aya Pekhotnaya"
+		location = 6724
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "1aya Kavaleriyskaya"
+		location = 3529
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "2aya Kavaleriyskaya"
+		location = 3267
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "3aya Kavaleriyskaya"
+		location = 216
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "1aya Motostrelkovaya"
+		location = 3507
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+
+ #
+
+	division = {
+		name = "1aya Tankovaya"
+		location = 310
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "2aya Tankovaya"
+		location = 9355
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+
+ #
+
+	division = {
+		name = "1aya Gornostrelkovaya"
+		location = 3672
+		division_template = "Gornostrelkovaya Diviziya"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.1
+	}
+
+
+
+
+
+
+
+
+
+
+}

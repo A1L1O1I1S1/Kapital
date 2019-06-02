@@ -1,0 +1,144 @@
+﻿capital = 195
+
+oob = "RUS_1936"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
+add_ideas = {
+    disarmed_nation
+	RUS_oryol_treaty
+}
+
+puppet = BAL
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+set_convoys = 50
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 4
+		}
+
+		socialist = {
+			popularity = 19
+		}
+		
+		liberal = {
+			popularity = 1
+		}
+
+		anarcho_capitalist = {
+			popularity = 28
+		}
+
+		corporatist = {
+			popularity = 0
+		}
+
+		conservative = {
+			popularity = 21
+		}
+		
+		fascism = {
+			popularity = 27
+		}
+
+	}
+	
+	ruling_party = socialist
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alex Normalny"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Russia_Alex_Normalny.dds"
+	expire = "1953.3.1"
+	ideology = social_democracy
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Svetoslav Medvedev"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	#picture = ""
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Natalya Putina"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Russia_Natalya_Putina.dds"
+	expire = "1953.3.1"
+	ideology = colonial_administration
+	traits = { }
+}
+
+
+set_province_controller = 6232
+set_province_controller = 3507
+set_province_controller = 6319
+set_province_controller = 9342
+set_province_controller = 6344
+set_province_controller = 3331
+set_province_controller = 11220
+set_province_controller = 9371
+set_province_controller = 11271
+set_province_controller = 6233
+set_province_controller = 216
+set_province_controller = 3267
+set_province_controller = 358
+set_province_controller = 9289
+set_province_controller = 3219
+set_province_controller = 6326
+set_province_controller = 323
+
+set_province_controller = 6371
+set_province_controller = 6292
+set_province_controller = 11453
+set_province_controller = 3293
+set_province_controller = 6371
+set_province_controller = 6292
+set_province_controller = 331
+
+set_province_controller = 3203
+set_province_controller = 6220
+set_province_controller = 11342

@@ -1,0 +1,6 @@
+form_german_empire_category = {
+
+	icon = generic_monarchism
+
+	allowed = { original_tag = PRS }
+}

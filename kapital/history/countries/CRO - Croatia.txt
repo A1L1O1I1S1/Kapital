@@ -1,0 +1,73 @@
+﻿capital = 109
+
+set_research_slots = 2
+
+oob = "CRO_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 2
+		}
+
+		socialist = {
+			popularity = 7
+		}
+		
+		fascism = {
+			popularity = 56
+		}
+
+		conservative = {
+			popularity = 28
+		}
+
+		liberal = {
+			popularity = 4
+		}
+
+		corporatist = {
+			popularity = 0
+		}
+
+		anarcho_capitalist = {
+			popularity = 3
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ante Pavelic"
+	desc = "ANTE_PAVELIC_DESC"
+	picture = "Portrait_Croatia_Ante_Pavelic.dds"
+	expire = "1965.1.1"
+	ideology = orthodox_fascism
+	traits = { }
+}
+
+set_province_controller = 6672
+set_province_controller = 665
+set_province_controller = 6957
+set_province_controller = 6942

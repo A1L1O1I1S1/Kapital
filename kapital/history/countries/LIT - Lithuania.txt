@@ -1,0 +1,78 @@
+﻿capital = 784
+
+oob = "LIT_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 0
+		}
+
+		socialist = {
+			popularity = 46
+		}
+		
+		fascism = {
+			popularity = 30
+		}
+
+		conservative = {
+			popularity = 11
+		}
+
+		liberal = {
+			popularity = 9
+		}
+
+		corporatist = {
+			popularity = 1
+		}
+
+		anarcho_capitalist = {
+			popularity = 3
+		}
+
+	}
+	
+	ruling_party = socialist
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_cosmetic_tag = LIT_commonwealth
+
+create_country_leader = {
+	name = "Stanisław Narutowicz"
+	desc = "POLITICS_ANTANAS_SMETONA_DESC"
+	picture = "Portrait_Lithuania_Stanislaw_Narutowicz.dds"
+	expire = "1965.1.1"
+	ideology = radical_socialism
+	traits = { }
+}
+
+create_corps_commander = {
+	name = "Lucjan Żeligowski"
+	picture = "Portrait_Lithuania_Lucjan_Zeligowski.dds"
+	traits = { trickster  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

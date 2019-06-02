@@ -1,0 +1,19 @@
+state={
+	id=790
+	name="STATE_790"
+
+	history={
+		owner = TMS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TMS
+	}
+
+	provinces={
+		4651 7711 7795 7856 10550 10619 10680 12529 12662 13197 13149
+	}
+	manpower=281679
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

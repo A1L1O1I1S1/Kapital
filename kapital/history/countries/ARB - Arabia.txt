@@ -1,0 +1,58 @@
+﻿capital = 292
+
+oob = "ARB_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+complete_national_focus = generic_focus_declare_a_monarchy
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 0
+		}
+
+		socialist = {
+			popularity = 1
+		}
+		
+		fascism = {
+			popularity = 18
+		}
+
+		conservative = {
+			popularity = 65
+		}
+
+		liberal = {
+			popularity = 3
+		}
+
+		corporatist = {
+			popularity = 9
+		}
+
+		anarcho_capitalist = {
+			popularity = 4
+		}
+	}
+	
+	ruling_party = conservative
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hammoud I"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Arabia_Hammoud_I.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_conservatism
+	traits = { }
+}

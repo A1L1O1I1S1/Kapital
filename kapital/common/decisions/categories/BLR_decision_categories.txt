@@ -1,0 +1,9 @@
+#################
+#### BELARUS ####
+#################
+
+BLR_revolt_timer_category = {
+
+	icon = generic_independence
+	allowed = { original_tag = BLR }
+}

@@ -1,0 +1,44 @@
+ideas = {
+
+	country = {
+
+		SIA_socialist_agitaion = {
+			allowed = { original_tag = SIA }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = FRA_national_mobilization_focus
+			
+			modifier = {
+			    socialist_drift = 0.2
+			}
+		}
+
+		SIA_overextension= {
+			allowed = { original_tag = SIA }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = generic_central_management
+			
+			modifier = {
+                stability_factor = -0.35
+                war_support_factor = -0.35
+			}
+		}
+
+		SIA_reformed_administration= {
+			allowed = { original_tag = SIA }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = generic_local_self_management
+			
+			modifier = {
+			    political_power_gain = 0.15
+                stability_factor = -0.05
+                war_support_factor = -0.05
+			}
+		}
+    }
+}

@@ -1,0 +1,60 @@
+﻿capital = 266
+
+oob = "PER_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_convoys = 10
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 0
+		}
+
+		socialist = {
+			popularity = 1
+		}
+		
+		fascism = {
+			popularity = 9
+		}
+
+		conservative = {
+			popularity = 17
+		}
+
+		liberal = {
+			popularity = 0
+		}
+
+		corporatist = {
+			popularity = 35
+		}
+
+		anarcho_capitalist = {
+			popularity = 38
+		}
+	}
+	
+	ruling_party = anarcho_capitalist
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Soleyman Mirza Eskandari"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = { }
+}

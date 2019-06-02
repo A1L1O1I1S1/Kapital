@@ -1,0 +1,32 @@
+﻿units = {
+	
+	fleet = {
+		name = "Kriegsmarine"			
+		naval_base = 6332
+		task_force = {				
+			name = "Hochseeflotte"
+			location = 6332
+
+			ship = { name = "Kaiser Wilhelm" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.48 equipment = { ship_hull_heavy_1 = { amount = 1 owner = PRS version_name = "Kaiser Wilhelm Class" } } }	
+
+			ship = { name = "Jaguar" definition = destroyer start_experience_factor = 0.21 equipment = { ship_hull_light_1 = { amount = 1 owner = PRS version_name = "Prussia Class" } } }
+			ship = { name = "Leopard" definition = destroyer start_experience_factor = 0.13 equipment = { ship_hull_light_1 = { amount = 1 owner = PRS version_name = "Prussia Class" } } }
+			ship = { name = "Luchs" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRS version_name = "Wolf Class" } } }
+		}
+	}
+}
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "PRS" 
+			version_name = "Prussia Class"
+		}
+		requested_factories = 1
+		progress = 0.03
+		amount = 1
+	}
+
+}

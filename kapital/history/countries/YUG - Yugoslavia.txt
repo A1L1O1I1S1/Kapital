@@ -1,0 +1,97 @@
+﻿capital = 107
+
+oob = "YUG_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antitank = 1
+	gw_artillery = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	superior_firepower = 1
+}
+
+set_convoys = 10
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 7
+		}
+
+		socialist = {
+			popularity = 52
+		}
+		
+		fascism = {
+			popularity = 21
+		}
+
+		conservative = {
+			popularity = 8
+		}
+
+		liberal = {
+			popularity = 9
+		}
+
+		corporatist = {
+			popularity = 0
+		}
+
+		anarcho_capitalist = {
+			popularity = 3
+		}
+
+	}
+	
+	ruling_party = socialist
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_stability = 0.5
+
+create_country_leader = {
+	name = "Josip Broz Tito"
+	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
+	picture = "Portrait_Yugoslavia_Josip_Broz_Tito.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_socialism
+	traits = { }
+}
+
+set_province_controller = 3939
+set_province_controller = 3922
+set_province_controller = 937
+set_province_controller = 6913
+set_province_controller = 11858
+set_province_controller = 9821
+set_province_controller = 9591
+set_province_controller = 11574
+set_province_controller = 11577
+set_province_controller = 6647
+set_province_controller = 3627
+set_province_controller = 11594
+set_province_controller = 9595
+set_province_controller = 3868
+set_province_controller = 3943
+set_province_controller = 3974
+set_province_controller = 984
+set_province_controller = 11901
+set_province_controller = 6611
+set_province_controller = 591
+set_province_controller = 3601
+set_province_controller = 6614
+set_province_controller = 3596
+set_province_controller = 3592

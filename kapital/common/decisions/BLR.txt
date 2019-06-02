@@ -1,0 +1,27 @@
+#Category only allowed for BLR
+BLR_revolt_timer_category = {
+
+	BLR_revolt_timer_mission = {
+
+		allowed = { always = no }
+
+		icon = generic_independence
+
+		available = {
+			always = no
+		}
+
+		selectable_mission = no
+		days_mission_timeout = 70
+		is_good = no
+		fire_only_once = yes
+
+		timeout_effect = {
+            country_event = { id = belarus.1 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

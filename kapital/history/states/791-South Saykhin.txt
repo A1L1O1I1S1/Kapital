@@ -1,0 +1,21 @@
+state={
+	id=791
+	name="STATE_791"
+
+	history={
+		owner = TMS
+		add_core_of = TMS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4578 4636 4686 7556 7597 7600 7657 7777 10148 10353 10366 10506 10601 12329 12340 12397
+	}
+	manpower=332518
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

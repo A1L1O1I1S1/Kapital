@@ -1,0 +1,168 @@
+﻿division_template = {
+	name = "Piachotnaja Dyvizija"			# Infantry Division
+
+	division_names_group = BLR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liohkaja Dyvizija" 			# Light Division
+
+	division_names_group = BLR_CAV_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Belarusian Division"
+		location = 9249
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Belarusian Division"
+		location = 342
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.70
+	}
+	division = {
+		name = "3rd Belarusian Division"
+		location = 3378
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Belarusian Division"
+		location = 11322
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.83
+	}
+	division = {
+		name = "5th Belarusian Division"
+		location = 6373
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.91
+	}
+	division = {
+		name = "6th Belarusian Division"
+		location = 11370
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "7th Belarusian Division"
+		location = 11370
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.69
+	}
+	division = {
+		name = "8th Belarusian Division"
+		location = 215
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "9th Belarusian Division"
+		location = 6340
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.91
+	}
+
+ #
+
+	division = {
+		name = "Belarusian Revolters 1"
+		location = 9247
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "Belarusian Revolters 2"
+		location = 9288
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "Belarusian Revolters 3"
+		location = 11383
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.93
+	}
+	division = {
+		name = "Belarusian Revolters 4"
+		location = 11241
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "Belarusian Revolters 5"
+		location = 11355
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "Belarusian Revolters 6"
+		location = 6249
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.97
+	}
+	division = {
+		name = "Belarusian Revolters 7"
+		location = 9241
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Belarusian Revolters 8"
+		location = 233
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.70
+	}
+	division = {
+		name = "Belarusian Revolters 9"
+		location = 3392
+		division_template = "Liohkaja Dyvizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.91
+	}
+}
+
+air_wings = {
+	206 = {
+		fighter_equipment_0 = {
+			owner = "RUS"
+			amount = 15
+		}
+		tac_bomber_equipment_0 = {
+			owner = "RUS"
+			amount = 3
+		}
+	}
+}

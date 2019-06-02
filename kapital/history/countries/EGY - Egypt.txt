@@ -1,0 +1,55 @@
+﻿capital = 446
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+
+	parties = {
+		communism = { 
+			popularity = 0
+		}
+
+		socialist = {
+			popularity = 1
+		}
+		
+		fascism = {
+			popularity = 34
+		}
+
+		conservative = {
+			popularity = 60
+		}
+
+		liberal = {
+			popularity = 4
+		}
+
+		corporatist = {
+			popularity = 0
+		}
+
+		anarcho_capitalist = {
+			popularity = 1
+		}
+	}
+	
+	ruling_party = conservative
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Farouk Muhammad Ali"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	ideology = despotism
+	traits = { }
+}

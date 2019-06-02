@@ -1,0 +1,271 @@
+ideas = {
+
+	country = {
+
+		BLR_bgs = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = saf_soviet_advisers
+			
+			modifier = {
+			    political_power_factor = -0.2
+			    max_planning = 0.10
+			    planning_speed = 0.05
+			    max_command_power = 5
+			}
+		}
+
+		BLR_competent_officers = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = generic_reserve_divisions
+			
+			modifier = {
+			    military_leader_cost_factor = 0.50
+                army_leader_start_level = 1
+                army_leader_start_attack_level= 1
+                army_leader_start_planning_level= 1
+                army_leader_start_defense_level= 1
+                army_leader_start_logistics_level= 1
+			}
+		}
+
+		BLR_idea_experimental_research = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = generic_research_bonus
+			
+			modifier = {
+			    research_speed_factor = 0.03
+			}
+		}
+
+		BLR_idea_revolutionary_army = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = MEX_revolutionary_army
+			
+			modifier = {
+			    army_attack_factor = 0.15
+			    army_defence_factor = 0.15
+			}
+		}
+
+		BLR_idea_kdb = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = generic_communist_army
+			
+			modifier = {
+			    stability_factor = 0.10
+			    encryption_factor = 0.50
+			    foreign_subversive_activites = -0.50
+			    enemy_partisan_effect = -0.50
+			}
+		}
+
+		BLR_idea_youth_organizations = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = trotskyite_plot_purged
+			
+			modifier = {
+			    industry_repair_factor = 0.05
+			    army_core_attack_factor = 0.03
+			    army_core_defence_factor = 0.03
+			}
+		}
+
+		BLR_idea_expansionism = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = nkvd_2
+			
+			modifier = {
+			    justify_war_goal_time = -0.75
+			}
+		}
+
+		BLR_idea_agrarian_reform = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = generic_agrarian_society
+			
+			modifier = {
+			    consumer_goods_factor = -0.05
+			}
+		}
+
+		BLR_idea_planned_economy = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = eng_spirit_of_the_industrial_revolution
+			
+			modifier = {
+			    industrial_capacity_factory = 0.15
+			    production_factory_max_efficiency_factor = 0.05
+			    production_factory_efficiency_gain_factor = 0.05
+			    production_factory_start_efficiency_factor = 0.05
+			}
+		}
+
+		BLR_idea_seized_assets = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = eng_tackle_capitalism
+			
+			modifier = {
+			    stability_factor = -0.05
+			    consumer_goods_factor = -0.25
+			}
+		}
+	}
+
+	political_advisor = {
+
+		BLR_ivan_petrov = {
+
+			picture = idea_ivan_petrov
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { prince_of_terror }
+		}
+	}
+
+	materiel_manufacturer = {
+		BLR_maz = {
+
+			picture = idea_maz
+
+			allowed = { original_tag = BLR }
+
+			research_bonus = {
+				motorized_equipment = 0.10
+				mot_rockets = 0.50
+			}
+
+			traits = { motorized_equipment_manufacturer }
+
+			modifier = { }
+		}
+	}
+
+	theorist = {
+
+		BLR_daniil_vasilyev = {
+					
+			picture = idea_daniil_vasilyev
+
+			allowed = {
+				original_tag = BLR
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+	}
+
+	industrial_concern = {
+
+		BLR_bsu = {
+			
+			picture = idea_bsu
+
+			allowed = { original_tag = BLR }
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+			
+			modifier = { }
+		}
+	}
+
+	army_chief = {
+
+		BLR_gregor_lucas = {
+
+			picture = idea_gregor_lucas
+			
+			allowed = { original_tag = BLR }
+			
+			traits = { army_chief_organizational_1 }			
+		}
+	}
+
+	air_chief = {
+
+		BLR_akim_krasnov = {
+
+			picture = idea_akim_krasnov
+			
+			allowed = { original_tag = BLR }
+			
+			traits = { air_chief_reform_1 }			
+		}
+	}
+
+	high_command = {
+
+		BLR_innokenty_alekseyev = {
+			
+			picture = idea_innokenty_alekseyev
+			
+			allowed = {
+				original_tag = BLR
+			}
+						
+			traits = { army_regrouping_2 }
+		}
+
+		BLR_anton_penkov = {
+			
+			picture = idea_anton_penkov
+			
+			allowed = {
+				original_tag = BLR
+			}
+						
+			traits = { army_concealment_2 }
+		}
+
+		BLR_philip_margelovich = {
+			
+			picture = idea_philip_margelovich
+			
+			allowed = {
+				original_tag = BLR
+			}
+						
+			traits = { air_airborne_2 }
+		}
+    }
+}

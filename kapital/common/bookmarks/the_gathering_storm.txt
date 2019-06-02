@@ -1,0 +1,121 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+
+		"XEN"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"RUS"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = socialist
+			ideas = {
+                RUS_oryol_treaty
+			}
+			focuses = {
+
+			}	
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = liberal
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"CAC"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = anarcho_capitalist
+
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"POL"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+
+			}
+			focuses = {
+			
+			}	
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}	
+			focuses = {
+
+			}		
+		}
+	
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		"BLR"={
+			minor = yes
+			history = "BLR_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				BLR_bgs
+				BLR_organized_uprising
+			}
+			focuses = {
+				BLR_independent_force
+				BLR_proclaim_the_soviet_union
+				BLR_northern_allies
+			}
+		}
+
+		"SIA"={
+			minor = yes
+			history = "BLR_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				SIA_socialist_agitaion
+                SIA_overextension
+			}
+			focuses = {
+				SIA_the_peasant_march
+				SIA_local_self_rule
+				SIA_strengthen_british_ties
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
