@@ -13,39 +13,16 @@ set_technology = {
 	tech_mountaineers = 1
 	early_fighter = 1
 }
-
+set_popularities = {
+	communism = 0
+	socialist = 7
+	liberal = 5
+	anarcho_capitalist = 6
+	corporatist = 4
+	conservative = 38
+	fascism = 40
+}
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 7
-		}
-		
-		fascism = {
-			popularity = 40
-		}
-
-		conservative = {
-			popularity = 38
-		}
-
-		liberal = {
-			popularity = 5
-		}
-
-		corporatist = {
-			popularity = 4
-		}
-
-		anarcho_capitalist = {
-			popularity = 6
-		}
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48

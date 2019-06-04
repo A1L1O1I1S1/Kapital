@@ -32,43 +32,21 @@ add_to_faction = UKC
 
 set_convoys = 10
 
+set_popularities = {
+	communism = 0
+	socialist = 8
+	liberal = 9
+	anarcho_capitalist = 2
+	corporatist = 0
+	conservative = 60
+	fascism = 21
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 8
-		}
-		
-		fascism = {
-			popularity = 21
-		}
-
-		conservative = {
-			popularity = 60
-		}
-
-		liberal = {
-			popularity = 9
-		}
-
-		corporatist = {
-			popularity = 0
-		}
-
-		anarcho_capitalist = {
-			popularity = 2
-		}
-
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

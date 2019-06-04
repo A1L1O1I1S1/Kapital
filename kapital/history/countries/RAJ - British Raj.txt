@@ -19,45 +19,23 @@ set_technology = {
 	
 }
 
-complete_national_focus = generic_focus_declare_a_monarchy
+
 
 set_convoys = 20
 
 set_cosmetic_tag = RAJ_UK # British Raj
 
+set_popularities = {
+	communism = 0
+	socialist = 1
+	liberal = 7
+	anarcho_capitalist = 18
+	corporatist = 45
+	conservative = 10
+	fascism = 19
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 1
-		}
-		
-		fascism = {
-			popularity = 19
-		}
-
-		conservative = {
-			popularity = 10
-		}
-
-		liberal = {
-			popularity = 7
-		}
-
-		corporatist = {
-			popularity = 45
-		}
-
-		anarcho_capitalist = {
-			popularity = 18
-		}
-
-	}
-	
 	ruling_party = corporatist
 	last_election = "1932.11.27"
 	election_frequency = 48

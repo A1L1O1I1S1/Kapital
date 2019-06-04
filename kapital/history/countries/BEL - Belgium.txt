@@ -18,39 +18,18 @@ set_technology = {
 
 }
 
+set_popularities = {
+	communism = 0
+	socialist = 12
+	liberal = 8
+	anarcho_capitalist = 1
+	corporatist = 0
+	conservative = 13
+	fascism = 66
+}
+
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 12
-		}
-		
-		fascism = {
-			popularity = 66
-		}
-
-		conservative = {
-			popularity = 13
-		}
-
-		liberal = {
-			popularity = 8
-		}
-
-		corporatist = {
-			popularity = 0
-		}
-
-		anarcho_capitalist = {
-			popularity = 1
-		}
-
-	}
-	
 	ruling_party = fascism
 	last_election = "1932.11.27"
 	election_frequency = 48

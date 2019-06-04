@@ -29,46 +29,21 @@ set_technology = {
 	transport = 1
 }
 
-puppet = FIN
-puppet = EST
-puppet = LAT
+set_popularities = {
+	communism = 0
+	socialist = 51
+	liberal = 7
+	anarcho_capitalist = 0
+	corporatist = 3
+	conservative = 19
+	fascism = 20
+}
 
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 51
-		}
-		
-		fascism = {
-			popularity = 20
-		}
-
-		conservative = {
-			popularity = 19
-		}
-
-		liberal = {
-			popularity = 7
-		}
-
-		corporatist = {
-			popularity = 3
-		}
-
-		anarcho_capitalist = {
-			popularity = 0
-		}
-	}
-	
 	ruling_party = socialist
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_faction = scandinavian_union

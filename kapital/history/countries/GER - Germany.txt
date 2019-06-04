@@ -47,43 +47,21 @@ set_convoys = 200
 set_stability = 0.5
 set_war_support = 0.5
 
+set_popularities = {
+	communism = 0
+	socialist = 16
+	liberal = 9
+	anarcho_capitalist = 2
+	corporatist = 3
+	conservative = 18
+	fascism = 52
+}
 
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 16
-		}
-		
-		fascism = {
-			popularity = 52
-		}
-
-		conservative = {
-			popularity = 18
-		}
-
-		liberal = {
-			popularity = 9
-		}
-
-		corporatist = {
-			popularity = 3
-		}
-
-		anarcho_capitalist = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = fascism
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

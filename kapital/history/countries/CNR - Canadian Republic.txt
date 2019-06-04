@@ -26,38 +26,17 @@ set_technology = {
 	fleet_in_being = 1
 }
 
+set_popularities = {
+	communism = 7
+	socialist = 28
+	liberal = 5
+	anarcho_capitalist = 1
+	corporatist = 0
+	conservative = 4
+	fascism = 55
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 7
-		}
-
-		socialist = {
-			popularity = 28
-		}
-		
-		fascism = {
-			popularity = 55
-		}
-
-		conservative = {
-			popularity = 4
-		}
-
-		liberal = {
-			popularity = 5
-		}
-
-		corporatist = {
-			popularity = 0
-		}
-
-		anarcho_capitalist = {
-			popularity = 1
-		}
-	}
-	
 	ruling_party = fascism
 	last_election = "1932.11.27"
 	election_frequency = 48

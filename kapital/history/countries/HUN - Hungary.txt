@@ -16,45 +16,23 @@ set_technology = {
 	early_fighter = 1
 	CAS1 = 1
 }
-complete_national_focus = generic_focus_declare_a_monarchy
+
+
+set_popularities = {
+	communism = 0
+	socialist = 5
+	liberal = 9
+	anarcho_capitalist = 3
+	corporatist = 0
+	conservative = 52
+	fascism = 31
+}
 
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 5
-		}
-		
-		fascism = {
-			popularity = 31
-		}
-
-		conservative = {
-			popularity = 52
-		}
-
-		liberal = {
-			popularity = 9
-		}
-
-		corporatist = {
-			popularity = 0
-		}
-
-		anarcho_capitalist = {
-			popularity = 3
-		}
-
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

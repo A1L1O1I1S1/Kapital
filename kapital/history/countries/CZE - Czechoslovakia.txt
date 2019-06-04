@@ -20,42 +20,21 @@ set_technology = {
 
 set_research_slots = 3
 
+set_popularities = {
+	communism = 0
+	socialist = 3
+	liberal = 54
+	anarcho_capitalist = 7
+	corporatist = 0
+	conservative = 19
+	fascism = 17
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 3
-		}
-		
-		fascism = {
-			popularity = 17
-		}
-
-		conservative = {
-			popularity = 19
-		}
-
-		liberal = {
-			popularity = 54
-		}
-
-		corporatist = {
-			popularity = 0
-		}
-
-		anarcho_capitalist = {
-			popularity = 7
-		}
-	}
-	
 	ruling_party = liberal
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

@@ -30,7 +30,7 @@ country_event = {
       RUS = { transfer_state = 207 }
       RUS = { transfer_state = 241 }
       drop_cosmetic_tag = yes
-      remove_ideas = { BLR_organized_uprising }
+      remove_ideas = BLR_organized_uprising
       set_country_flag = BLR_flag_uprising_successful
       add_ideas = limited_conscription
       add_ideas = low_economic_mobilisation

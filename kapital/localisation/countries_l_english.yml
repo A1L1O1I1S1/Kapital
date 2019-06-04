@@ -361,32 +361,32 @@
  XEN_communism:0 "Xeno Empire"
  XEN_communism_DEF:0 "Xeno Empire"
 
- XEN_socialist:0 "Xeno Empire"
- XEN_socialist_DEF:0 "Xeno Empire"
+ XEN_socialist:0 "South American Authority"
+ XEN_socialist_DEF:0 "South American Authority"
 
- XEN_fascism:0 "Xeno Empire"
- XEN_fascism_DEF:0 "Xeno Empire"
+ XEN_fascism:0 "South American Authority"
+ XEN_fascism_DEF:0 "South American Authority"
 
- XEN_conservative:0 "Xeno Empire"
- XEN_conservative_DEF:0 "Xeno Empire"
+ XEN_conservative:0 "South American Authority"
+ XEN_conservative_DEF:0 "South American Authority"
 
- XEN_liberal:0 "Xeno Empire"
- XEN_liberal_DEF:0 "Xeno Empire"
+ XEN_liberal:0 "South American Authority"
+ XEN_liberal_DEF:0 "South American Authority"
 
- XEN_corporatist:0 "Xeno Empire"
- XEN_corporatist_DEF:0 "Xeno Empire"
+ XEN_corporatist:0 "South American Authority"
+ XEN_corporatist_DEF:0 "South American Authority"
 
- XEN_anarcho_capitalist:0 "Xeno Empire"
- XEN_anarcho_capitalist_DEF:0 "Xeno Empire"
+ XEN_anarcho_capitalist:0 "South American Authority"
+ XEN_anarcho_capitalist_DEF:0 "South American Authority"
 
 
  XEN_communism_ADJ:0 "Xeno"
- XEN_socialist_ADJ:0 "Xeno"
- XEN_fascism_ADJ:0 "Xeno"
- XEN_conservative_ADJ:0 "Xeno"
- XEN_liberal_ADJ:0 "Xeno"
- XEN_corporatist_ADJ:0 "Xeno"
- XEN_anarcho_capitalist_ADJ:0 "Xeno"
+ XEN_socialist_ADJ:0 "South American"
+ XEN_fascism_ADJ:0 "South American"
+ XEN_conservative_ADJ:0 "South American"
+ XEN_liberal_ADJ:0 "South American"
+ XEN_corporatist_ADJ:0 "South American"
+ XEN_anarcho_capitalist_ADJ:0 "South American"
 
  USA_communism:0 "United Socialist States"
  USA_communism_DEF:0 "United Socialist States of America"

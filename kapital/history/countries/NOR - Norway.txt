@@ -21,42 +21,21 @@ set_technology = {
 
 set_convoys = 80		# biggest merchant marine in the world
 
+set_popularities = {
+	communism = 0
+	socialist = 47
+	liberal = 9
+	anarcho_capitalist = 4
+	corporatist = 1
+	conservative = 32
+	fascism = 7
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 47
-		}
-		
-		fascism = {
-			popularity = 7
-		}
-
-		conservative = {
-			popularity = 32
-		}
-
-		liberal = {
-			popularity = 9
-		}
-
-		corporatist = {
-			popularity = 1
-		}
-
-		anarcho_capitalist = {
-			popularity = 4
-		}
-	}
-	
 	ruling_party = socialist
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

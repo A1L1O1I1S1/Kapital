@@ -16,43 +16,21 @@ set_technology = {
 
 set_convoys = 10
 
+set_popularities = {
+	communism = 0
+	socialist = 46
+	liberal = 9
+	anarcho_capitalist = 3
+	corporatist = 1
+	conservative = 11
+	fascism = 30
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 46
-		}
-		
-		fascism = {
-			popularity = 30
-		}
-
-		conservative = {
-			popularity = 11
-		}
-
-		liberal = {
-			popularity = 9
-		}
-
-		corporatist = {
-			popularity = 1
-		}
-
-		anarcho_capitalist = {
-			popularity = 3
-		}
-
-	}
-	
 	ruling_party = socialist
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_cosmetic_tag = LIT_commonwealth

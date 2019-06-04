@@ -89,7 +89,6 @@ bookmarks = {
 			ideology = communism
 			ideas = {
 				BLR_bgs
-				BLR_organized_uprising
 			}
 			focuses = {
 				BLR_independent_force
@@ -98,20 +97,20 @@ bookmarks = {
 			}
 		}
 
-		"SIA"={
-			minor = yes
-			history = "BLR_GATHERING_STORM_DESC"
-			ideology = conservative
-			ideas = {
-				SIA_socialist_agitaion
-                SIA_overextension
-			}
-			focuses = {
-				SIA_the_peasant_march
-				SIA_local_self_rule
-				SIA_strengthen_british_ties
-			}
-		}
+#		"SIA"={
+#			minor = yes
+#			history = "BLR_GATHERING_STORM_DESC"
+#			ideology = conservative
+#			ideas = {
+#				SIA_socialist_agitaion
+#               SIA_overextension
+#			}
+#			focuses = {
+#				SIA_the_peasant_march
+#				SIA_local_self_rule
+#				SIA_strengthen_british_ties
+#			}
+#		}
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

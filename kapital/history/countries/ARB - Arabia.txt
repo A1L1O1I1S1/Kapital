@@ -8,40 +8,17 @@ set_technology = {
 	basic_light_tank = 1
 }
 
-complete_national_focus = generic_focus_declare_a_monarchy
+set_popularities = {
+	communism = 0
+	socialist = 1
+	liberal = 3
+	anarcho_capitalist = 4
+	corporatist = 9
+	conservative = 65
+	fascism = 18
+}
 
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 1
-		}
-		
-		fascism = {
-			popularity = 18
-		}
-
-		conservative = {
-			popularity = 65
-		}
-
-		liberal = {
-			popularity = 3
-		}
-
-		corporatist = {
-			popularity = 9
-		}
-
-		anarcho_capitalist = {
-			popularity = 4
-		}
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48

@@ -44,7 +44,7 @@ set_technology = {
 	radio = 1
 	radio_detection = 1
 }
-complete_national_focus = generic_focus_declare_a_monarchy
+
 
 set_convoys = 800
 
@@ -62,39 +62,17 @@ add_to_faction = RAJ
 add_to_faction = MAL
 add_to_faction = EGY
 
+set_popularities = {
+	communism = 4
+	socialist = 27
+	liberal = 3
+	anarcho_capitalist = 2
+	corporatist = 7
+	conservative = 45
+	fascism = 12
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 4
-		}
-
-		socialist = {
-			popularity = 27
-		}
-		
-		fascism = {
-			popularity = 12
-		}
-
-		conservative = {
-			popularity = 45
-		}
-
-		liberal = {
-			popularity = 3
-		}
-
-		corporatist = {
-			popularity = 7
-		}
-
-		anarcho_capitalist = {
-			popularity = 2
-		}
-
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48

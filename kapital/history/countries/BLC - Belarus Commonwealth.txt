@@ -19,42 +19,22 @@ set_technology = {
 	early_bomber = 1
 }
 
+set_popularities = {
+	communism = 30
+	socialist = 10
+	liberal = 10
+	anarcho_capitalist = 0
+	corporatist = 0
+	conservative = 40
+	fascism = 10
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 70
-		}
-
-		socialist = {
-			popularity = 9
-		}
-		
-		fascism = {
-			popularity = 2
-		}
-
-		conservative = {
-			popularity = 6
-		}
-
-		liberal = {
-			popularity = 12
-		}
-
-		corporatist = {
-			popularity = 0
-		}
-
-		anarcho_capitalist = {
-			popularity = 1
-		}
-	}
 	
-	ruling_party = communism
+	ruling_party = conservative
 	last_election = "1935.12.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

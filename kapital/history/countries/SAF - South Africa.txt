@@ -26,43 +26,19 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-complete_national_focus = generic_focus_declare_a_monarchy
-
 set_convoys = 25
 
+set_popularities = {
+	communism = 1
+	socialist = 3
+	liberal = 5
+	anarcho_capitalist = 4
+	corporatist = 1
+	conservative = 59
+	fascism = 27
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 1
-		}
-
-		socialist = {
-			popularity = 3
-		}
-		
-		fascism = {
-			popularity = 27
-		}
-
-		conservative = {
-			popularity = 59
-		}
-
-		liberal = {
-			popularity = 5
-		}
-
-		corporatist = {
-			popularity = 1
-		}
-
-		anarcho_capitalist = {
-			popularity = 4
-		}
-
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48

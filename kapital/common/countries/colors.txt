@@ -286,8 +286,8 @@ XEN = {
 	color_ui = rgb { 84 0 8 }
 }
 RUS = {
-	color = rgb { 76 168 37 }
-	color_ui = rgb { 76 168 37 }
+	color = rgb { 72 143 68 }
+	color_ui = rgb { 72 143 68 }
 }
 OTT = {
 	color = rgb { 171 190 152 }

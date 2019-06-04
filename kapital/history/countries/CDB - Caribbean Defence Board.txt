@@ -12,39 +12,17 @@ set_technology = {
 
 set_convoys = 100
 
+set_popularities = {
+	communism = 21
+	socialist = 12
+	liberal = 6
+	anarcho_capitalist = 10
+	corporatist = 31
+	conservative = 11
+	fascism = 9
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 21
-		}
-
-		socialist = {
-			popularity = 12
-		}
-		
-		fascism = {
-			popularity = 9
-		}
-
-		conservative = {
-			popularity = 11
-		}
-
-		liberal = {
-			popularity = 6
-		}
-
-		corporatist = {
-			popularity = 31
-		}
-
-		anarcho_capitalist = {
-			popularity = 10
-		}
-
-	}
-	
 	ruling_party = corporatist
 	last_election = "1932.11.27"
 	election_frequency = 48

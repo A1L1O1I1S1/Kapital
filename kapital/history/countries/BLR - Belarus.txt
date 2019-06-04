@@ -11,7 +11,6 @@ add_ideas = {
     partial_economic_mobilisation
 
 	BLR_bgs
-	BLR_organized_uprising
 }
 
 country_event = { id = belarus.4 days = 14 }
@@ -43,38 +42,17 @@ declare_war_on = {
 
 set_cosmetic_tag = BLR_revolt
 
+set_popularities = {
+	communism = 70
+	socialist = 6
+	liberal = 12
+	anarcho_capitalist = 2
+	corporatist = 0
+	conservative = 9
+	fascism = 1
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 70
-		}
-
-		socialist = {
-			popularity = 6
-		}
-		
-		fascism = {
-			popularity = 1
-		}
-
-		conservative = {
-			popularity = 9
-		}
-
-		liberal = {
-			popularity = 12
-		}
-
-		corporatist = {
-			popularity = 1
-		}
-
-		anarcho_capitalist = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = communism
 	last_election = "1935.12.27"
 	election_frequency = 48

@@ -15,42 +15,21 @@ set_technology = {
 
 set_convoys = 5
 
+set_popularities = {
+	communism = 0
+	socialist = 7
+	liberal = 69
+	anarcho_capitalist = 5
+	corporatist = 4
+	conservative = 10
+	fascism = 5
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 7
-		}
-		
-		fascism = {
-			popularity = 5
-		}
-
-		conservative = {
-			popularity = 10
-		}
-
-		liberal = {
-			popularity = 69
-		}
-
-		corporatist = {
-			popularity = 4
-		}
-
-		anarcho_capitalist = {
-			popularity = 5
-		}
-	}
-	
 	ruling_party = liberal
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

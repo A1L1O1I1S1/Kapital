@@ -8,38 +8,17 @@ set_technology = {
 
 set_convoys = 20
 
+set_popularities = {
+	communism = 0
+	socialist = 1
+	liberal = 4
+	anarcho_capitalist = 1
+	corporatist = 0
+	conservative = 60
+	fascism = 34
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 1
-		}
-		
-		fascism = {
-			popularity = 34
-		}
-
-		conservative = {
-			popularity = 60
-		}
-
-		liberal = {
-			popularity = 4
-		}
-
-		corporatist = {
-			popularity = 0
-		}
-
-		anarcho_capitalist = {
-			popularity = 1
-		}
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48

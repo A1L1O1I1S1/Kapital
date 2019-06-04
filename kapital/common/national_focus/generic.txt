@@ -1650,6 +1650,7 @@ focus_tree = {
 			    has_government = socialist
 			    NOT = { original_tag = BLR }
 			    NOT = { original_tag = SIA }
+			    NOT = { original_tag = PRS }
 		    }
 		}
 
@@ -1744,6 +1745,7 @@ focus_tree = {
 			    has_government = fascism
 			    NOT = { original_tag = BLR }
 			    NOT = { original_tag = SIA }
+			    NOT = { original_tag = PRS }
 		    }
 		}
 
@@ -1917,6 +1919,7 @@ focus_tree = {
 			    has_government = conservative
 			    NOT = { original_tag = BLR }
 			    NOT = { original_tag = SIA }
+			    NOT = { original_tag = PRS }
 		    }
 		}
 
@@ -2009,6 +2012,7 @@ focus_tree = {
 			    has_government = anarcho_capitalist
 			    NOT = { original_tag = BLR }
 			    NOT = { original_tag = SIA }
+			    NOT = { original_tag = PRS }
 		    }
 		}
 
@@ -2110,6 +2114,7 @@ focus_tree = {
 			    has_government = liberal
 			    NOT = { original_tag = BLR }
 			    NOT = { original_tag = SIA }
+			    NOT = { original_tag = PRS }
 		    }
 		}
 
@@ -2204,6 +2209,7 @@ focus_tree = {
 			    has_government = communism
 			    NOT = { original_tag = BLR }
 			    NOT = { original_tag = SIA }
+			    NOT = { original_tag = PRS }
 		    }
 		}
 
@@ -2279,6 +2285,7 @@ focus_tree = {
 			    has_government = corporatist
 			    NOT = { original_tag = BLR }
 			    NOT = { original_tag = SIA }
+			    NOT = { original_tag = PRS }
 		    }
 		}
 

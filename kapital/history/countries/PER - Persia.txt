@@ -11,40 +11,21 @@ set_technology = {
 	CAS1 = 1
 }
 
+set_popularities = {
+	communism = 0
+	socialist = 0
+	liberal = 0
+	anarcho_capitalist = 0
+	corporatist = 0
+	conservative = 100
+	fascism = 0
+}
+
 set_convoys = 10
 set_politics = {
 
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 1
-		}
-		
-		fascism = {
-			popularity = 9
-		}
-
-		conservative = {
-			popularity = 17
-		}
-
-		liberal = {
-			popularity = 0
-		}
-
-		corporatist = {
-			popularity = 35
-		}
-
-		anarcho_capitalist = {
-			popularity = 38
-		}
-	}
 	
-	ruling_party = anarcho_capitalist
+	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,6 +36,6 @@ create_country_leader = {
 	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotism
 	traits = { }
 }

@@ -46,38 +46,17 @@ if = {
 
 set_convoys = 15
 
+set_popularities = {
+	communism = 1
+	socialist = 41
+	liberal = 7
+	anarcho_capitalist = 2
+	corporatist = 1
+	conservative = 44
+	fascism = 4
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 1
-		}
-
-		socialist = {
-			popularity = 41
-		}
-		
-		fascism = {
-			popularity = 4
-		}
-
-		conservative = {
-			popularity = 44
-		}
-
-		liberal = {
-			popularity = 7
-		}
-
-		corporatist = {
-			popularity = 1
-		}
-
-		anarcho_capitalist = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48

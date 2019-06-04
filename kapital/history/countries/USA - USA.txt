@@ -39,43 +39,21 @@ set_technology = {
 
 set_convoys = 400
 
+set_popularities = {
+	communism = 0
+	socialist = 25
+	liberal = 24
+	anarcho_capitalist = 20
+	corporatist = 1
+	conservative = 29
+	fascism = 1
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 25
-		}
-		
-		fascism = {
-			popularity = 1
-		}
-
-		conservative = {
-			popularity = 29
-		}
-
-		liberal = {
-			popularity = 24
-		}
-
-		corporatist = {
-			popularity = 1
-		}
-
-		anarcho_capitalist = {
-			popularity = 20
-		}
-
-	}
-	
 	ruling_party = socialist
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 puppet = PHI

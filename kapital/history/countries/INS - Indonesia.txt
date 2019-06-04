@@ -20,46 +20,24 @@ set_technology = {
 	early_heavy_cruiser = 1
 	transport = 1
 }
-complete_national_focus = generic_focus_declare_a_monarchy
 
 set_convoys = 25
 
+set_popularities = {
+	communism = 1
+	socialist = 20
+	liberal = 11
+	anarcho_capitalist = 3
+	corporatist = 0
+	conservative = 44
+	fascism = 21
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 1
-		}
-
-		socialist = {
-			popularity = 20
-		}
-		
-		fascism = {
-			popularity = 21
-		}
-
-		conservative = {
-			popularity = 44
-		}
-
-		liberal = {
-			popularity = 11
-		}
-
-		corporatist = {
-			popularity = 0
-		}
-
-		anarcho_capitalist = {
-			popularity = 3
-		}
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

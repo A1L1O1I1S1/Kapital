@@ -18,42 +18,21 @@ set_technology = {
 	early_submarine = 1
 }
 
+set_popularities = {
+	communism = 0
+	socialist = 6
+	liberal = 17
+	anarcho_capitalist = 2
+	corporatist = 1
+	conservative = 53
+	fascism = 21
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 6
-		}
-		
-		fascism = {
-			popularity = 21
-		}
-
-		conservative = {
-			popularity = 53
-		}
-
-		liberal = {
-			popularity = 17
-		}
-
-		corporatist = {
-			popularity = 1
-		}
-
-		anarcho_capitalist = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

@@ -54,39 +54,17 @@ if = {
 	set_naval_oob = "PRS_1936_naval_mtg"
 }
 
+set_popularities = {
+	communism = 0
+	socialist = 5
+	liberal = 6
+	anarcho_capitalist = 4
+	corporatist = 3
+	conservative = 42
+	fascism = 40
+}
+
 set_politics = {
-
-	parties = {
-		communism = { 
-			popularity = 0
-		}
-
-		socialist = {
-			popularity = 5
-		}
-		
-		fascism = {
-			popularity = 40
-		}
-
-		conservative = {
-			popularity = 42
-		}
-
-		liberal = {
-			popularity = 6
-		}
-
-		corporatist = {
-			popularity = 3
-		}
-
-		anarcho_capitalist = {
-			popularity = 4
-		}
-
-	}
-	
 	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
