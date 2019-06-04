@@ -60,19 +60,19 @@
 
 
  BOS_communism:0 "Bosnia and Herzegovina"
- BOS_communism_DEF:0 "Bosnia and Herzegovina"
+ BOS_communism_DEF:0 "the People's Republic of Bosnia and Herzegovina"
 
  BOS_socialist:0 "Bosnia and Herzegovina"
- BOS_socialist_DEF:0 "Bosnia and Herzegovina"
+ BOS_socialist_DEF:0 "the Socialist Republic of Bosnia and Herzegovina"
 
  BOS_fascism:0 "Bosnia and Herzegovina"
- BOS_fascism_DEF:0 "Bosnia and Herzegovina"
+ BOS_fascism_DEF:0 "the State of Bosnia and Herzegovina"
 
  BOS_conservative:0 "Bosnia and Herzegovina"
- BOS_conservative_DEF:0 "Bosnia and Herzegovina"
+ BOS_conservative_DEF:0 "the Republic of Bosnia and Herzegovina"
 
  BOS_liberal:0 "Bosnia and Herzegovina"
- BOS_liberal_DEF:0 "Bosnia and Herzegovina"
+ BOS_liberal_DEF:0 "the Republic of Bosnia and Herzegovina"
 
  BOS_corporatist:0 "Corporate Bosnia and Herzegovina"
  BOS_corporatist_DEF:0 "Corporate Bosnia and Herzegovina"
@@ -89,23 +89,23 @@
  BOS_anarcho_capitalist_ADJ:0 "Bosnian"
 
 
- CRO_communism:0 "Banovina of Croatia"
- CRO_communism_DEF:0 "Banovina of Croatia"
+ CRO_communism:0 "People's Republic of Croatia"
+ CRO_communism_DEF:0 "the People's Republic of Croatia"
 
- CRO_socialist:0 "Banovina of Croatia"
- CRO_socialist_DEF:0 "Banovina of Croatia"
+ CRO_socialist:0 "Socialist Republic of Croatia"
+ CRO_socialist_DEF:0 "the Socialist Republic of Croatia"
 
- CRO_fascism:0 "Banovina of Croatia"
- CRO_fascism_DEF:0 "Banovina of Croatia"
+ CRO_fascism:0 "Croatian State"
+ CRO_fascism_DEF:0 "the Croatian State"
 
  CRO_conservative:0 "Banovina of Croatia"
- CRO_conservative_DEF:0 "Banovina of Croatia"
+ CRO_conservative_DEF:0 "the Banovina of Croatia"
 
- CRO_liberal:0 "Banovina of Croatia"
- CRO_liberal_DEF:0 "Banovina of Croatia"
+ CRO_liberal:0 "Croatia"
+ CRO_liberal_DEF:0 "the Republic of Croatia"
 
- CRO_corporatist:0 "Croatian Corporate Republic"
- CRO_corporatist_DEF:0 "Croatian Corporate Republic"
+ CRO_corporatist:0 "Corporate Croatia"
+ CRO_corporatist_DEF:0 "Corporate Croatia"
 
  CRO_anarcho_capitalist:0 "Free Croatia"
  CRO_anarcho_capitalist_DEF:0 "Anarcho-capitalist Croatia"
@@ -989,26 +989,26 @@
  ROM_anarcho_capitalist_ADJ:0 "Romanian"
 
 
- SER_communism:0 "Greater Serbian Commune"
- SER_communism_DEF:0 "Greater Serbian Commune"
+ SER_communism:0 "People's Republic of Serbia"
+ SER_communism_DEF:0 "the People's Republic of Serbia"
 
- SER_socialist:0 "Greater Serbia"
- SER_socialist_DEF:0 "Greater Serbia"
+ SER_socialist:0 "Socialist Republic of Serbia"
+ SER_socialist_DEF:0 "the Socialist Republic of Serbia"
 
  SER_fascism:0 "Greater Serbia"
  SER_fascism_DEF:0 "Greater Serbia"
 
- SER_conservative:0 "Greater Serbia"
- SER_conservative_DEF:0 "Greater Serbia"
+ SER_conservative:0 "Serbia"
+ SER_conservative_DEF:0 "the Republic of Serbia"
 
- SER_liberal:0 "Greater Serbia"
- SER_liberal_DEF:0 "Greater Serbia"
+ SER_liberal:0 "Serbia"
+ SER_liberal_DEF:0 "the Republic of Serbia"
 
- SER_corporatist:0 "Greater Serbian Corporate Republic"
- SER_corporatist_DEF:0 "Greater Serbian Corporate Republic"
+ SER_corporatist:0 "Corporate Serbia"
+ SER_corporatist_DEF:0 "Corporate Serbia"
 
- SER_anarcho_capitalist:0 "Free Greater Serbia"
- SER_anarcho_capitalist_DEF:0 "Anarcho-capitalist Greater Serbia"
+ SER_anarcho_capitalist:0 "Free Serbia"
+ SER_anarcho_capitalist_DEF:0 "Anarcho-capitalist Serbia"
 
  SER_communism_ADJ:0 "Serbian"
  SER_socialist_ADJ:0 "Serbian"
@@ -2126,7 +2126,121 @@
  BLR_corporatist_ADJ:0 "Belarusian"
  BLR_anarcho_capitalist_ADJ:0 "Belarusian"
 
+ SLV_communism:0 "People's Republic of Slovenia"
+ SLV_communism_DEF:0 "the People's Republic of Slovenia"
 
+ SLV_socialist:0 "Socialist Republic of Slovenia"
+ SLV_socialist_DEF:0 "the Socialist Republic of Slovenia"
+
+ SLV_fascism:0 "Slovenian State"
+ SLV_fascism_DEF:0 "the Slovenian State"
+
+ SLV_conservative:0 "Slovenia"
+ SLV_conservative_DEF:0 "the Republic of Slovenia"
+
+ SLV_liberal:0 "Slovenia"
+ SLV_liberal_DEF:0 "the Republic of Slovenia"
+
+ SLV_corporatist:0 "Corporate Slovenia"
+ SLV_corporatist_DEF:0 "Corporate Slovenia"
+
+ SLV_anarcho_capitalist:0 "Free Slovenia"
+ SLV_anarcho_capitalist_DEF:0 "Anarcho-capitalist Slovenia"
+
+ SLV_communism_ADJ:0 "Slovenian"
+ SLV_socialist_ADJ:0 "Slovenian"
+ SLV_fascism_ADJ:0 "Slovenian"
+ SLV_conservative_ADJ:0 "Slovenian"
+ SLV_liberal_ADJ:0 "Slovenian"
+ SLV_corporatist_ADJ:0 "Slovenian"
+ SLV_anarcho_capitalist_ADJ:0 "Slovenian"
+
+ MNT_communism:0 "People's Republic of Montenegro"
+ MNT_communism_DEF:0 "the People's Republic of Montenegro"
+
+ MNT_socialist:0 "Socialist Republic of Montenegro"
+ MNT_socialist_DEF:0 "the Socialist Republic of Montenegro"
+
+ MNT_fascism:0 "Montenegrin State"
+ MNT_fascism_DEF:0 "the Montenegrin State"
+
+ MNT_conservative:0 "Montenegro"
+ MNT_conservative_DEF:0 "the Republic of Montenegro"
+
+ MNT_liberal:0 "Montenegro"
+ MNT_liberal_DEF:0 "the Republic of Montenegro"
+
+ MNT_corporatist:0 "Corporate Montenegro"
+ MNT_corporatist_DEF:0 "Corporate Montenegro"
+
+ MNT_anarcho_capitalist:0 "Free Montenegro"
+ MNT_anarcho_capitalist_DEF:0 "Anarcho-capitalist Montenegro"
+
+ MNT_communism_ADJ:0 "Montenegrin"
+ MNT_socialist_ADJ:0 "Montenegrin"
+ MNT_fascism_ADJ:0 "Montenegrin"
+ MNT_conservative_ADJ:0 "Montenegrin"
+ MNT_liberal_ADJ:0 "Montenegrin"
+ MNT_corporatist_ADJ:0 "Montenegrin"
+ MNT_anarcho_capitalist_ADJ:0 "Montenegrin"
+
+ KOS_communism:0 "People's Republic of Kosovo"
+ KOS_communism_DEF:0 "the People's Republic of Kosovo"
+
+ KOS_socialist:0 "Socialist Republic of Kosovo"
+ KOS_socialist_DEF:0 "the Socialist Republic of Kosovo"
+
+ KOS_fascism:0 "Kosovian State"
+ KOS_fascism_DEF:0 "the Kosovian State"
+
+ KOS_conservative:0 "Kosovo"
+ KOS_conservative_DEF:0 "the Republic of Kosovo"
+
+ KOS_liberal:0 "Kosovo"
+ KOS_liberal_DEF:0 "the Republic of Kosovo"
+
+ KOS_corporatist:0 "Corporate Kosovo"
+ KOS_corporatist_DEF:0 "Corporate Kosovo"
+
+ KOS_anarcho_capitalist:0 "Free Kosovo"
+ KOS_anarcho_capitalist_DEF:0 "Anarcho-capitalist Kosovo"
+
+ KOS_communism_ADJ:0 "Kosovian"
+ KOS_socialist_ADJ:0 "Kosovian"
+ KOS_fascism_ADJ:0 "Kosovian"
+ KOS_conservative_ADJ:0 "Kosovian"
+ KOS_liberal_ADJ:0 "Kosovian"
+ KOS_corporatist_ADJ:0 "Kosovian"
+ KOS_anarcho_capitalist_ADJ:0 "Kosovian"
+
+ MAC_communism:0 "People's Republic of Macedonia"
+ MAC_communism_DEF:0 "the People's Republic of Macedonia"
+
+ MAC_socialist:0 "Socialist Republic of Macedonia"
+ MAC_socialist_DEF:0 "the Socialist Republic of Macedonia"
+
+ MAC_fascism:0 "Macedonian State"
+ MAC_fascism_DEF:0 "the Macedonian State"
+
+ MAC_conservative:0 "Macedonia"
+ MAC_conservative_DEF:0 "the Republic of Macedonia"
+
+ MAC_liberal:0 "Macedonia"
+ MAC_liberal_DEF:0 "the Republic of Macedonia"
+
+ MAC_corporatist:0 "Corporate Macedonia"
+ MAC_corporatist_DEF:0 "Corporate Macedonia"
+
+ MAC_anarcho_capitalist:0 "Free Macedonia"
+ MAC_anarcho_capitalist_DEF:0 "Anarcho-capitalist Macedonia"
+
+ MAC_communism_ADJ:0 "Macedonian"
+ MAC_socialist_ADJ:0 "Macedonian"
+ MAC_fascism_ADJ:0 "Macedonian"
+ MAC_conservative_ADJ:0 "Macedonian"
+ MAC_liberal_ADJ:0 "Macedonian"
+ MAC_corporatist_ADJ:0 "Macedonian"
+ MAC_anarcho_capitalist_ADJ:0 "Macedonian"
 
 "FACTION_NAME_COMMUNISM_1":0 "$CONTINENT_ADJ$ International"
 "FACTION_NAME_COMMUNISM_2":0 "$LEADER_COUNTRY$ Comintern"
