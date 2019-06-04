@@ -287,7 +287,7 @@ XEN = {
 }
 RUS = {
 	color = rgb { 72 143 68 }
-	color_ui = rgb { 72 143 68 }
+	color_ui = rgb { 72 143 687 }
 }
 OTT = {
 	color = rgb { 171 190 152 }
@@ -348,4 +348,20 @@ KAZ = {
 TMS = {
 	color = rgb { 80 115 45 }
 	color_ui = rgb { 80 115 45 }
+}
+SLV = {
+	color = rgb { 100 218 244 }
+	color_ui = rgb { 100 218 244 }
+}
+MNT = {
+	color = rgb { 200 30 60 }
+	color_ui = rgb { 200 30 60 }
+}
+KOS = {
+	color = rgb { 220 150 20 }
+	color_ui = rgb { 220 150 20 }
+}
+MAC = {
+	color = rgb { 255 0 40 }
+	color_ui = rgb { 255 0 40}
 }
