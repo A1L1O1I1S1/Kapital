@@ -47,7 +47,7 @@ create_country_leader = {
 	traits = { }
 }
 
-set_province_controller = 6672
-set_province_controller = 665
-set_province_controller = 6957
-set_province_controller = 6942
+#set_province_controller = 6672
+#set_province_controller = 665
+#set_province_controller = 6957
+#set_province_controller = 6942
