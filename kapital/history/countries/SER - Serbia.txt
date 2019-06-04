@@ -1,6 +1,4 @@
-﻿capital = 107
-
-oob = "YUG_1936"
+capital = 107
 
 set_research_slots = 3
 
@@ -13,23 +11,14 @@ set_technology = {
 	basic_light_tank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	interwar_antitank = 1
+	gw_artillery = 1
 	early_destroyer = 1
 	early_light_cruiser = 1
 	early_submarine = 1
-	fuel_silos = 1
 }
 
 set_convoys = 0
-
-set_popularities = {
-	communism = 1
-	socialist = 6
-	liberal = 9
-	anarcho_capitalist = 4
-	corporatist = 1
-	conservative = 17
-	fascism = 62
-}
 
 set_politics = {
 	ruling_party = fascism
@@ -38,15 +27,26 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_popularities = {
+	communism = 1
+	socialist = 6
+	fascism = 62
+	conservative = 17
+	liberal = 9
+	corporatist = 1
+	anarcho_capitalist = 4
+}
+
 create_country_leader = {
 	name = "Peter Karadordevic"
-	desc = ""
+	desc = "POLITICS_PETER_KARADORDEVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = nationalism
 	traits = { }
 }
 
+#Civil War?
 #set_province_controller = 6889
 #set_province_controller = 9588
 #set_province_controller = 6619
