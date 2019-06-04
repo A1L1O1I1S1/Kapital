@@ -20,21 +20,21 @@ set_technology = {
 
 set_convoys = 10
 
-set_popularities = {
-	communism = 7
-	socialist = 52
-	liberal = 9
-	anarcho_capitalist = 3
-	corporatist = 0
-	conservative = 8
-	fascism = 21
-}
-
 set_politics = {
 	ruling_party = socialist
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 7
+	socialist = 52
+	fascism = 21
+	conservative = 8
+	liberal = 9
+	corporatist = 0
+	anarcho_capitalist = 3
 }
 
 set_stability = 0.5
