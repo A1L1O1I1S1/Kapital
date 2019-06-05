@@ -2242,6 +2242,35 @@
  MAC_corporatist_ADJ:0 "Macedonian"
  MAC_anarcho_capitalist_ADJ:0 "Macedonian"
 
+ SCS_communism:0 "People's Republic of Illyria"
+ SCS_communism_DEF:0 "the People's Republic of Illyria"
+
+ SCS_socialist:0 "Socialist Republic of Illyria"
+ SCS_socialist_DEF:0 "the Socialist Republic of Illyria"
+
+ SCS_fascism:0 "Illyrian State"
+ SCS_fascism_DEF:0 "the Illyrian State"
+
+ SCS_conservative:0 "State of S-C-S"
+ SCS_conservative_DEF:0 "the State of Slovenes, Croats and Serbs"
+
+ SCS_liberal:0 "State of S-C-S"
+ SCS_liberal_DEF:0 "the State of Slovenes, Croats and Serbs"
+
+ SCS_corporatist:0 "Corporate Illyria"
+ SCS_corporatist_DEF:0 "Corporate Illyria"
+
+ SCS_anarcho_capitalist:0 "Free Illyria"
+ SCS_anarcho_capitalist_DEF:0 "Anarcho-capitalist Illyria"
+
+ SCS_communism_ADJ:0 "Illyrian"
+ SCS_socialist_ADJ:0 "Illyrian"
+ SCS_fascism_ADJ:0 "Illyrian"
+ SCS_conservative_ADJ:0 "Southern-Slavic"
+ SCS_liberal_ADJ:0 "Southern-Slavic"
+ SCS_corporatist_ADJ:0 "Illyrian"
+ SCS_anarcho_capitalist_ADJ:0 "Illyrian"
+
 "FACTION_NAME_COMMUNISM_1":0 "$CONTINENT_ADJ$ International"
 "FACTION_NAME_COMMUNISM_2":0 "$LEADER_COUNTRY$ Comintern"
 

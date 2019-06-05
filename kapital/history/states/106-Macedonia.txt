@@ -10,8 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = YUG
-		add_core_of = YUG
+		owner = MAC # Temporarily independent
 		add_core_of = MAC
 		
 		buildings = {

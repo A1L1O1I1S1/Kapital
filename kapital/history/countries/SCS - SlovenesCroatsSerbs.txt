@@ -1,4 +1,6 @@
-﻿capital = 105
+﻿capital = 109
+
+oob = "SCS_1936"
 
 set_research_slots = 3
 
@@ -21,7 +23,7 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = liberal
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
@@ -29,12 +31,21 @@ set_politics = {
 
 set_popularities = {
 	communism = 7
-	socialist = 52
-	fascism = 21
-	conservative = 8
-	liberal = 9
-	corporatist = 0
-	anarcho_capitalist = 3
+	socialist = 18
+	fascism = 5
+	conservative = 26
+	liberal = 32
+	corporatist = 8
+	anarcho_capitalist = 4
 }
 
 set_stability = 0.5
+
+#create_country_leader = {
+#	name = "Josip Broz Tito"
+#	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
+#	picture = "Portrait_Yugoslavia_Josip_Broz_Tito.dds"
+#	expire = "1965.1.1"
+#	ideology = authoritarian_socialism
+#	traits = { }
+#}

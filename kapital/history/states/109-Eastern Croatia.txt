@@ -2,12 +2,11 @@ state = {
 	id = 109
 	name = "STATE_109" # Croatia
 	
-	
 	state_category = large_town
 
 	history={
-		owner = YUG
-		add_core_of = YUG
+		owner = SCS
+		add_core_of = SCS
 		add_core_of = CRO
 
 		buildings = {
