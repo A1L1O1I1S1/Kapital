@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "Pješadijska Divizija"	# Infantry Division	
+
+	division_names_group = SCS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 }  
+	}
+}
+division_template = {
+	name = "Gorska Pješadija"		# Mountain Brigade
+
+	division_names_group = SCS_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+division_template = {
+
+	division_names_group = SCS_CAV_01
+
+	name = "Konjička Divizija" 			# Cavalry Division
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Tenkovski Bataljon" 			# Tank Battalion
+
+	division_names_group = SCS_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	division = {
+		name = "Ljubljanska Div."
+		location = 9627
+		division_template = "Pješadijska Divizija"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Zagrebačka Div."
+		location = 11581
+		division_template = "Pješadijska Divizija"
+		start_experience_factor = 0.3
+	}
+}
+
+#air_wings = {
+#	107 = {
+#		fighter_equipment_0 = {
+#			owner = "SCS" 
+#			amount = 48
+#		}
+#	}
+#}
+
+### Starting Production ###
+#instant_effect = {
+#	add_equipment_production = {
+#		equipment = {
+#			type = infantry_equipment_1
+#			creator = "YUG"
+#		}
+#		requested_factories = 1
+#		progress = 0.37
+#		efficiency = 100
+#	}
+#	add_equipment_production = {
+#		equipment = {
+#			type = support_equipment_1
+#			creator = "YUG"
+#		}
+#		requested_factories = 1
+#		progress = 0.76
+#		efficiency = 100
+#	}	
+#}

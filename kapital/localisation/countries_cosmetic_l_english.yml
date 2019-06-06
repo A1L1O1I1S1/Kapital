@@ -305,3 +305,32 @@
  UKC_commonwealth_liberal_ADJ:0 "Ukranian"
  UKC_commonwealth_corporatist_ADJ:0 "Ukranian"
  UKC_commonwealth_anarcho_capitalist_ADJ:0 "Ukranian"
+
+ YUG_communism:0 "Yugoslavian Commune"
+ YUG_communism_DEF:0 "Yugoslavian Commune"
+
+ YUG_socialist:0 "Yugoslavia"
+ YUG_socialist_DEF:0 "Yugoslavia"
+
+ YUG_fascism:0 "Yugoslavian State"
+ YUG_fascism_DEF:0 "Yugoslavian State"
+
+ YUG_conservative:0 "Yugoslavian Kingdom"
+ YUG_conservative_DEF:0 "Yugoslavian Kingdom"
+
+ YUG_liberal:0 "Yugoslavian Confederation"
+ YUG_liberal_DEF:0 "Yugoslavian Confederation"
+
+ YUG_corporatist:0 "Yugoslavian Corporate Republic"
+ YUG_corporatist_DEF:0 "Yugoslavian Corporate Republic"
+
+ YUG_anarcho_capitalist:0 "Free Yugoslavia"
+ YUG_anarcho_capitalist_DEF:0 "Anarcho-capitalist Yugoslavia"
+
+ YUG_communism_ADJ:0 "Yugoslavian"
+ YUG_socialist_ADJ:0 "Yugoslavian"
+ YUG_fascism_ADJ:0 "Yugoslavian"
+ YUG_conservative_ADJ:0 "Yugoslavian"
+ YUG_liberal_ADJ:0 "Yugoslavian"
+ YUG_corporatist_ADJ:0 "Yugoslavian"
+ YUG_anarcho_capitalist_ADJ:0 "Yugoslavian"

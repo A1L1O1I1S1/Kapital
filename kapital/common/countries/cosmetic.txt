@@ -42,3 +42,7 @@ UKC_commonwealth = {
 	color = rgb { 207 155 112 }
 	color_ui = rgb { 207 155 112 }
 }
+YUG = {
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 72 73 126 }
+}
