@@ -29,7 +29,7 @@ set_popularities = {
 	socialist = 2
 	liberal = 59
 	anarcho_capitalist = 10
-	corporatist = 0
+	corporatist = 10
 	conservative = 18
 	fascism = 1
 }

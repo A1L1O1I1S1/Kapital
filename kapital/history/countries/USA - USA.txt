@@ -56,7 +56,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-puppet = PHI
+#puppet = PHI
 
 create_country_leader = {
 	name = "Willie Short"

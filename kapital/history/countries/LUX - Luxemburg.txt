@@ -15,12 +15,12 @@ set_war_support = 0.5
 set_stability = 0.5
 
 set_popularities = {
-	communism = 91
-	socialist = 7
-	liberal = 2
-	anarcho_capitalist = 1
+	communism = 40
+	socialist = 35
+	liberal = 20
+	anarcho_capitalist = 0
 	corporatist = 0
-	conservative = 9
+	conservative = 5
 	fascism = 0
 }
 

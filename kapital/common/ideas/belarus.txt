@@ -211,9 +211,9 @@ ideas = {
 
 	army_chief = {
 
-		BLR_gregor_lucas = {
+		BLR_gregory_lukanin = {
 
-			picture = idea_gregor_lucas
+			picture = idea_gregory_lukanin
 			
 			allowed = { original_tag = BLR }
 			

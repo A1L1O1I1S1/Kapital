@@ -60,9 +60,9 @@ set_politics = {
 }
 
 create_country_leader = {
-    name = "Gregor Lucas"
+    name = "Gregory Lukanin"
     desc = ""
-    picture = "Portrait_Belarus_Gregor_Lucas.dds"
+    picture = "Portrait_Belarus_Gregory_Lukanin.dds"
     expire = "1965.1.1"
     ideology = vanguardism
     traits = { vozhd }
@@ -125,8 +125,8 @@ create_country_leader = {
 #
 
 create_field_marshal = {
-	name = "Gregor Lucas"
-	picture = "Portrait_Belarus_Gregor_Lucas.dds"
+	name = "Gregory Lukanin"
+	picture = "Portrait_Belarus_Gregory_Lukanin.dds"
 	traits = { inspirational_leader }
 	skill = 1
 	attack_skill = 1
