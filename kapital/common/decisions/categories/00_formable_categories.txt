@@ -4,3 +4,14 @@ form_german_empire_category = {
 
 	allowed = { original_tag = PRS }
 }
+
+form_yugoslavia_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_scandinavia # temp
+
+	allowed = {
+		always = yes
+	}
+}

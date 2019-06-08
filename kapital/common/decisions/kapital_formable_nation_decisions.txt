@@ -1,0 +1,122 @@
+form_yugoslavia_category = {
+	
+	form_yugoslavia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = SCS
+				original_tag = SER
+				tag = MAC
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Slovenia
+			custom_trigger_tooltip = {
+				tooltip = form_country_slovenia_required_states_tt
+				controls_state = 102
+			}
+			# Croatia
+			custom_trigger_tooltip = {
+				tooltip = form_country_croatia_required_states_tt
+				controls_state = 109
+				controls_state = 103
+			}
+			# Bosnia
+			custom_trigger_tooltip = {
+				tooltip = form_country_bosnia_required_states_tt
+				controls_state = 104
+			}
+			# Montenegro
+			custom_trigger_tooltip = {
+				tooltip = form_country_montenegro_required_states_tt
+				controls_state = 105
+			}
+			# Serbia
+			custom_trigger_tooltip = {
+				tooltip = form_country_serbia_required_states_tt
+				controls_state = 107
+				controls_state = 108
+			}
+			# Kosovo
+			custom_trigger_tooltip = {
+				tooltip = form_country_kosovo_required_states_tt
+				controls_state = 788
+			}
+			# Macedonia
+			custom_trigger_tooltip = {
+				tooltip = form_country_macedonia_required_states_tt
+				controls_state = 106
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SCS
+				original_tag = SER
+				tag = MAC
+			}
+			NOT = { has_global_flag = form_yugoslavia_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = YUG
+			# Slovenia
+			custom_effect_tooltip = form_country_slovenia_coring_states_tt
+			hidden_effect = {
+				102 = { add_core_of = ROOT }
+				736 = { add_core_of = ROOT } # Istria
+			}
+			# Croatia
+			custom_effect_tooltip = form_country_croatia_coring_states_tt
+			hidden_effect = {
+				109 = { add_core_of = ROOT }
+				103 = { add_core_of = ROOT }
+				163 = { add_core_of = ROOT } # Zara
+			}
+			# Bosnia
+			custom_effect_tooltip = form_country_bosnia_coring_states_tt
+			hidden_effect = {
+				104 = { add_core_of = ROOT }
+			}
+			# Montenegro
+			custom_effect_tooltip = form_country_montenegro_coring_states_tt
+			hidden_effect = {
+				105 = { add_core_of = ROOT }
+			}
+			# Serbia
+			custom_effect_tooltip = form_country_serbia_coring_states_tt
+			hidden_effect = {
+				107 = { add_core_of = ROOT }
+				108 = { add_core_of = ROOT }
+				45 = { add_core_of = ROOT } # Vojvodina
+				764 = { add_core_of = ROOT } # West Banat
+			}
+			# Kosovo
+			custom_effect_tooltip = form_country_kosovo_coring_states_tt
+			hidden_effect = {
+				788 = { add_core_of = ROOT }
+			}
+			# Macedonia
+			custom_effect_tooltip = form_country_macedonia_coring_states_tt
+			hidden_effect = {
+				106 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				#news_event = { id = wtt_news.53 hours = 6 }
+				set_global_flag = form_yugoslavia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
