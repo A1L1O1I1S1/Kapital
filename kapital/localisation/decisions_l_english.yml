@@ -23,3 +23,23 @@
  BLR_revolt_timer_category:0 "Looming Victory"
  BLR_revolt_timer_category_desc:0 "It is apparent that the Russians are not able to put up much of a fight. We estimate them to give up after about two months."
  BLR_revolt_timer_mission:0 "Our Independence"
+
+ # Form Yugoslavia Decision
+ form_yugoslavia:0 "Form Yugoslavia"
+ form_yugoslavia_category:0 "Unite Southern Slavs"
+ form_yugoslavia_category_desc:0 "We have managed to unite all southern Slavs under our leadership. It is time to legitimise the glorious country of Yugoslavia."
+ form_country_slovenia_required_states_tt:0 "Controls §YSlovenia§!."
+ form_country_croatia_required_states_tt:0 "Controls §YCroatia§! and §YDalmatia§!."
+ form_country_bosnia_required_states_tt:0 "Controls §YBosnia§!."
+ form_country_montenegro_required_states_tt:0 "Controls §YMontenegro§!."
+ form_country_serbia_required_states_tt:0 "Controls §YSerbia§! and §YMorava§!."
+ form_country_kosovo_required_states_tt:0 "Controls §YKosovo§!."
+ form_country_macedonia_required_states_tt:0 "Controls §YMacedonia§!."
+ form_country_slovenia_coring_states_tt:0 "Gain cores on all §YSlovene§! states.\n"
+ form_country_croatia_coring_states_tt:0 "Gain cores on all §YCroatian§! states.\n"
+ form_country_bosnia_coring_states_tt:0 "Gain cores on all §YBosnian§! states.\n"
+ form_country_montenegro_coring_states_tt:0 "Gain cores on all §YMontenegrin§! states.\n"\
+ form_country_serbia_coring_states_tt:0 "Gain cores on all §YSerbian§! states.\n"
+ form_country_kosovo_coring_states_tt:0 "Gain cores on all §YKosovian§! states.\n"
+ form_country_macedonia_coring_states_tt:0 "Gain cores on all §YMacedonian§! states.\n"
+ #
