@@ -1,0 +1,29 @@
+﻿add_namespace = luxembourg
+
+country_event = {
+  id = luxembourg.1
+  title = luxembourg.1.t
+  desc = luxembourg.1.d
+  picture = GFX_report_event_generic_communist_congress
+  fire_only_once = yes
+
+  trigger = {
+    tag = LUX
+    date > 1937.01.01
+    has_government = communism
+    is_puppet = no
+  }
+
+    option = {
+    ai_chance = { factor = 40 }
+    name = luxembourg.1.a
+      add_political_power = -5
+    }
+    option = {
+    ai_chance = { factor = 4 }
+    name = luxembourg.1.b
+      add_political_power = -10
+      set_politics = { ruling_party = socialist }
+      add_popularity = { ideology = socialist popularity = 0.05 }
+    }
+}

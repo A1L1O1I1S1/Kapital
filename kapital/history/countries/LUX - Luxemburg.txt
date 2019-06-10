@@ -15,13 +15,13 @@ set_war_support = 0.5
 set_stability = 0.5
 
 set_popularities = {
-	communism = 40
-	socialist = 35
-	liberal = 20
+	communism = 42
+	socialist = 34
+	liberal = 17
 	anarcho_capitalist = 0
 	corporatist = 0
-	conservative = 5
-	fascism = 0
+	conservative = 6
+	fascism = 1
 }
 
 set_politics = {
@@ -32,10 +32,19 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Joseph Bech"
+	name = "Erica Braemer"
 	desc = "POLITICS_JOSEPH_BECH_DESC"
-	picture = "GFX_portrait_luxembourg_joseph_bech"
+	picture = "Portrait_Luxembourg_Erica_Braemer.dds"
 	expire = "1965.1.1"
 	ideology = classical_communism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Mitchel Rasch"
+	desc = "POLITICS_JOSEPH_BECH_DESC"
+	picture = "Portrait_Luxembourg_Mitchel_Rasch.dds"
+	expire = "1965.1.1"
+	ideology = radical_socialism
 	traits = { }
 }

@@ -2325,10 +2325,6 @@ focus_tree = {
 
 		available = { KOR = { has_government = corporatist } }
 
-		allow_branch = {
-		    NOT = { original_tag = KOR }
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {

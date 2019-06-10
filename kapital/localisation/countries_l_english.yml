@@ -1560,20 +1560,20 @@
  TIB_anarcho_capitalist_ADJ:0 "Tibetan"
 
 
- LUX_communism:0 "Luxembourg"
- LUX_communism_DEF:0 "Luxembourg"
+ LUX_communism:0 "Commune of Luxembourg"
+ LUX_communism_DEF:0 "Commune of Luxembourg"
 
- LUX_socialist:0 "Luxembourg"
- LUX_socialist_DEF:0 "Luxembourg"
+ LUX_socialist:0 "Commune of Luxembourg"
+ LUX_socialist_DEF:0 "Commune of Luxembourg"
 
  LUX_fascism:0 "Luxembourg"
- LUX_fascism_DEF:0 "Luxembourg"
+ LUX_fascism_DEF:0 "Grand Duchy of Luxembourg"
 
  LUX_conservative:0 "Luxembourg"
- LUX_conservative_DEF:0 "Luxembourg"
+ LUX_conservative_DEF:0 "Grand Duchy of Luxembourg"
 
  LUX_liberal:0 "Luxembourg"
- LUX_liberal_DEF:0 "Luxembourg"
+ LUX_liberal_DEF:0 "Grand Duchy of Luxembourg"
 
  LUX_corporatist:0 "Luxembourg Corporate Republic"
  LUX_corporatist_DEF:0 "Luxembourg Corporate Republic"
