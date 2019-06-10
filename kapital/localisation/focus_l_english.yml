@@ -2828,4 +2828,12 @@
  BLR_stability_restored:0 "Stability Restored"
  BLR_stability_restored_desc:0 ""
 
-BLR_flag_uprising_successful:0 "Uprising Successful"
+ BLR_flag_uprising_successful:0 "Uprising Successful"
+
+ ### ILLYRIA
+
+ SCS_industry_1:0 "Industrial Development"
+ SCS_industry_1_desc:0 "It's time to invest in our civilian industry sector. With sufficient funding, new factories will be up and running in no time!"
+ SCS_election:0 "The 1936 Election"
+ SCS_election_desc:0 "we need a writer lol i suck at this"
+ SCS_election_complete_tt:0 "The elections are over"
