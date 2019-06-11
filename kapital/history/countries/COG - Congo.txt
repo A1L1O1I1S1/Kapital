@@ -13,12 +13,12 @@ set_convoys = 5
 
 set_popularities = {
 	communism = 0
-	socialist = 0
-	liberal = 100
-	anarcho_capitalist = 0
-	corporatist = 0
-	conservative = 0
-	fascism = 0
+	socialist = 26
+	liberal = 37
+	anarcho_capitalist = 2
+	corporatist = 1
+	conservative = 33
+	fascism = 1
 }
 
 set_politics = {
@@ -31,8 +31,8 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "François Tolenga"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	name = "Pierre Janssens"
+	picture = "Portrait_Congo_Pierre_Janssens.dds"
 	expire = "1965.1.1"
 	ideology = social_liberalism
 	traits = {

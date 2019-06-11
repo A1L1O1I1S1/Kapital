@@ -44,3 +44,14 @@ create_country_leader = {
 	ideology = nationalism
 	traits = { }
 }
+
+create_corps_commander = {
+	name = "Florian Dupont"
+	portrait_path = "Portrait_Belgium_Florian_Dupont.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}

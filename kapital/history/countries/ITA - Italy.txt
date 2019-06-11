@@ -63,5 +63,5 @@ create_country_leader = {
 	picture = "Portrait_Italy_Hector_I.dds"
 	expire = "1965.1.1"
 	ideology = italo_fascism
-	traits = { }
+	traits = { dictator }
 }

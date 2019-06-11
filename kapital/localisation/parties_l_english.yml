@@ -95,6 +95,9 @@
  MAF_corporatist_party:0 "United Mafias"
  MAF_corporatist_party_long:0 "United Mafias of Italy"
 
+ CDB_corporatist_party:0 "Caribbean Defence Committee"
+ CDB_corporatist_party_long:0 "Caribbean Defence Committee"
+
  USA_socialist_party:0 "Democrats"
  USA_socialist_party_long:0 "Democratic Party (left wing)"
  USA_liberal_party:0 "Democrats"
@@ -123,6 +126,16 @@
  XEN_conservative_party_long:0 "Foreign Mandate"
  XEN_fascism_party:0 "Foreign Mandate"
  XEN_fascism_party_long:0 "Foreign Mandate"
+
+ COG_socialist_party:0 "Socialist Party"
+ COG_socialist_party_long:0 "Socialist Party"
+ COG_liberal_party:0 "Liberal Party"
+ COG_liberal_party_long:0 "Liberal Party"
+ COG_conservative_party:0 "Catholic Party"
+ COG_conservative_party_long:0 "Catholic Party"
+
+ BEL_fascism_party:0 "Rex"
+ BEL_fascism_party_long:0 "Rexist Party"
 
  LUX_communism_party:0 "Revolutionary Council"
  LUX_communism_party_long:0 "Revolutionary Council"

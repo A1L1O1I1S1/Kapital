@@ -31,6 +31,8 @@ state={
 			}
 		}
 		add_core_of = ITA
+
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

@@ -10,9 +10,6 @@
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
 	
 	support = {
@@ -28,8 +25,6 @@ division_template = {
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
-        light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
 		motorized = { x = 2 y = 0 }
         motorized = { x = 2 y = 1 }
 	}
@@ -53,9 +48,6 @@ division_template = {
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
 		
-		motorized = { x = 2 y = 0 }
-	    motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
 	}
 	support = {
         recon = { x = 0 y = 0 }
@@ -147,26 +139,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
 	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 6521
-		division_template = "Panzer-Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
-		location = 6521
-		division_template = "Panzer-Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
-	}
 
 	division= {	
 		division_name = {
@@ -185,7 +157,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 4
 		}
-		location = 6462
+		location = 3514
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -194,7 +166,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 14
 		}
-		location = 6462
+		location = 3423
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -203,7 +175,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 24
 		}
-		location = 6462
+		location = 587
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -318,24 +290,6 @@ units = {
 				name_order = 19
 		}
 		location = 6488
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 20
-		}
-		location = 9572
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 22
-		}
-		location = 9572
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
