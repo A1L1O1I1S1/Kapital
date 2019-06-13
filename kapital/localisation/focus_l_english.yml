@@ -2834,6 +2834,40 @@
 
  SCS_industry_1:0 "Industrial Development"
  SCS_industry_1_desc:0 "It's time to invest in our civilian industry sector. With sufficient funding, new factories will be up and running in no time!"
+
  SCS_election:0 "The 1936 Election"
  SCS_election_desc:0 "we need a writer lol i suck at this"
- SCS_election_complete_tt:0 "The elections are over"
+ SCS_election_complete_tt:0 "This focus will be bypassed once the elections are over."
+
+ SCS_status_quo:0 "Status Quo"
+ SCS_status_quo_desc:0 ""
+
+ SCS_radical_reform:0 "Radical Reform"
+ SCS_radical_reform_desc:0 ""
+
+ SCS_revolution:0 "Revolution"
+ SCS_revolution_desc:0 ""
+
+ SCS_fascist_government:0 "Order"
+ SCS_fascist_government_desc:0 ""
+
+ SCS_socialist_government:0 "Solidarity"
+ SCS_socialist_government_desc:0 ""
+
+ SCS_liberal_government:0 "Liberty"
+ SCS_liberal_government_desc:0 ""
+
+ SCS_conservative_government:0 "Tradition"
+ SCS_conservative_government_desc:0 ""
+
+ SCS_lessons_of_kapital:0 "Lessons of Das Kapital"
+ SCS_lessons_of_kapital_desc:0 ""
+
+ SCS_corporatist_government:0 "Profit"
+ SCS_corporatist_government_desc:0 ""
+
+ SCS_anarcho_capitalist_victory:0 "Freedom"
+ SCS_anarcho_capitalist_victory_desc:0 ""
+
+ SCS_communist_victory:0 "Equality"
+ SCS_communist_victory_desc:0 ""

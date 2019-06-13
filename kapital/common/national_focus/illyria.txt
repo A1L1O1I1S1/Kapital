@@ -90,19 +90,24 @@ focus_tree = {
 	focus = {
 		id = SCS_election
 		icon = GFX_focus_generic_treaty
-		x = 6
+		x = 10
 		y = 0
 		cost = 10
 		available_if_capitulated = no
 
 		available = {
-			always = no
-			custom_effect_tooltip = SCS_election_complete_tt
+			custom_trigger_tooltip = {
+				tooltip = SCS_election_complete_tt
+			}
+			hidden_trigger = {
+				always = no
+			}
 		}
 
 		bypass = {
-			has_country_flag = SCS_election_complete
-			custom_effect_tooltip = SCS_election_complete_tt
+			hidden_trigger = {
+				has_country_flag = SCS_election_complete
+			}
 		}
 	}
 
@@ -139,9 +144,9 @@ focus_tree = {
 
 	focus = {
 		id = SCS_radical_reform
-		icon = GFX_focus_renounce_the_treaty_of_triannon
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		relative_position_id = SCS_election
-		x = -2
+		x = -8
 		y = 1
 		cost = 1
 		available_if_capitulated = no
@@ -172,7 +177,7 @@ focus_tree = {
 		id = SCS_revolution
 		icon = GFX_goal_generic_demand_territory
 		relative_position_id = SCS_election
-		x = 2
+		x = 8
 		y = 1
 		cost = 1
 		available_if_capitulated = no
@@ -199,6 +204,256 @@ focus_tree = {
 			add_popularity = {
 				ideology = communism
 				popularity = 0.1
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_fascist_government
+		icon = GFX_focus_generic_fascism
+		relative_position_id = SCS_radical_reform
+		x = -2
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_radical_reform
+		}
+
+		mutually_exclusive = {
+			focus = SCS_socialist_government
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+				#last_election = "" # This should reference a variable with the date of the elections, set by the election event. Not sure if it's possible to store the game date as a variable though.
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_socialist_government
+		icon = GFX_focus_generic_socialist
+		relative_position_id = SCS_radical_reform
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_radical_reform
+		}
+
+		mutually_exclusive = {
+			focus = SCS_fascist_government
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = socialist
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = socialist
+				elections_allowed = yes
+				#last_election = ""
+				election_frequency = 24
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_liberal_government
+		icon = GFX_focus_generic_liberal
+		relative_position_id = SCS_status_quo
+		x = -2
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_status_quo
+		}
+
+		mutually_exclusive = {
+			focus = SCS_conservative_government
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = liberal
+				elections_allowed = yes
+				#last_election = ""
+				election_frequency = 48
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_conservative_government
+		icon = GFX_focus_generic_conservative
+		relative_position_id = SCS_status_quo
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_status_quo
+		}
+
+		mutually_exclusive = {
+			focus = SCS_liberal_government
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = conservative
+				elections_allowed = yes
+				#last_election = ""
+				election_frequency = 48
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_lessons_of_kapital
+		icon = GFX_focus_hol_the_foundations_of_defense
+		relative_position_id = SCS_revolution
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_revolution
+		}
+
+		mutually_exclusive = {
+			focus = SCS_communist_victory
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = anarcho_capitalist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = corporatist
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_corporatist_government
+		icon = GFX_focus_generic_corporatist
+		relative_position_id = SCS_lessons_of_kapital
+		x = -2
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_lessons_of_kapital
+		}
+
+		mutually_exclusive = {
+			focus = SCS_anarcho_capitalist_victory
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = corporatist
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = corporatist
+				elections_allowed = no
+				#last_election = ""
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_anarcho_capitalist_victory
+		icon = GFX_focus_generic_anarcho_capitalist
+		relative_position_id = SCS_lessons_of_kapital
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_lessons_of_kapital
+		}
+
+		mutually_exclusive = {
+			focus = SCS_corporatist_government
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = anarcho_capitalist
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = anarcho_capitalist
+				elections_allowed = no
+				#last_election = ""
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_communist_victory
+		icon = GFX_focus_generic_communism
+		relative_position_id = SCS_revolution
+		x = 4
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_revolution
+		}
+
+		mutually_exclusive = {
+			focus = SCS_lessons_of_kapital
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+				#last_election = ""
 			}
 		}
 	}

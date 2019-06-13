@@ -1,0 +1,18 @@
+add_namespace = illyria
+
+country_event = {
+  id = illyria.1
+  title = illyria.1.t
+  desc = illyria.1.d
+  picture = GFX_report_event_generic_riot
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    	name = illyria.1.a
+    	add_stability = 0.05
+    	hidden_effect = {
+    		set_country_flag = SCS_election_complete
+    	}
+    }
+}
