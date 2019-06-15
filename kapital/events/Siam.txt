@@ -241,7 +241,7 @@ country_event = {
   fire_only_once = yes
   trigger = {
     original_tag = SIA
-    num_of_controlled_states = 6
+    num_of_controlled_states > 6
   }
 
     option = {

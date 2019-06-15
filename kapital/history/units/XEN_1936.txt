@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Division"
-	division_names_group = SOV_INF_01
+	division_names_group = XEN_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -21,7 +21,7 @@
 
 division_template = {
 	name = "Motorised Division"
-	division_names_group = SOV_MOT_01
+	division_names_group = XEN_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -38,7 +38,7 @@ division_template = {
 
 division_template = {
 	name = "Mechanized Division"
-	division_names_group = SOV_MEC_01
+	division_names_group = XEN_MEC_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
@@ -57,7 +57,7 @@ division_template = {
 
 division_template = {
 	name = "Marine Division"
-	division_names_group = SOV_INF_01
+	division_names_group = XEN_INF_01
 
 	regiments = {
 		marine = { x = 0 y = 0 }
@@ -75,7 +75,7 @@ division_template = {
 
 division_template = {
 	name = "Home Guard"
-	division_names_group = SOV_INF_01
+	division_names_group = XEN_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -92,7 +92,7 @@ division_template = {
 
 division_template = {
 	name = "Occupational Unit"
-	division_names_group = SOV_INF_01
+	division_names_group = XEN_INF_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }

@@ -1,4 +1,4 @@
-add_namespace = illyria
+﻿add_namespace = illyria
 
 country_event = {
   id = illyria.1
