@@ -240,3 +240,20 @@
  BLR_conservative_party_long:0 "Belarusian Popular Front (conservative wing)"
  BLR_fascism_party:0 "BIP"
  BLR_fascism_party_long:0 "Belarusian Independence Party"
+
+ #
+
+ SCS_communism_party:0 "IKP"
+ SCS_communism_party_long:0 "Ilirska Komunistična Partija"
+ SCS_socialist_party:0 "SDSI"
+ SCS_socialist_party_long:0 "Socijaldemokratska Stranka Ilirije"
+ SCS_liberal_party:0 "IDS"
+ SCS_liberal_party_long:0 "Ilirska Demokratska Stranka"
+ SCS_anarcho_capitalist_party:0 "SSL"
+ SCS_anarcho_capitalist_party_long:0 "Savez Slobodnoga Ljudstva"
+ SCS_corporatist_party:0 "KII"
+ SCS_corporatist_party_long:0 "Korporacijska Inicijativa Ilirije"
+ SCS_conservative_party:0 "ILS"
+ SCS_conservative_party_long:0 "Ilirska Ljudska Stranka"
+ SCS_fascism_party:0 "NGI"
+ SCS_fascism_party_long:0 "Nacionalna Garda Ilirije"
