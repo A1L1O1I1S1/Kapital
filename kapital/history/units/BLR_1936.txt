@@ -147,7 +147,7 @@ units = {
 	}
 	division = {
 		name = "Belarusian Revolters 9"
-		location = 3392
+		location = 11341
 		division_template = "Liohkaja Dyvizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.91

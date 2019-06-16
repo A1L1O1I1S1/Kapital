@@ -9,18 +9,24 @@ country_event = {
 
     trigger = {
       original_tag = POL
-      date > 1936.1.1
+      BLR = { owns_state = 793 }
+      BLR = { owns_state = 794 }
     }
 
     option = {
     ai_chance = { factor = 80 }
     name = poland.1.a
-      POL = { transfer_state = 97 }
+      add_political_power = -10
+      POL = { transfer_state = 793 }
+      POL = { transfer_state = 794 }
+
     }
     option = {
     ai_chance = { factor = 40 }
     name = poland.1.b
-      LIT = { transfer_state = 97 }
+      add_political_power = -5
+      POL = { transfer_state = 793 }
+      LIT = { transfer_state = 794 }
     }
     option = {
     ai_chance = { factor = 40 }

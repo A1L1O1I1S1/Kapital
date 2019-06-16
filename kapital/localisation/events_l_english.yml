@@ -1789,10 +1789,10 @@
  
  #
 
- poland.1.t:0 "Bialystok question"
- poland.1.d:0 "Our western region of Bialystok has been in foregin hands for far too long. The russians and belarusians are now busy with fighting each other, so it seems like a perfect opportunity to return our rightful clay."
+ poland.1.t:0 "Belarusian uprising"
+ poland.1.d:0 "The russians and belarusians are now busy with fighting each other, so it seems like a perfect opportunity to use the chance and occupy neighboring cities of Brest and Grodno. This might, however, cause serious tensions in the future."
  poland.1.a:0 "Do it."
- poland.1.b:0 "Actually let's do something else..."
+ poland.1.b:0 "Occupy Brest and give Grodno to the Lithuanians."
  poland.1.c:0 "Maintaining good relations eith the East is more important."
 
  poland.2.t:0 "An end of an Era"
