@@ -2633,34 +2633,34 @@
  #ARMY
 
  BLR_army_effort:0 "Army Effort"
- BLR_army_effort_desc:0 ""
+ BLR_army_effort_desc:0 "Our country has felt the horror of modern war. The world, and war, has changed, and so must we if we are to win the next battle."
 
  BLR_light_tanks_effort:0 "Light Tanks Effort"
- BLR_light_tanks_effort_desc:0 ""
+ BLR_light_tanks_effort_desc:0 "The tank is an integral part of modern war, while we may be short on industrial capacity, we can at least be sure that the tanks we are able to produce are worthwhile."
 
  BLR_heavy_tanks_effort:0 "Heavy Tanks Effort"
- BLR_heavy_tanks_effort_desc:0 ""
+ BLR_heavy_tanks_effort_desc:0 "Despite what some may tell you, size does matter, and we understand this. We will need armor capable of taking on the most dangerous aspects of war, we will commit to creating the tank fit for the field."
 
  BLR_motorised_effort:0 "Motorised Effort"
- BLR_motorised_effort_desc:0 ""
+ BLR_motorised_effort_desc:0 "The horse is long outdated for war, but transport is not. Automobiles have shown their advantages in battle, we should take up this advantage as best we can."
 
  #BLR_mechanized_effort:0 "Mechanized Effort"
  #BLR_mechanized_effort_desc:0 ""
 
  BLR_equipment_effort:0 "Equipment Effort"
- BLR_equipment_effort_desc:0 ""
+ BLR_equipment_effort_desc:0 "We find ourselves in a situation with little industrial power and much less men on the field. We cannot afford to utilize our industry on inferior weapons."
 
  BLR_fortification_effort:0 "Fortification Effort"
- BLR_fortification_effort_desc:0 ""
+ BLR_fortification_effort_desc:0 "To the west, the Commonwealth, the north, the deadly alliance, to the south, a behemoth. We find ourselves surrounded by enemies larger than ourselves, we must prepare ourselves in the case of war."
 
  BLR_aa_perimeters:0 "AA Perimeters"
- BLR_aa_perimeters_desc:0 ""
+ BLR_aa_perimeters_desc:0 "The skies play an integral part of battle on the ground now, as such, control of the skies can be a deciding factor in how a battle will go. We will not allow the enemies to control our skies."
 
  BLR_make_them_scared_of_flying:0 "Make Them Scared of Flying"
- BLR_make_them_scared_of_flying_desc:0 ""
+ BLR_make_them_scared_of_flying_desc:0 "Our previous work on anti-air defenses have proven useful, the enemy sees many of their planes shot down before being useful. More investment into such defenses will be undoubtedly be worth it, they will fear our skies. "
 
  BLR_prepare_to_rule_the_skies:0 "Prepare to Rule the Skies"
- BLR_prepare_to_rule_the_skies_desc:0 ""
+ BLR_prepare_to_rule_the_skies_desc:0 "We have let our enemies planes paint the sky for too long, it is our time to control the skies. We will rule the skies on our terms from now on."
 
  BLR_quick_and_deadly:0 "Quick and Deadly"
  BLR_quick_and_deadly_desc:0 ""
@@ -2675,66 +2675,66 @@
  BLR_death_from_above_desc:0 ""
 
  BLR_belarusian_airforce:0 "Belarusian Airforce"
- BLR_belarusian_airforce_desc:0 ""
+ BLR_belarusian_airforce_desc:0 "We should not ignore the aviation aspect of war, it is integral that we create an official and well organized Airforce branch of our military."
 
  BLR_artillery_effort:0 "Artillery Effort"
- BLR_artillery_effort_desc:0 ""
+ BLR_artillery_effort_desc:0 "Ever since the debut of artillery on the battlefield, they have shown their importance. We must work on delivering even more firepower with our weapons."
 
  BLR_independent_force:0 "Independent Force"
- BLR_independent_force_desc:0 ""
+ BLR_independent_force_desc:0 "An organized military branch of the government is an essential, we need to assemble our military and abandon the disorganized nature created from our revolt. A devolved branch will mean the military can be kept neutral of the politics of the country."
 
  BLR_clamp_down_on_corruption:0 "Clamp Down on Corruption"
- BLR_clamp_down_on_corruption_desc:0 ""
+ BLR_clamp_down_on_corruption_desc:0 "Our revolt has allowed for some corruption to take place in the military, an unfortunate result of the chaos of the war. This will be put to an end as we investigate and organize the military branch."
 
  BLR_doctrine_research:0 "Doctrine Research"
- BLR_doctrine_research_desc:0 ""
+ BLR_doctrine_research_desc:0 "The modern war has meant that new strategies must be developed in order to be successful. We are not so foolish to think the same old strategy will work without fail."
 
  BLR_increase_industry_funding:0 "Increase Industry Funding"
- BLR_increase_industry_funding_desc:0 ""
+ BLR_increase_industry_funding_desc:0 "There is a simple matter-of-fact that the military can always use more funding. Additional investments will be needed to keep our military ready for the next war."
 
  BLR_competent_officers:0 "Competent Officers"
- BLR_competent_officers_desc:0 ""
+ BLR_competent_officers_desc:0 "Nepotism, royalty, corruption, aspects that have plagued earlier militaries. We will not fool ourselves into believing an officer should not be chosen by his abilities. Our military will pride itself on their skill and not the foolish ideals that have harmed others."
 
  BLR_army_innovations:0 "Army Innovations"
- BLR_army_innovations_desc:0 ""
+ BLR_army_innovations_desc:0 "There is a clear trend in relation between military innovation and innovation in the country as a whole. As it turns out, war is a great tool to get the minds of the country thinking of solutions. Assuring that the military research & development branches are well kept will be a benefit to us all."
 
  BLR_rocket_research:0 "Rocket Research"
- BLR_rocket_research_desc:0 ""
+ BLR_rocket_research_desc:0 "Aviation is a very young field in comparison to other aspects of the military, but we should not underestimate it's potentional in the coming years. We are developing new forms of aviation and their possible applications are promising."
 
  #LUCAS
 
  BLR_revolution_triumphant:0 "Revolution Triumphant"
- BLR_revolution_triumphant_desc:0 ""
+ BLR_revolution_triumphant_desc:0 "We have freed ourselves from our opressors. The revolution is here and we must take action, we will not allow the revolution to fail here and now. There are enemies outside and inside the country, there is oppression that must be dealt within and without. Prevail Lukanin!"
 
  BLR_militarized_goverment:0 "Militarized Goverment"
- BLR_militarized_goverment_desc:0 ""
+ BLR_militarized_goverment_desc:0 "Even the militaries of the ancien regimes were rife with corruption and oppression, the state must assure the military and government are kept closely tied in ideology and in power, the state surely must keep the military in close proximity... for the good of the worker."
 
  BLR_integrate_the_bgs:0 "Integrate the BGS"
- BLR_integrate_the_bgs_desc:0 ""
+ BLR_integrate_the_bgs_desc:0 "The BGS was integral for our victory earlier, and while we can thank them for their work, their existence separate from the military is no longer needed. The military is being centralized to assure safety, the BGS must be absorbed as well."
 
  BLR_revolutionary_army:0 "Revolutionary Army"
- BLR_revolutionary_army_desc:0 ""
+ BLR_revolutionary_army_desc:0 "There are times the worker must become the soldier, but we should not forget our revolution in the transition, the soldier must be part of the revolution just like the worker. We must be sure every soldier understands their role in the revolution."
 
  BLR_experimental_research:0 "Experimental Research"
- BLR_experimental_research_desc:0 ""
+ BLR_experimental_research_desc:0 "There is a clear disparity in technological progress when it comes to western Europe and our own lands. We should not shackle ourselves even in science, all that is possible must be explored in order to utilize the possibilities. Any sacrifice is of course only in the good of the revolution."
 
  BLR_a_surprise_tool_that_will_help_us_later:0 "A Surprise Tool that Will Help Us Later"
- BLR_a_surprise_tool_that_will_help_us_later_desc:0 ""
+ BLR_a_surprise_tool_that_will_help_us_later_desc:0 "We have found a promising mind in physics that will surely be useful for future conflict. Stefan Rozental, originally a Pole that fled from Poland during the Great War, is now a leading physicist under our management, we may be able to wield a weapon beyond our wildest dreams."
 
  BLR_found_the_kdb:0 "Found the KDB"
- BLR_found_the_kdb_desc:0 ""
+ BLR_found_the_kdb_desc:0 "The KDB is a new department of interior affairs. The countries of the world will not allow the revolution to happen in peace, and as such, we must assure we can stoke what flames we can across the globe. The KDB is also tasked in assuring the security of the revolution within our borders, any Marxist can be dealt with using a black bag and a hammer."
 
  BLR_our_own_strategy:0 "Our Own Strategy"
- BLR_our_own_strategy_desc:0 ""
+ BLR_our_own_strategy_desc:0 "Sun Tzu, Clausewitz, Napoleon, all products of the oppressive regimes, we cannot hope to truly lead the revolution if we allow our military to follow them so blindly. A worker need only a gun and a knife to be a soldier, and the revolution only needs a people with the will to fight. Our strategy can only be described as that of the common man, any other comparisons to a meat grinder are only propaganda."
 
  BLR_youth_organizations:0 "Youth Organizations"
- BLR_youth_organizations_desc:0 ""
+ BLR_youth_organizations_desc:0 "The children of the revolution are naive but full of potentional, as such, they must be lead to carry on the torch. A child can learn much of the class struggle when placed in the workforce, a child can learn what it means to fight for the revolution with a few firearms lessons. Of course, this is only to teach them."
 
  BLR_enemies_of_the_revolution:0 "Enemies of the Revolution"
- BLR_enemies_of_the_revolution_desc:0 ""
+ BLR_enemies_of_the_revolution_desc:0 "All around us are the enemies of the revolution, they seek to exterminate us and our cause, they place their troops on our borders and build armaments on our borders. We would be foolish to stand here and allow them to make the first strike, the revolution will spread to those who seek to eliminate it."
 
  BLR_return_lost_lands:0 "Return Lost Lands"
- BLR_return_lost_lands_desc:0 ""
+ BLR_return_lost_lands_desc:0 "The Poles continue to oppress the people under them, what is even worse is that part of their territory is rightfully ours, we shall not allow this to continue, the situation at hand means it is best that we take the initiative to take back what is ours."
 
 # BLR_strike_south:0 "Strike South"
 # BLR_strike_south_desc:0 ""
@@ -2743,36 +2743,36 @@
 # BLR_strike_east_desc:0 ""
 
  BLR_the_comintern:0 "The Comintern"
- BLR_the_comintern_desc:0 ""
+ BLR_the_comintern_desc:0 "The flames of the revolution exist beyond our borders. There are nations across the world seeing the sparks grow into flames of the revolution. We must lead them onward to bring this revolution to the rest of the world, allies are needed in the chaos of this world."
 
  BLR_proclaim_the_soviet_union:0 "Proclaim the Soviet Union"
- BLR_proclaim_the_soviet_union_desc:0 ""
+ BLR_proclaim_the_soviet_union_desc:0 "With the revolution growing beyond our original borders, we cannot simply keep our old name, we must reflect the new reality, we are a union of revolutionary lands, we are a union of soviets (that's catchy, write that down), our name should reflect such."
 
  BLR_purge_the_counter-revolutionaries:0 "Purge the Counter-revolutionaries"
- BLR_purge_the_counter-revolutionaries_desc:0 ""
+ BLR_purge_the_counter-revolutionaries_desc:0 "The revolution faces traitors within our very borders, we will not tolerate this. They wish to damn themselves by rejecting the revolution, they will not damn the rest of us. Our revolution must be secured from their influence."
 
  BLR_secularisation:0 "Secularisation"
- BLR_secularisation_desc:0 ""
+ BLR_secularisation_desc:0 "The church has been a thorn in our side for too long, they're lies and treachery will end here and now. We must stop them from shackling the people. Seize their churches, seize their idols, seize their leaders, they will no longer plague us."
 
  BLR_wealth_redistribution:0 "Wealth Redistribution"
- BLR_wealth_redistribution_desc:0 ""
+ BLR_wealth_redistribution_desc:0 "The class struggle is integral to our revolution, no longer will the worker suffer while the bourgeoisie abuses. The workers will be given their fair share."
 
  BLR_develop_the_agricultural_sector:0 "Develop the Agricultural Sector"
- BLR_develop_the_agricultural_sector_desc:0 ""
+ BLR_develop_the_agricultural_sector_desc:0 "A revolution will not succeed unless it's people are fed. This land must be efficiently sowed for a proper revolution to be reaped. "
 
  BLR_our_wonder_weapon:0 "Our Wonder Weapon"
- BLR_our_wonder_weapon_desc:0 ""
+ BLR_our_wonder_weapon_desc:0 "As a wise agrarian once said "Potatoes! Boil them, mash them, stick them in a stew."; truly the words of a revolutionary mind. The potato is a perfect crop, being able to grow almost anywhere and it is one of the most versatile foodstuffs to bless the stomachs of the worker."
 
  BLR_planned_economy:0 "Planned Economy"
- BLR_planned_economy_desc:0 ""
+ BLR_planned_economy_desc:0 "The dangerous ideology of Marx has caused a massive decentralization of the economies of the world in the last century. Oppression runs rampant and the bourgeoisie have taken so much from the worker, the state must create a well-crafted plan for the economy to assure the people stay equal."
 
  BLR_industrialization:0 "Industrialization"
- BLR_industrialization_desc:0 ""
+ BLR_industrialization_desc:0 "The last century has brought us a new way to empower the worker: factories. The worker is able to achieve much more in unison with his fellow worker, we must use our planned economy to create factories across the country to assure every worker is empowered."
 
  #NATIONALISTS
 
  BLR_nationalists_prevail:0 "Nationalists Prevail"
- BLR_nationalists_prevail_desc:0 ""
+ BLR_nationalists_prevail_desc:0 "Lukanin's ideals are simply too radical to be put into place, the revolt was successful, but Lukanin himself is not. We must assure his revolution is put down for the benefit of our new nation."
 
  BLR_not_so_fast:0 "Not so fast..."
  BLR_not_so_fast_desc:0 ""
@@ -2784,43 +2784,43 @@
  BLR_start_negotiations_desc:0 ""
 
  BLR_approach_the_commonwealth:0 "Approach the Commonwealth"
- BLR_approach_the_commonwealth_desc:0 ""
+ BLR_approach_the_commonwealth_desc:0 "The Commonwealth is a powerful alliance to the west formed of familiar ties and proximity. We may not be so familiar but our proximity means our fates are tied. Perhaps it is best that we approach them tactfully for the sake of both sides."
 
  BLR_military_alliance:0 "Military Alliance"
- BLR_military_alliance_desc:0 ""
+ BLR_military_alliance_desc:0 "With Lukanin out of power and our new government firmly in power, we have found ourselves aligned with the Commonwealth, there is great potentional for the relation between us. It is time that we approach them for establishing further ties."
 
  BLR_full_membership:0 "Full Membership"
- BLR_full_membership_desc:0 ""
+ BLR_full_membership_desc:0 "Though our original plans were not to join the Commonwealth, our cooperation with them has yielded great results. There is rising tension across the world and perhaps it is best that we act as part of something more to keep ourselves safe."
 
  BLR_our_demands:0 "Our Demands"
- BLR_our_demands_desc:0 ""
+ BLR_our_demands_desc:0 "Our alignment and partnership with the Commonwealth is an advantageous turn of events, but we are not going to allow any injustice within our new alliance. The Republic of Ukraine holds land that is rightfully ours, we must make sure this problem is corrected immediately."
 
  BLR_belarusian_popular_front:0 "Belarusian Popular Front"
- BLR_belarusian_popular_front_desc:0 ""
+ BLR_belarusian_popular_front_desc:0 "The Belarusian Popular Front is a coalition of right-wing and centrist members. They have orchestrated the downfall of Lukanin and have gained enough control of the situation to be the de facto leaders. This has lead to a schism between the two in how the country will be run."
 
  BLR_the_conservatives:0 "The Conservatives"
- BLR_the_conservatives_desc:0 ""
+ BLR_the_conservatives_desc:0 "The people of the country have shown their loyalty, only the conservative faction of the BPF is fit to lead this nation. Tradition, family, and economic liberty, these are ideals that should drive the nation forward. These are the true ideals of the BPF."
 
  BLR_market_reforms:0 "Market Reforms"
- BLR_market_reforms_desc:0 ""
+ BLR_market_reforms_desc:0 "The economy will no longer be subject to the boot of the state or any others that can corrupt the market. Free trade, lowered tariffs, and monopoly breaking will allow for a truly prosperous market."
 
  BLR_the_moderates:0 "The Moderates"
- BLR_the_moderates_desc:0 ""
+ BLR_the_moderates_desc:0 "The people of the country have shown their loyalty, only the liberalist faction of the BPF is fit to lead this nation. Personal rights, equality, and social mobility, these are ideals that should drive the nation forward. These are the true ideals of the BPF."
 
  BLR_belarusian_socialist_assembly:0 "Belarusian Socialist Assembly"
  BLR_belarusian_socialist_assembly_desc:0 ""
 
  BLR_northern_allies:0 "Northern Allies?"
- BLR_northern_allies_desc:0 ""
+ BLR_northern_allies_desc:0 "While the name may not be fitting for us, the Scandinavian Union is an alliance we align with and would do well to become a part of. The Scandinavian nations are aligned with us in ideal and this could create a great opportunity for cooperation."
 
  BLR_liberalism:0 "Liberalism!"
- BLR_liberalism_desc:0 ""
+ BLR_liberalism_desc:0 "The people must be free, their rights must be secured, their lives must be allowed to be lived. The oppression of the previous eras will not define us for the next era. The people of the nation will know that they can truly live prosperous, free, and hopeful lives."
 
  BLR_welfare:0 "Welfare!"
  BLR_welfare_desc:0 ""
 
  BLR_unfinished_business:0 "Unfinished business"
- BLR_unfinished_business_desc:0 ""
+ BLR_unfinished_business_desc:0 "The so called 'Russian Republic' is a farce of a nation and they have been a thorn in our side for long enough. We were successful in our revolt against them, and we will be successful in our own attack on their homeland. This rivalry will be finished once and for all."
 
  BLR_peace_and_reconciliation:0 "Peace and Reconciliation"
  BLR_peace_and_reconciliation_desc:0 ""
