@@ -221,7 +221,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.25
+				uses = 2
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+			}
 		}
     }
 
@@ -236,7 +244,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.5
+				uses = 2
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}
 		}
     }
 
@@ -251,7 +266,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				uses = 3
+				category = cas_bomber
+				technology = strategic_bomber1
+				technology = strategic_bomber2
+				technology = strategic_bomber3
+			}
 		}
     }
 
@@ -266,7 +289,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.5
+				uses = 2
+				category = tactical_bomber
+			}
 		}
     }
 
@@ -500,12 +528,14 @@ focus_tree = {
 		prerequisite = { focus = BLR_revolutionary_army }
 		x = 10
 		y = 5
-		cost = 10
+		cost = 15
 
 		available_if_capitulated = no
 
 		completion_reward = {
+		    add_political_power = -25
 			add_ideas = BLR_idea_experimental_research
+			add_research_slot = 1
 		}
     }
 

@@ -26,9 +26,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Farouk Muhammad Ali"
+	name = "Ahmed I"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	picture = "Portrait_Egypt_Ahmed_I.dds"
 	ideology = despotism
 	traits = { }
 }

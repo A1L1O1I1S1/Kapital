@@ -240,20 +240,3 @@
  BLR_conservative_party_long:0 "Belarusian Popular Front (conservative wing)"
  BLR_fascism_party:0 "BIP"
  BLR_fascism_party_long:0 "Belarusian Independence Party"
-
- #
-
- SCS_communism_party:0 "ICP"
- SCS_communism_party_long:0 "Ilyrian Communist Party"
- SCS_socialist_party:0 "SDPI"
- SCS_socialist_party_long:0 "Social Democratic Party of Illyria"
- SCS_liberal_party:0 "IDP"
- SCS_liberal_party_long:0 "Ilyrian Democratic Party"
- SCS_anarcho_capitalist_party:0 "FPA"
- SCS_anarcho_capitalist_party_long:0 "Free People's Association"
- SCS_corporatist_party:0 "ICI"
- SCS_corporatist_party_long:0 "Illyrian Corporatist Initiative"
- SCS_conservative_party:0 "IPP"
- SCS_conservative_party_long:0 "Illyrian People's Party"
- SCS_fascism_party:0 "NGI"
- SCS_fascism_party_long:0 "National Guard of Illyria"

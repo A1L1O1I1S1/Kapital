@@ -49,8 +49,8 @@ set_politics = {
 create_country_leader = {
 	name = "J. B. M. Hertzog"
 	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-	picture = "GFX_SAF_james_hertzog"
+	picture = "Portrait_South_Africa_Bill_Herber.dds"
 	expire = "1965.1.1"
-	ideology = democratic_conservatism
+	ideology = authoritarian_conservatism
 	traits = { }
 }

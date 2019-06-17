@@ -54,8 +54,8 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 TIB = {
-	color = rgb { 0 0 113 }
-	color_ui = rgb { 0 0 113 }
+	color = rgb { 97 86 122 }
+	color_ui = rgb { 97 86 122 }
 }
 EST = {
 	color = rgb { 50 135 175 }
@@ -118,8 +118,8 @@ AFG = {
 	color_ui = rgb { 83 208 217 }
 }
 AST = {
-	color = rgb { 57 143 97 }
-	color_ui = rgb { 74 186 126 }
+	color = rgb { 84 49 26 }
+	color_ui = rgb { 84 49 26 }
 }
 CAN = {
 	color = rgb { 119 48 39 }
@@ -253,8 +253,8 @@ D15 = {
 #
 
 MAF = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 242 205 94 }
+	color = rgb { 100 153 118 }
+	color_ui = rgb { 100 153 118 }
 }
 CAC = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
