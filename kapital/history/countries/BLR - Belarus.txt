@@ -11,6 +11,10 @@ add_ideas = {
     partial_economic_mobilisation
 
 	BLR_bgs
+
+    BLR_ivan_trofimov
+    BLR_lev_yakovlev
+    BLR_luka_yanovich
 }
 
 country_event = { id = belarus.4 days = 14 }

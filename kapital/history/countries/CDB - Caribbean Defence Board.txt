@@ -31,9 +31,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Sir Greenwood"
+	name = "Don Greenwood"
 	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
-	picture = "Portrait_Caribbean_Defence_Board_Sir_Greenwood.dds"
+	picture = "Portrait_Caribbean_Defence_Board_Don_Greenwood.dds"
 	expire = "1965.1.1"
 	ideology = colonial_administration
 	traits = { }

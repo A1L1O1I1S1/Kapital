@@ -145,6 +145,10 @@ ideas = {
 
 		BLR_ivan_petrov = {
 
+			available = {
+				has_government = communism
+			}
+
 			picture = idea_ivan_petrov
 			
 			allowed = {
@@ -153,6 +157,176 @@ ideas = {
 			
 			traits = { prince_of_terror }
 		}
+
+		BLR_chanoch_weiner = {
+
+			available = {
+				NOT = {
+				    has_government = communism
+				    has_government = fascism
+				}
+			}
+
+			picture = idea_chanoch_weiner
+			
+			allowed = {
+				original_tag = BLR
+			}
+
+			research_bonus = {
+				synth_resources = 0.1
+			}
+			
+			traits = { chemist }
+
+			cost = 75
+		}
+
+		BLR_stepan_vysokin = {
+
+			available = {
+				has_government = communism
+			}
+
+			picture = idea_stepan_vysokin
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		BLR_miron_andreev = {
+
+			available = {
+				has_government = communism
+			}
+
+			picture = idea_miron_andreev
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { economic_organizer }
+		}
+
+		BLR_ivan_trofimov = {
+
+			available = {
+				has_government = communism
+			}
+
+			picture = idea_ivan_trofimov
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { railroad_enthusiast }
+		}
+
+		BLR_lev_yakovlev = {
+
+			available = {
+				has_government = communism
+			}
+
+			picture = idea_lev_yakovlev
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		BLR_mikola_navaselets = {
+
+			available = {
+				NOT = {
+				    has_government = communism
+				    has_government = fascism
+				}
+			}
+
+			picture = idea_mikola_navaselets
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { propaganda_bungler }
+		}
+
+		BLR_luka_yanovich = {
+
+			picture = idea_luka_yanovich
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { popular_figurehead2 }
+		}
+
+		BLR_yan_lutsenko = {
+
+			available = {
+				OR = {
+				    has_government = socialist
+				    has_government = liberal
+				    has_government = conservative
+				}
+			}
+
+			picture = idea_yan_lutsenko
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		BLR_anton_lutsenko = {
+
+			available = {
+				OR = {
+				    has_government = socialist
+				    has_government = liberal
+				    has_government = conservative
+				}
+			}
+
+			picture = idea_anton_lutsenko
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { silent_mule }
+		}
+
+		BLR_yuli_lutsenko = {
+
+			available = {
+				OR = {
+				    has_government = conservative
+				    has_government = fascism
+				}
+			}
+
+			picture = idea_yuli_lutsenko
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
 	}
 
 	materiel_manufacturer = {

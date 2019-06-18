@@ -4050,4 +4050,54 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_ivan_petrov.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_BLR_chanoch_weiner"
+		texturefile = "gfx/interface/ideas/idea_chanoch_weiner.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_stepan_vysokin"
+		texturefile = "gfx/interface/ideas/idea_stepan_vysokin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_miron_andreev"
+		texturefile = "gfx/interface/ideas/idea_miron_andreev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_ivan_trofimov"
+		texturefile = "gfx/interface/ideas/idea_ivan_trofimov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_lev_yakovlev"
+		texturefile = "gfx/interface/ideas/idea_lev_yakovlev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_mikola_navaselets"
+		texturefile = "gfx/interface/ideas/idea_mikola_navaselets.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_luka_yanovich"
+		texturefile = "gfx/interface/ideas/idea_luka_yanovich.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_yan_lutsenko"
+		texturefile = "gfx/interface/ideas/idea_yan_lutsenko.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_anton_lutsenko"
+		texturefile = "gfx/interface/ideas/idea_anton_lutsenko.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_yuli_lutsenko"
+		texturefile = "gfx/interface/ideas/idea_yuli_lutsenko.dds"
+	}
+
 }

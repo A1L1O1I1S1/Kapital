@@ -57,9 +57,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "El Padre"
+	name = "Il Padre"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Mafia_El_Padre.dds"
+	picture = "Portrait_Mafia_Il_Padre.dds"
 	expire = "1965.1.1"
 	ideology = corporatism
 	traits = { }
