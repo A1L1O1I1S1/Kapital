@@ -93,7 +93,12 @@ country_event = {
       ideology = corporatism
       traits = { }
     }
+    hidden_effect = { remove_ideas_with_trait = political_advisor_flag }
+    add_ideas = BLR_stanislav_andreev
+    add_ideas = BLR_gregory_topin
+    add_ideas = BLR_vladimir_limonov
   }
+
   option = {
   name = belarus.3.b
     ai_chance = { factor = 40 }
@@ -105,7 +110,12 @@ country_event = {
       ideology = corporatism
       traits = { }
     }
+    hidden_effect = { remove_ideas_with_trait = political_advisor_flag }
+    add_ideas = BLR_stanislav_andreev
+    add_ideas = BLR_gregory_topin
+    add_ideas = BLR_vladimir_limonov
   }
+
   option = {
   name = belarus.3.c
     ai_chance = { factor = 40 }
@@ -117,11 +127,19 @@ country_event = {
       ideology = corporatism
       traits = { }
     }
+    hidden_effect = { remove_ideas_with_trait = political_advisor_flag }
+    add_ideas = BLR_stanislav_andreev
+    add_ideas = BLR_gregory_topin
+    add_ideas = BLR_vladimir_limonov
   }
+
   option = {
   name = belarus.3.e
     ai_chance = { factor = 10 }
-    #
+    hidden_effect = { remove_ideas_with_trait = political_advisor_flag }
+    add_ideas = BLR_stanislav_andreev
+    add_ideas = BLR_gregory_topin
+    add_ideas = BLR_vladimir_limonov
   }
 }
 

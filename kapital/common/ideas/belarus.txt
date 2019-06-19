@@ -143,6 +143,35 @@ ideas = {
 
 	political_advisor = {
 
+		BLR_luka_yanovich = {
+
+			picture = idea_luka_yanovich
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { popular_figurehead2 political_advisor_flag }
+		}
+
+		BLR_viktor_mitrofanov = {
+
+			available = {
+				NOT = {
+				    has_government = anarcho_capitalist
+				    has_government = corporatist
+				}
+			}
+
+			picture = idea_viktor_mitrofanov
+
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { economist political_advisor_flag }
+		}
+
 		BLR_ivan_petrov = {
 
 			available = {
@@ -155,31 +184,7 @@ ideas = {
 				original_tag = BLR
 			}
 			
-			traits = { prince_of_terror }
-		}
-
-		BLR_chanoch_weiner = {
-
-			available = {
-				NOT = {
-				    has_government = communism
-				    has_government = fascism
-				}
-			}
-
-			picture = idea_chanoch_weiner
-			
-			allowed = {
-				original_tag = BLR
-			}
-
-			research_bonus = {
-				synth_resources = 0.1
-			}
-			
-			traits = { chemist }
-
-			cost = 75
+			traits = { prince_of_terror political_advisor_flag }
 		}
 
 		BLR_stepan_vysokin = {
@@ -194,7 +199,7 @@ ideas = {
 				original_tag = BLR
 			}
 			
-			traits = { captain_of_industry }
+			traits = { captain_of_industry political_advisor_flag }
 		}
 
 		BLR_miron_andreev = {
@@ -209,7 +214,7 @@ ideas = {
 				original_tag = BLR
 			}
 			
-			traits = { economic_organizer }
+			traits = { economic_organizer political_advisor_flag }
 		}
 
 		BLR_ivan_trofimov = {
@@ -224,9 +229,8 @@ ideas = {
 				original_tag = BLR
 			}
 			
-			traits = { railroad_enthusiast }
+			traits = { railroad_enthusiast political_advisor_flag }
 		}
-
 		BLR_lev_yakovlev = {
 
 			available = {
@@ -239,37 +243,41 @@ ideas = {
 				original_tag = BLR
 			}
 			
-			traits = { silent_workhorse }
+			traits = { silent_workhorse political_advisor_flag }
 		}
 
-		BLR_mikola_navaselets = {
+		BLR_lev_levitsky = {
 
 			available = {
-				NOT = {
-				    has_government = communism
-				    has_government = fascism
+				has_government = socialist
+			}
+
+			picture = idea_lev_levitsky
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { silent_workhorse political_advisor_flag }
+		}	
+
+		BLR_varlam_levkovsky = {
+
+			available = {
+				OR = {
+				    has_government = socialist
+				    has_government = liberal
 				}
 			}
 
-			picture = idea_mikola_navaselets
+			picture = idea_varlam_levkovsky
 			
 			allowed = {
 				original_tag = BLR
 			}
 			
-			traits = { propaganda_bungler }
-		}
-
-		BLR_luka_yanovich = {
-
-			picture = idea_luka_yanovich
-			
-			allowed = {
-				original_tag = BLR
-			}
-			
-			traits = { popular_figurehead2 }
-		}
+			traits = { ideological_crusader political_advisor_flag }
+		}	
 
 		BLR_yan_lutsenko = {
 
@@ -287,7 +295,7 @@ ideas = {
 				original_tag = BLR
 			}
 			
-			traits = { compassionate_gentleman }
+			traits = { compassionate_gentleman political_advisor_flag }
 		}
 
 		BLR_anton_lutsenko = {
@@ -306,7 +314,134 @@ ideas = {
 				original_tag = BLR
 			}
 			
-			traits = { silent_mule }
+			traits = { silent_mule political_advisor_flag }
+		}
+
+		BLR_chanoch_weiner = {
+
+			available = {
+				NOT = {
+				    has_government = communism
+				    has_government = fascism
+				}
+			}
+
+			picture = idea_chanoch_weiner
+			
+			allowed = {
+				original_tag = BLR
+			}
+
+			#research_bonus = {
+			#	synth_resources = 0.1
+			#}
+			
+			traits = { scientist political_advisor_flag }
+
+			cost = 75
+		}
+		BLR_mikola_navaselets = {
+
+			available = {
+				NOT = {
+				    has_government = communism
+				    has_government = fascism
+				}
+			}
+
+			picture = idea_mikola_navaselets
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { propaganda_bungler political_advisor_flag }
+		}
+
+		BLR_gregory_topin = {
+
+			available = {
+				NOT = {
+				    has_government = communism
+				    has_government = socialist
+				}
+			}
+
+			picture = idea_gregory_topin
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { economist political_advisor_flag }
+		}
+
+		BLR_stanislav_andreev = {
+
+			available = {
+				OR = {
+				    has_government = liberal
+				    has_government = corporatist
+				}
+			}
+
+			picture = idea_stanislav_andreev
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { war_profiteer political_advisor_flag }
+		}
+
+		BLR_vladimir_limonov = {
+
+			available = {
+				has_government = corporatist
+			}
+
+			picture = idea_vladimir_limonov
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { propaganda_expert political_advisor_flag }
+		}
+
+		BLR_elizaveta_krasinskaya = {
+
+			available = {
+				OR = {
+				    has_government = conservative
+				}
+			}
+
+			picture = idea_elizaveta_krasinskaya
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { financial_expert political_advisor_flag }
+		}
+
+		BLR_leonard_vseslavov = {
+
+			available = {
+				OR = {
+				    has_government = conservative
+				    has_government = fascism
+				}
+			}
+
+			picture = idea_leonard_vseslavov
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { silent_mule political_advisor_flag }
 		}
 
 		BLR_yuli_lutsenko = {
@@ -324,9 +459,8 @@ ideas = {
 				original_tag = BLR
 			}
 			
-			traits = { backroom_backstabber }
+			traits = { backroom_backstabber political_advisor_flag }
 		}
-
 	}
 
 	materiel_manufacturer = {

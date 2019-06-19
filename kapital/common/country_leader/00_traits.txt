@@ -3132,7 +3132,17 @@ leader_traits = {
 		}
 	}
 
-	chemist = {
+	scientist = {
+		sprite = 10
+		random = no
+		research_speed_factor = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	political_advisor_flag = {
 		sprite = 10
 		random = no
 		

@@ -2635,5 +2635,17 @@ deterrence:0 "Deterrence"
  BLR_yan_lutsenko:0 "Yan Lutsenko"
  BLR_anton_lutsenko:0 "Anton Lutsenko"
  BLR_yuli_lutsenko:0 "Yuli Lutsenko"
+ BLR_stanislav_andreev:0 "Stanislav Andreev"
+ BLR_gregory_topin:0 "Gregory Topin"
+ BLR_vladimir_limonov:0 "Vladimir Limonov"
+ BLR_leonard_vseslavov:0 "Leonard Vseslavov"
+ BLR_varlam_levkovsky:0 "Varlam Levkovsky"
+ BLR_lev_levitsky:0 "Lev Levitsky"
+ BLR_viktor_mitrofanov:0 "Viktor Mitrofanov"
+ BLR_elizaveta_krasinskaya:0 "Elizaveta Krasinskaya"
 
  RUS_oryol_treaty:0 "Oryol Treaty"
+
+ ###
+
+ political_advisor_flag:0 ""

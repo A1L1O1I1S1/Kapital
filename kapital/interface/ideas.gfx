@@ -4100,4 +4100,43 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_yuli_lutsenko.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_BLR_stanislav_andreev"
+		texturefile = "gfx/interface/ideas/idea_stanislav_andreev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_gregory_topin"
+		texturefile = "gfx/interface/ideas/idea_gregory_topin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_vladimir_limonov"
+		texturefile = "gfx/interface/ideas/idea_vladimir_limonov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_leonard_vseslavov"
+		texturefile = "gfx/interface/ideas/idea_leonard_vseslavov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_varlam_levkovsky"
+		texturefile = "gfx/interface/ideas/idea_varlam_levkovsky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_lev_levitsky"
+		texturefile = "gfx/interface/ideas/idea_lev_levitsky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_viktor_mitrofanov"
+		texturefile = "gfx/interface/ideas/idea_viktor_mitrofanov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BLR_elizaveta_krasinskaya"
+		texturefile = "gfx/interface/ideas/idea_elizaveta_krasinskaya.dds"
+	}
 }

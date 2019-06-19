@@ -1136,6 +1136,10 @@ focus_tree = {
 		completion_reward = {
             add_popularity = { ideology = conservative popularity = 0.20 }
             set_politics = { ruling_party = conservative }
+            hidden_effect = { remove_ideas_with_trait = political_advisor_flag }
+            add_ideas = BLR_leonard_vseslavov
+            add_ideas = BLR_mikola_navaselets
+            add_ideas = BLR_elizaveta_krasinskaya
 		}
     }
 
@@ -1181,6 +1185,10 @@ focus_tree = {
 
 		completion_reward = {
             add_popularity = { ideology = liberal popularity = 0.20 }
+            hidden_effect = { remove_ideas_with_trait = political_advisor_flag }
+            add_ideas = BLR_anton_lutsenko
+            add_ideas = BLR_yan_lutsenko
+            add_ideas = BLR_chanoch_weiner
 		}
     }
 
@@ -1203,6 +1211,10 @@ focus_tree = {
             add_popularity = { ideology = socialist popularity = 0.30 }
             set_politics = { ruling_party = socialist }
             drop_cosmetic_tag = yes
+            hidden_effect = { remove_ideas_with_trait = political_advisor_flag }
+            add_ideas = BLR_lev_levitsky
+            add_ideas = BLR_varlam_levkovsky
+            add_ideas = BLR_luka_yanovich
 		}
     }
 
