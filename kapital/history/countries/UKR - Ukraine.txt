@@ -39,12 +39,12 @@ set_technology = {
 
 set_popularities = {
 	communism = 0
-	socialist = 0
-	liberal = 0
-	anarcho_capitalist = 100
-	corporatist = 0
-	conservative = 0
-	fascism = 0
+	socialist = 1
+	liberal = 6
+	anarcho_capitalist = 71
+	corporatist = 17
+	conservative = 3
+	fascism = 2
 }
 
 set_politics = {

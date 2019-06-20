@@ -3122,7 +3122,7 @@ leader_traits = {
 
 ###
 
-	vozhd = {
+	father_of_the_nation = {
 		random = no
 		stability_factor = 0.5
 		war_support_factor = 0.5

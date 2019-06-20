@@ -541,23 +541,23 @@
  UKR_communism:0 "Ukranian Commune"
  UKR_communism_DEF:0 "Ukranian Commune"
 
- UKR_socialist:0 "Ukraine"
- UKR_socialist_DEF:0 "Ukraine"
+ UKR_socialist:0 "Ukranian Republic"
+ UKR_socialist_DEF:0 "Ukranian Republic"
 
- UKR_fascism:0 "Ukraine"
- UKR_fascism_DEF:0 "Ukraine"
+ UKR_liberal:0 "Ukranian Republic"
+ UKR_liberal_DEF:0 "Ukranian Republic"
 
- UKR_conservative:0 "Ukraine"
- UKR_conservative_DEF:0 "Ukraine"
-
- UKR_liberal:0 "Ukraine"
- UKR_liberal_DEF:0 "Ukraine"
+ UKR_anarcho_capitalist:0 "Free Territory"
+ UKR_anarcho_capitalist_DEF:0 "Free Territory"
 
  UKR_corporatist:0 "Corporate Ukraine"
  UKR_corporatist_DEF:0 "Corporate Ukraine"
 
- UKR_anarcho_capitalist:0 "Free Territory"
- UKR_anarcho_capitalist_DEF:0 "Free Territory"
+ UKR_conservative:0 "State of Ukraine"
+ UKR_conservative_DEF:0 "State of Ukraine"
+
+ UKR_fascism:0 "Radical Ukraine"
+ UKR_fascism_DEF:0 "Radical  Ukraine"
 
  UKR_communism_ADJ:0 "Ukranian"
  UKR_socialist_ADJ:0 "Ukranian"
@@ -574,20 +574,20 @@
  UKC_socialist:0 "Republic of Ukraine"
  UKC_socialist_DEF:0 "Republic of Ukraine"
 
- UKC_fascism:0 "Ukranian State"
- UKC_fascism_DEF:0 "Ukranian State"
-
- UKC_conservative:0 "Ukraine"
- UKC_conservative_DEF:0 "Ukraine"
-
  UKC_liberal:0 "Republic of Ukraine"
  UKC_liberal_DEF:0 "Republic of Ukraine"
+
+ UKC_anarcho_capitalist:0 "Free Ukraine"
+ UKC_anarcho_capitalist_DEF:0 "Anarcho-capitalist Ukraine"
 
  UKC_corporatist:0 "Ukranian Corporate Republic"
  UKC_corporatist_DEF:0 "Ukranian Corporate Republic"
 
- UKC_anarcho_capitalist:0 "Free Ukraine"
- UKC_anarcho_capitalist_DEF:0 "Anarcho-capitalist Ukraine"
+ UKC_conservative:0 "Ukraine"
+ UKC_conservative_DEF:0 "Ukraine"
+
+ UKC_fascism:0 "Ukranian State"
+ UKC_fascism_DEF:0 "Ukranian State"
 
  UKC_communism_ADJ:0 "Ukranian"
  UKC_socialist_ADJ:0 "Ukranian"

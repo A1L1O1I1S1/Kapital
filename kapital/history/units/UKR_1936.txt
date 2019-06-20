@@ -1,0 +1,163 @@
+﻿division_template = {
+	name = "Mechanized Division"
+	division_names_group = XEN_MEC_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }		
+		light_armor = { x = 1 y = 1 }		
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Motorised Division"
+	division_names_group = XEN_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+	division_names_group = XEN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+	division_names_group = XEN_INF_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+   		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+units = {
+	division = {
+		name = "1. Cavalry Division"
+		location = 585
+		division_template = "Cavalry Division"
+	}
+	division = {
+		name = "1. Mechanized Division"
+		location = 568
+		division_template = "Mechanized Division"
+	}
+	division = {
+		name = "1. Motorised Division"
+		location = 9260
+		division_template = "Motorised Division"
+	}
+	division = {
+		name = "2. Motorised Division"
+		location = 3407
+		division_template = "Motorised Division"
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 6771
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 11527
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "3. Infantry Division"
+		location = 6477
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "4. Infantry Division"
+		location = 489
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "5. Infantry Division"
+		location = 489
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "6. Infantry Division"
+		location = 3470
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "7. Infantry Division"
+		location = 462
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "8. Infantry Division"
+		location = 3707
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "9. Infantry Division"
+		location = 9488
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "10. Infantry Division"
+		location = 6554
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "11. Infantry Division"
+		location = 6454
+		division_template = "Infantry Division"
+	}
+	division = {
+		name = "12. Infantry Division"
+		location = 6507
+		division_template = "Infantry Division"
+	}
+}
