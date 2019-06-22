@@ -17,6 +17,19 @@ ideas = {
 			}
 		}
 
+		BLR_ndc = {
+			allowed = { original_tag = BLR }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = idea_ast_naval_auxiliary_patrol
+	
+			modifier = {
+				production_speed_bunker_factor = 0.30
+				production_speed_anti_air_building_factor = 0.10
+			}
+		}
+
 		BLR_competent_officers = {
 			allowed = { original_tag = BLR }
 			allowed_civil_war = { always = yes }
@@ -54,6 +67,7 @@ ideas = {
 			picture = MEX_revolutionary_army
 			
 			modifier = {
+			    conscription = 0.02
 			    army_attack_factor = 0.15
 			    army_defence_factor = 0.15
 			}

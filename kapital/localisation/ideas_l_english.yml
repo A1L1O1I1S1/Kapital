@@ -2605,7 +2605,8 @@ deterrence:0 "Deterrence"
  #
 
  BLR_bgs:0 "BGS"
- BLR_organized_uprising:0 "Organized Uprising"
+ BLR_ndc:0 "NDC"
+ BLR_ndc_desc:0 "The National Defence Committee is a special agency regulating the construction of fortifications and overseeing defensive preperations."
  BLR_competent_officers:0 "Competent Officers"
  BLR_idea_experimental_research:0 "Experimental Research"
  BLR_idea_revolutionary_army:0 "Revolutionary Army"

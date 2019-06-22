@@ -22,7 +22,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 0
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		ai_will_do = {
@@ -92,7 +92,7 @@ focus_tree = {
 		icon = GFX_focus_generic_treaty
 		x = 10
 		y = 0
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		available = {
@@ -214,7 +214,7 @@ focus_tree = {
 		relative_position_id = SCS_radical_reform
 		x = -2
 		y = 1
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -245,7 +245,7 @@ focus_tree = {
 		relative_position_id = SCS_radical_reform
 		x = 2
 		y = 1
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -277,7 +277,7 @@ focus_tree = {
 		relative_position_id = SCS_status_quo
 		x = -2
 		y = 1
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -309,7 +309,7 @@ focus_tree = {
 		relative_position_id = SCS_status_quo
 		x = 2
 		y = 1
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -341,7 +341,7 @@ focus_tree = {
 		relative_position_id = SCS_revolution
 		x = 0
 		y = 1
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -371,7 +371,7 @@ focus_tree = {
 		relative_position_id = SCS_lessons_of_kapital
 		x = -2
 		y = 1
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -402,7 +402,7 @@ focus_tree = {
 		relative_position_id = SCS_lessons_of_kapital
 		x = 2
 		y = 1
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -433,7 +433,7 @@ focus_tree = {
 		relative_position_id = SCS_revolution
 		x = 4
 		y = 1
-		cost = 10
+		cost = 70
 		available_if_capitulated = no
 
 		prerequisite = {

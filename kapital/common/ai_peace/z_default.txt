@@ -77,7 +77,7 @@ default_peace = {
 			NOT = { tag = FRA }
 			NOT = { tag = USA }
 			NOT = { tag = JAP }
-			NOT = { tag = SOV }
+			NOT = { tag = RUS }
 		}
 		#modifier = {
 		#	factor = 0
@@ -102,7 +102,7 @@ default_peace = {
 							tag = FRA
 							tag = USA
 							tag = JAP
-							tag = SOV
+							tag = RUS
 						}
 					}
 					#Is NOT a major
@@ -113,24 +113,13 @@ default_peace = {
 					NOT = { tag = FRA }
 					NOT = { tag = USA }
 					NOT = { tag = JAP }
-					NOT = { tag = SOV }
+					NOT = { tag = RUS }
 				}
 			}
 		}
 		modifier = { #Don't puppet nations in civil war... this is too buggy.
 			factor = 0
 			FROM = { has_civil_war = yes }
-		}
-		modifier = { #Don't break up Czechoslovakia or Yugoslavia
-			factor = 0
-			YUG = { exists = yes }
-			FROM = {
-				OR = {
-					tag = CRO
-					tag = SER
-					tag = SLO
-				}
-			}
 		}
 		modifier = {
 			factor = 0.2 #Strip colonies/liberate first - important vs GER and JAP
@@ -353,7 +342,7 @@ default_peace = {
 					NOT = { tag = FRA }
 					NOT = { tag = USA }
 					NOT = { tag = JAP }
-					NOT = { tag = SOV }
+					NOT = { tag = RUS }
 					NOT = {
 						any_owned_state = { is_on_continent = africa }
 					}
