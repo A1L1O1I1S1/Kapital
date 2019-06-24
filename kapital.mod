@@ -1,12 +1,12 @@
-﻿name="Kapital"
-path="mod/kapital/"
-tags={
+﻿name = "Kapital"
+path = "mod/kapital/"
+tags = {
 	"Alternative History"
 	"Ideologies"
 	"National Focuses"
 	"Events"
 }
-supported_version="1.7.0"
+supported_version = "1.7.0"
 
 replace_path = "common/national_focus"
 replace_path = "common/decisions"
@@ -17,6 +17,7 @@ replace_path = "common/ai_strategy"
 replace_path = "common/ai_equipment"
 replace_path = "common/ai_focuses"
 replace_path = "common/ai_peace"
+replace_path = "common/ai_templates"
 replace_path = "common/scripted_effects"
 replace_path = "common/scripted_triggers"
 replace_path = "common/scripted_localisation"
@@ -24,8 +25,10 @@ replace_path = "common/technology_sharing"
 replace_path = "common/units/names_divisions"
 replace_path = "common/units/names"
 replace_path = "common/units/names_ships"
+replace_path = "common/autonomous_states"
+replace_path = "common/on_actions"
 
-replace_path="events"
+replace_path = "events"
 
 replace_path = "history/countries"
 replace_path = "history/units"

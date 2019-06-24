@@ -19,7 +19,7 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 0
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -41,7 +41,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SIA_army_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -64,7 +64,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SIA_army_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -84,7 +84,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SIA_army_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -106,7 +106,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SIA_equipment_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -128,7 +128,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SIA_motorization_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -149,7 +149,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SIA_doctrine_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -171,7 +171,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SIA_equipment_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -193,7 +193,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SIA_mechanization_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -216,7 +216,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SIA_equipment_effort_3
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -241,7 +241,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_airforce
 		x = 5
 		y = 0
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -327,7 +327,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SIA_aviation_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -355,7 +355,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SIA_aviation_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -379,7 +379,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SIA_bomber_focus
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -467,7 +467,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SIA_aviation_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -490,7 +490,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SIA_aviation_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -521,7 +521,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SIA_aviation_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -541,7 +541,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 9
 		y = 0
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -670,7 +670,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SIA_naval_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -710,7 +710,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SIA_naval_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -745,7 +745,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_flexible_navy
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -781,7 +781,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_large_navy
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -818,7 +818,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_submarine_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -854,7 +854,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_cruiser_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -891,7 +891,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		x = 13
 		y = 0
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -934,7 +934,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SIA_industrial_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1007,7 +1007,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SIA_industrial_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1079,7 +1079,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_construction_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1151,7 +1151,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_production_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1223,7 +1223,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_construction_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1317,7 +1317,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_production_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1389,7 +1389,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_infrastructure_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1483,7 +1483,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SIA_infrastructure_effort
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1555,7 +1555,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = SIA_infrastructure_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1583,7 +1583,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_infrastructure_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1604,7 +1604,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SIA_extra_tech_slot
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1620,7 +1620,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SIA_infrastructure_effort_2
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1649,7 +1649,7 @@ focus_tree = {
 		icon = GFX_focus_generic_support_the_left_right
 		x = 19
 		y = 0
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1668,7 +1668,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SIA_the_crisis_weathered }
 		x = 17
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1694,7 +1694,7 @@ focus_tree = {
 		prerequisite = { focus = SIA_the_peasant_march }
 		x = 16
 		y = 2
-		cost = 10
+		cost = 70
 
 		available = {
 		    has_government = socialist
@@ -1717,7 +1717,7 @@ focus_tree = {
 		prerequisite = { focus = SIA_the_peasant_march }
 		x = 18
 		y = 2
-		cost = 10
+		cost = 70
 
 		available = {
 		    SIA = { has_government = socialist }
@@ -1752,7 +1752,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SIA_the_peasant_march }
 		x = 21
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = yes
 
@@ -1777,7 +1777,7 @@ focus_tree = {
 		prerequisite = { focus = SIA_the_crisis_weathered }
 		x = 20
 		y = 2
-		cost = 10
+		cost = 70
 
 		available = {
 		    NOT = {
@@ -1802,7 +1802,7 @@ focus_tree = {
 		prerequisite = { focus = SIA_the_crisis_weathered }
 		x = 22
 		y = 2
-		cost = 10
+		cost = 70
 
 		available = {
 		    SIA = { has_government = conservative }
