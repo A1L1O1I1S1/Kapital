@@ -779,23 +779,23 @@
  AUS_anarcho_capitalist_ADJ:0 "Austrian"
 
 
- BUL_communism:0 "Bulgarian Commune"
- BUL_communism_DEF:0 "Bulgarian Commune"
+ BUL_communism:0 "Bulgarian Communal Republic"
+ BUL_communism_DEF:0 "Bulgarian Communal Republic"
 
- BUL_socialist:0 "Bulgarian Republic"
- BUL_socialist_DEF:0 "Bulgarian Republic"
+ BUL_socialist:0 "Republic of Bulgaria"
+ BUL_socialist_DEF:0 "Republic of Bulgaria"
 
- BUL_fascism:0 "Tsardom of Bulgaria"
- BUL_fascism_DEF:0 "Third Bulgarian Tsardom"
+ BUL_fascism:0 "Bulgarian Empire"
+ BUL_fascism_DEF:0 "Third Bulgarian Empire"
 
- BUL_conservative:0 "Tsardom of Bulgaria"
+ BUL_conservative:0 "Bulgarian Tsardom"
  BUL_conservative_DEF:0 "Third Bulgarian Tsardom"
 
  BUL_liberal:0 "Republic of Bulgaria"
  BUL_liberal_DEF:0 "Republic of Bulgaria"
 
- BUL_corporatist:0 "Bulgarian Corporate Republic"
- BUL_corporatist_DEF:0 "Bulgarian Corporate Republic"
+ BUL_corporatist:0 "Corporate Bulgariac"
+ BUL_corporatist_DEF:0 "Corporate Bulgaria"
 
  BUL_anarcho_capitalist:0 "Free Bulgaria"
  BUL_anarcho_capitalist_DEF:0 "Anarcho-capitalist Bulgaria"
@@ -821,8 +821,8 @@
  FRA_conservative:0 "French Republic"
  FRA_conservative_DEF:0 "French Republic"
 
- FRA_liberal:0 "Republic of France"
- FRA_liberal_DEF:0 "Republic of France"
+ FRA_liberal:0 "French Republic"
+ FRA_liberal_DEF:0 "French Republic"
 
  FRA_corporatist:0 "Corporate France"
  FRA_corporatist_DEF:0 "Corporate France"
@@ -1411,17 +1411,17 @@
  LAT_anarcho_capitalist_ADJ:0 "Latvian"
 
 
- FIN_communism:0 "Finnish Commune"
- FIN_communism_DEF:0 "Finnish Commune"
+ FIN_communism:0 "Suomi Commune"
+ FIN_communism_DEF:0 "Suomi Commune"
 
  FIN_socialist:0 "Republic of Finland"
  FIN_socialist_DEF:0 "Republic of Finland"
 
- FIN_fascism:0 "Kingdom of Finland"
- FIN_fascism_DEF:0 "Kingdom of Finland"
+ FIN_fascism:0 "Finland"
+ FIN_fascism_DEF:0 "Finland"
 
- FIN_conservative:0 "Finland"
- FIN_conservative_DEF:0 "Kingdom of Finland"
+ FIN_conservative:0 "Republic of Finland"
+ FIN_conservative_DEF:0 "Republic of Finland"
 
  FIN_liberal:0 "Republic of Finland"
  FIN_liberal_DEF:0 "Republic of Finland"

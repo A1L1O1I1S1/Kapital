@@ -108,7 +108,11 @@ on_actions = {
 	on_annex = { effect = { } }
 
 	#Not run on a specific country.
-	on_startup = { effect = { } }
+	on_startup = {
+	    effect = {
+
+	    }
+	}
 	
 	on_unit_leader_created = { effect = { } }
 

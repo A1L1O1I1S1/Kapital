@@ -15,26 +15,26 @@ set_convoys = 5
 
 set_popularities = {
 	communism = 0
-	socialist = 7
-	liberal = 4
-	anarcho_capitalist = 1
-	corporatist = 0
-	conservative = 30
-	fascism = 58
+	socialist = 15
+	liberal = 27
+	anarcho_capitalist = 3
+	corporatist = 2
+	conservative = 41
+	fascism = 12
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Fred The Awesome"
+	name = "Fred I"
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "Portrait_Bulgaria_Fred_The_Awesome.dds"
+	picture = "Portrait_Bulgaria_Fred_I.dds"
 	expire = "1965.1.1"
-	ideology = imperialism
+	ideology = authoritarian_conservatism
 	traits = { }
 }

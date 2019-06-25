@@ -19,12 +19,12 @@ set_convoys = 5
 
 set_popularities = {
 	communism = 0
-	socialist = 1
-	liberal = 1
+	socialist = 7
+	liberal = 15
 	anarcho_capitalist = 0
 	corporatist = 0
-	conservative = 7
-	fascism = 91
+	conservative = 25
+	fascism = 53
 }
 
 set_politics = {
@@ -35,10 +35,10 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Kyösti Kallio"
+	name = "Valthjof Antila"
 	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
-	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	picture = "Portrait_Finland_Valthjof_Antila.dds"
 	expire = "1965.1.1"
-	ideology = nationalism
+	ideology = orthodox_fascism
 	traits = { }
 }

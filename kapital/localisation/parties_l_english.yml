@@ -130,6 +130,11 @@
  XEN_fascism_party:0 "Foreign Mandate"
  XEN_fascism_party_long:0 "Foreign Mandate"
 
+ FIN_conservative_party:0 "Centre Party"
+ FIN_conservative_party_long:0 "Centre Party"
+ FIN_fascism_party:0 "PPM"
+ FIN_fascism_party_long:0 "Patriotic People's Movement"
+
  COG_socialist_party:0 "Socialist Party"
  COG_socialist_party_long:0 "Socialist Party"
  COG_liberal_party:0 "Liberal Party"
