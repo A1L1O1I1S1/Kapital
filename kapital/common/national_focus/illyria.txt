@@ -15,7 +15,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 } # temp
 
 
-	# Industrial Development
+	### INDUSTRY
 
 	focus = {
 		id = SCS_industry_1
@@ -85,7 +85,7 @@ focus_tree = {
 		}
 	}
 
-	# Politics
+	### POLITICS
 
 	focus = {
 		id = SCS_election
@@ -117,7 +117,7 @@ focus_tree = {
 		relative_position_id = SCS_election
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -130,7 +130,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 100
 			add_popularity = {
 				ideology = liberal
 				popularity = 0.1
@@ -148,7 +148,7 @@ focus_tree = {
 		relative_position_id = SCS_election
 		x = -8
 		y = 1
-		cost = 1
+		cost = 7
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -179,7 +179,7 @@ focus_tree = {
 		relative_position_id = SCS_election
 		x = 8
 		y = 1
-		cost = 1
+		cost = 7
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -192,7 +192,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = -50
 			add_popularity = {
 				ideology = corporatist
 				popularity = 0.05
@@ -215,6 +215,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 70
+
 		available_if_capitulated = no
 
 		prerequisite = {
@@ -234,7 +235,7 @@ focus_tree = {
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no
-				#last_election = "" # This should reference a variable with the date of the elections, set by the election event. Not sure if it's possible to store the game date as a variable though.
+				#last_election = ""
 			}
 		}
 	}
@@ -431,7 +432,7 @@ focus_tree = {
 		id = SCS_communist_victory
 		icon = GFX_focus_generic_communism
 		relative_position_id = SCS_revolution
-		x = 4
+		x = 8
 		y = 1
 		cost = 70
 		available_if_capitulated = no
@@ -454,6 +455,217 @@ focus_tree = {
 				ruling_party = communism
 				elections_allowed = no
 				#last_election = ""
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_vanguard_party
+		icon = GFX_goal_generic_support_communism
+		relative_position_id = SCS_communist_victory
+		x = -2
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_communist_victory
+		}
+
+		mutually_exclusive = {
+			focus = SCS_abolish_state_ancom
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			create_country_leader = { # OR DELETE THIS, IF VANGUARDIST IS DEFAULT LEADER OF COMMIE PARTY ANYWAY
+				name = "Papa Stalin" #placeholder, i hope you'll realise
+				desc = "POLITICS_LEADERNAME_DESC"
+				picture = "Portrait_Illyria_Leadername.dds"
+				expire = "1965.1.1."
+				ideology = vanguardism
+				traits = { }
+			}
+			set_party_name = { 
+    			ideology = communism 
+    			long_name = SCS_communism_party_vanguard_long
+    			name = SCS_communism_party_vanguard
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_abolish_state_ancom
+		icon = GFX_goal_generic_war_with_comintern
+		relative_position_id = SCS_communist_victory
+		x = 2
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_communist_victory
+		}
+
+		mutually_exclusive = {
+			focus = SCS_vanguard_party
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			create_country_leader = { # OR DELETE THIS, IF ANARCHIST IS DEFAULT LEADER OF COMMIE PARTY ANYWAY
+				name = "Komrade Kropotkin" #placeholder, i hope you'll realise
+				desc = "POLITICS_LEADERNAME_DESC"
+				picture = "Portrait_Illyria_Leadername.dds"
+				expire = "1965.1.1."
+				ideology = classical_communism
+				traits = { }
+			}
+			set_party_name = { 
+    			ideology = communism 
+    			long_name = SCS_communism_party_ancom_long
+    			name = SCS_communism_party_ancom
+			}
+		}
+	}
+
+	focus = {
+		id = SCS_central_committee
+		icon = GFX_focus_generic_soviet_politics
+		relative_position_id = SCS_vanguard_party
+		x = -1
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_vanguard_party
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = SCS_communist_propaganda
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = SCS_vanguard_party
+		x = 1
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_vanguard_party
+		}
+
+		completion_reward = {
+			#adds idea that gives communist popularity and ideology drift defense
+		}
+	}
+
+	focus = {
+		id = SCS_collectivisation
+		icon = GFX_goal_generic_national_unity
+		relative_position_id = SCS_central_committee
+		x = 0
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_central_committee
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCS_defend_revolution
+		icon = GFX_goal_continuous_def_against_influence
+		relative_position_id = SCS_communist_propaganda
+		x = 0
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		prerequisite = {
+			focus = SCS_communist_propaganda
+		}
+
+		completion_reward = {
+			#makes communist propaganda's idea better (ideology drift defense)
+		}
+	}
+
+	### MILITARY
+
+	focus = {
+		id = SCS_defense_ministry
+		icon = GFX
+		relative_position_id = SCS_election
+		x = 12
+		y = 0
+		cost = 70
+		available_if_capitulated = no
+
+		available = {
+			NOT = { has_idea = SCS_idea_divided_leadership }
+		}
+
+		completion_reward = {
+			add_command_power = 10
+		}
+	}
+
+	focus = {
+		id = SCS_military_academy
+		icon = GFX
+		relative_position_id = SCS_defense_ministry
+		x = -4
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		prerequisites = {
+			focus = SCS_defense_ministry
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SCS_military_theory
+		icon = GFX
+		relative_position_id = SCS_military_academy
+		x = 0
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		prerequisites = {
+			focus = SCS_military_academy
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 2
+    			category = land_doctrine
 			}
 		}
 	}
