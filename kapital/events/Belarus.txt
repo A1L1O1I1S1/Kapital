@@ -34,6 +34,7 @@ country_event = {
       set_country_flag = BLR_flag_uprising_successful
       add_ideas = limited_conscription
       add_ideas = low_economic_mobilisation
+    hidden_effect = { RUS = { country_event = { id = russia.1 days = 7 } } }
     }
 }
 

@@ -47,13 +47,13 @@ set_technology = {
 set_convoys = 50
 
 set_popularities = {
-	communism = 4
-	socialist = 19
-	liberal = 1
-	anarcho_capitalist = 28
-	corporatist = 0
-	conservative = 21
-	fascism = 27
+	communism = 1
+	socialist = 16
+	liberal = 7
+	anarcho_capitalist = 34
+	corporatist = 2
+	conservative = 30
+	fascism = 10
 }
 
 set_politics = {
@@ -75,7 +75,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Svetoslav Medvedev"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	#picture = ""
+	picture = "Portrait_Russia_Svetoslav_Medvedev.dds"
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = { }

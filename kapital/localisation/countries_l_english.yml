@@ -520,14 +520,14 @@
  RUS_conservative:0 "Russian Empire"
  RUS_conservative_DEF:0 "Russian Empire"
 
- RUS_liberal:0 "Russian Mexico"
- RUS_liberal_DEF:0 "Russian Mexico"
+ RUS_liberal:0 "Russian Republic"
+ RUS_liberal_DEF:0 "Russian Republic"
 
  RUS_corporatist:0 "Russian Corporate Republic"
  RUS_corporatist_DEF:0 "Russian Corporate Republic"
 
- RUS_anarcho_capitalist:0 "Free Russia"
- RUS_anarcho_capitalist_DEF:0 "Anarcho-capitalist Russia"
+ RUS_anarcho_capitalist:0 "Russian Republic"
+ RUS_anarcho_capitalist_DEF:0 "Russian Republic"
 
  RUS_communism_ADJ:0 "Russian"
  RUS_socialist_ADJ:0 "Russian"
@@ -536,6 +536,66 @@
  RUS_liberal_ADJ:0 "Russian"
  RUS_corporatist_ADJ:0 "Russian"
  RUS_anarcho_capitalist_ADJ:0 "Russian"
+
+
+ MRU_communism:0 "Russian Commune"
+ MRU_communism_DEF:0 "Russian Commune"
+
+ MRU_socialist:0 "Russian Republic"
+ MRU_socialist_DEF:0 "Russian Republic"
+
+ MRU_fascism:0 "Russian State"
+ MRU_fascism_DEF:0 "Russian State"
+
+ MRU_conservative:0 "Monarchist Russia"
+ MRU_conservative_DEF:0 "Monarchist Russia"
+
+ MRU_liberal:0 "Russian Republic"
+ MRU_liberal_DEF:0 "Russian Republic"
+
+ MRU_corporatist:0 "Russian Corporate Republic"
+ MRU_corporatist_DEF:0 "Russian Corporate Republic"
+
+ MRU_anarcho_capitalist:0 "Libertarian Russia"
+ MRU_anarcho_capitalist_DEF:0 "Libertarian Russia"
+
+ MRU_communism_ADJ:0 "Russian"
+ MRU_socialist_ADJ:0 "Russian"
+ MRU_fascism_ADJ:0 "Russian"
+ MRU_conservative_ADJ:0 "Russian"
+ MRU_liberal_ADJ:0 "Russian"
+ MRU_corporatist_ADJ:0 "Russian"
+ MRU_anarcho_capitalist_ADJ:0 "Russian"
+
+
+ RNS_communism:0 "Russian Commune"
+ RNS_communism_DEF:0 "Russian Commune"
+
+ RNS_socialist:0 "Russian Republic"
+ RNS_socialist_DEF:0 "Russian Republic"
+
+ RNS_fascism:0 "Russian National State"
+ RNS_fascism_DEF:0 "Russian National State"
+
+ RNS_conservative:0 "Russian Empire"
+ RNS_conservative_DEF:0 "Russian Empire"
+
+ RNS_liberal:0 "Russian Republic"
+ RNS_liberal_DEF:0 "Russian Republic"
+
+ RNS_corporatist:0 "Russian Corporate Republic"
+ RNS_corporatist_DEF:0 "Russian Corporate Republic"
+
+ RNS_anarcho_capitalist:0 "Russian Republic"
+ RNS_anarcho_capitalist_DEF:0 "Russian Republic"
+
+ RNS_communism_ADJ:0 "Russian"
+ RNS_socialist_ADJ:0 "Russian"
+ RNS_fascism_ADJ:0 "Russian"
+ RNS_conservative_ADJ:0 "Russian"
+ RNS_liberal_ADJ:0 "Russian"
+ RNS_corporatist_ADJ:0 "Russian"
+ RNS_anarcho_capitalist_ADJ:0 "Russian"
 
 
  UKR_communism:0 "Ukranian Commune"

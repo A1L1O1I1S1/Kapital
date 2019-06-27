@@ -1,0 +1,118 @@
+﻿add_namespace = monrussia
+
+country_event = {
+  id = monrussia.1
+  title = monrussia.1.t
+  desc = monrussia.1.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = monrussia.1.a
+      OTT = { transfer_state = 137 }
+
+     hidden_effect = {
+      country_event = { id = monrussia.2 days = 7 }
+      RUS = { country_event = { id = russia.4 } }
+     }
+  }
+}
+
+country_event = {
+  id = monrussia.2
+  title = monrussia.2.t
+  desc = monrussia.2.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = monrussia.2.a
+      MRU = { transfer_state = 401 }
+      MRU = { transfer_state = 652 }
+      MRU = { transfer_state = 251 }
+      MRU = { transfer_state = 651 }
+      MRU = { transfer_state = 239 }
+      MRU = { transfer_state = 255 }
+      MRU = { transfer_state = 250 }
+      MRU = { transfer_state = 249 }
+
+    hidden_effect = {
+      country_event = { id = monrussia.3 days = 7 }
+      RUS = { country_event = { id = russia.5 } }
+      MRU = { load_oob = "MRU_2" }
+    }
+  }
+}
+
+country_event = {
+  id = monrussia.3
+  title = monrussia.3.t
+  desc = monrussia.3.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = monrussia.3.a
+      KAZ = { transfer_state = 40 }
+      KAZ = { transfer_state = 654 }
+      TMS = { declare_war_on = { target = KAZ type = annex_everything } }
+
+    hidden_effect = {
+      country_event = { id = monrussia.4 days = 42 }
+      RUS = { country_event = { id = russia.6 } }
+    }
+  }
+}
+
+country_event = {
+  id = monrussia.4
+  title = monrussia.4.t
+  desc = monrussia.4.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = monrussia.4.a
+
+      MRU = { transfer_state = 573 }
+      MRU = { transfer_state = 572 }
+      MRU = { transfer_state = 582 }
+      MRU = { transfer_state = 653 }
+      MRU = { transfer_state = 516 }
+      MRU = { transfer_state = 644 }
+      MRU = { transfer_state = 637 }
+      MRU = { transfer_state = 562 }
+      MRU = { transfer_state = 574 }
+      MRU = { transfer_state = 561 }
+      MRU = { transfer_state = 657 }
+      MRU = { transfer_state = 409 }
+      MRU = { transfer_state = 560 }
+      MRU = { transfer_state = 408 }
+      MRU = { transfer_state = 575 }
+      MRU = { transfer_state = 565 }
+      MRU = { transfer_state = 563 }
+      MRU = { transfer_state = 564 }
+      MRU = { transfer_state = 566 }
+      MRU = { transfer_state = 576 }
+      MRU = { transfer_state = 567 }
+      MRU = { transfer_state = 568 }
+      MRU = { transfer_state = 569 }
+      MRU = { transfer_state = 578 }
+      MRU = { transfer_state = 577 }
+      MRU = { transfer_state = 570 }
+      MRU = { transfer_state = 571 }
+      MRU = { transfer_state = 580 }
+      MRU = { transfer_state = 579 }
+      MRU = { transfer_state = 403 }
+
+    hidden_effect = {
+      RUS = { country_event = { id = russia.11 } }
+      news_event = { id = news.1 days = 7 } 
+      MRU = { load_oob = "MRU_3" }
+    }
+  }
+}

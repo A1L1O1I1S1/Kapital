@@ -1,1 +1,36 @@
-﻿
+﻿add_namespace = news
+
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_polish_army
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = MRU
+				TAG = RNS	
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = RUS }
+        RUS = { declare_war_on = { target = MRU type = annex_everything } }
+        RUS = { declare_war_on = { target = RNS type = annex_everything } }
+        MRU = { declare_war_on = { target = RNS type = annex_everything } }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = MRU }
+	}
+	option = {
+		name = news.1.e
+		trigger = { TAG = RNS }
+	}
+}

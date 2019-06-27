@@ -1,0 +1,240 @@
+﻿add_namespace = russia
+
+country_event = {
+  id = russia.1
+  title = russia.1.t
+  desc = russia.1.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = russia.1.a
+    add_political_power = -250
+    add_stability = -0.10
+    set_politics = { ruling_party = anarcho_capitalist }
+    #remove_ideas = RUS_oryol_treaty
+
+    hidden_effect = { country_event = { id = russia.2 days = 14 } }
+  }
+}
+
+country_event = {
+  id = russia.2         #States: 218, 245, 265, 260, 240, 220.
+  title = russia.2.t
+  desc = russia.2.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = russia.2.a
+    add_political_power = 50
+    add_stability = 0.05
+    add_popularity = { ideology = anarcho_capitalist popularity = 0.03 }
+    custom_effect_tooltip = RUS_kiev_protocols_tooltip 
+    hidden_effect = { country_event = { id = russia.3 days = 7 } }
+  }
+}
+
+country_event = {
+  id = russia.3
+  title = russia.3.t
+  desc = russia.3.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = russia.3.a
+    RUS = { add_popularity = { ideology = conservative popularity = -1.00 } }
+    MRU = { transfer_state = 137 }
+    MRU = { transfer_state = 217 }
+    MRU = { transfer_state = 232 }
+    MRU = { transfer_state = 233 }
+    MRU = { transfer_state = 234 }
+    MRU = { transfer_state = 235 }
+    MRU = { transfer_state = 236 }
+    MRU = { transfer_state = 237 }
+    MRU = { transfer_state = 238 }
+    hidden_effect = {
+      RUS = { country_event = { id = russia.7 days = 35 } }
+      MRU = { country_event = { id = monrussia.1 days = 7 } }
+      MRU = { load_oob = "MRU_1" }
+    }
+  }
+
+  option = {
+  name = russia.3.b
+    MRU = { change_tag_from = RUS }
+    RUS = { add_popularity = { ideology = conservative popularity = -1.00 } }
+    MRU = { transfer_state = 137 }
+    MRU = { transfer_state = 217 }
+    MRU = { transfer_state = 232 }
+    MRU = { transfer_state = 233 }
+    MRU = { transfer_state = 234 }
+    MRU = { transfer_state = 235 }
+    MRU = { transfer_state = 236 }
+    MRU = { transfer_state = 237 }
+    MRU = { transfer_state = 238 }
+    hidden_effect = {
+      RUS = { country_event = { id = russia.7 days = 35 } }
+      MRU = { country_event = { id = monrussia.1 days = 7 } }
+      MRU = { load_oob = "MRU_1" }
+    }
+  }
+}
+
+country_event = {
+  id = russia.4
+  title = russia.4.t
+  desc = russia.4.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    name = russia.4.a
+    }
+}
+
+country_event = {
+  id = russia.5
+  title = russia.5.t
+  desc = russia.5.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    name = russia.5.a
+    }
+}
+
+country_event = {
+  id = russia.6
+  title = russia.6.t
+  desc = russia.6.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    name = russia.6.a
+    }
+}
+
+country_event = {
+  id = russia.7
+  title = russia.7.t
+  desc = russia.7.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    name = russia.7.a
+
+      end_puppet = BAL
+      EST = { declare_war_on = { target = BAL type = annex_everything } }
+      LAT = { declare_war_on = { target = BAL type = annex_everything } }
+
+
+    hidden_effect = { country_event = { id = russia.8 days = 7 } }
+    }
+}
+
+
+country_event = {
+  id = russia.8
+  title = russia.8.t
+  desc = russia.8.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    name = russia.8.a
+
+      FIN = { transfer_state = 146 }
+      FIN = { transfer_state = 147 }
+      FIN = { transfer_state = 215 }
+      FIN = { transfer_state = 213 }
+
+    hidden_effect = { country_event = { id = russia.9 days = 7 } }
+    }
+}
+
+country_event = {
+  id = russia.9
+  title = russia.9.t
+  desc = russia.9.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = russia.9.a
+    RUS = { add_popularity = { ideology = fascism popularity = -1.00 } }
+      RNS = { transfer_state = 195 }
+      RNS = { transfer_state = 214 }
+      RNS = { transfer_state = 351 }
+      RNS = { transfer_state = 264 }
+      RNS = { transfer_state = 216 }
+      RNS = { transfer_state = 244 }
+      RNS = { transfer_state = 263 }
+      RNS = { transfer_state = 208 }
+    hidden_effect = {
+      RUS = { country_event = { id = russia.10 days = 7 } }
+      RNS = { load_oob = "RNS_1" }
+    }
+  }
+
+  option = {
+  name = russia.9.b
+    RNS = { change_tag_from = RUS }
+    RUS = { add_popularity = { ideology = fascism popularity = -1.00 } }
+      RNS = { transfer_state = 195 }
+      RNS = { transfer_state = 214 }
+      RNS = { transfer_state = 351 }
+      RNS = { transfer_state = 264 }
+      RNS = { transfer_state = 216 }
+      RNS = { transfer_state = 244 }
+      RNS = { transfer_state = 263 }
+      RNS = { transfer_state = 208 }
+    hidden_effect = {
+      RUS = { country_event = { id = russia.10 days = 7 } }
+      RNS = { load_oob = "RNS_1" }
+    }
+  }
+}
+
+country_event = {
+  id = russia.10
+  title = russia.10.t
+  desc = russia.10.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    name = russia.10.a
+
+      #
+
+    hidden_effect = { country_event = { id = russia.12 days = 7 } }
+    }
+}
+
+country_event = {
+  id = russia.11
+  title = russia.11.t
+  desc = russia.11.d
+  picture = GFX_report_event_generic_military_parade
+  fire_only_once = yes
+  is_triggered_only = yes
+
+    option = {
+    name = russia.11.a
+    }
+}

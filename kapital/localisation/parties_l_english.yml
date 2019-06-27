@@ -164,10 +164,16 @@
  RUS_anarcho_capitalist_party_long:0 "Russian Libertarian Party"
  RUS_corporatist_party:0 "CI"
  RUS_corporatist_party_long:0 "Civic Initiative"
- RUS_conservative_party:0 "Restorationists"
- RUS_conservative_party_long:0 "Restorationists"
+ RUS_conservative_party:0 "Monarchist Union"
+ RUS_conservative_party_long:0 "Russian Monarchist Union"
  RUS_fascism_party:0 "OC"
  RUS_fascism_party_long:0 "October Committee"
+
+ MRU_conservative_party:0 "Monarchist Union"
+ MRU_conservative_party_long:0 "Russian Monarchist Union"
+
+ RNS_fascism_party:0 "OC"
+ RNS_fascism_party_long:0 "October Committee"
 
  PRS_communism_party:0 "WPG"
  PRS_communism_party_long:0 "Workers' Party of Prussia"
