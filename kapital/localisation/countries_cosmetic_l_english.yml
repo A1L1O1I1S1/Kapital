@@ -43,6 +43,36 @@
  SIA_thailand_anarcho_capitalist_ADJ:0 "Thai"
 
 
+ RUS_libertarian_communism:0 "Russian Commune"
+ RUS_libertarian_communism_DEF:0 "Russian Commune"
+
+ RUS_libertarian_socialist:0 "Russian Republic"
+ RUS_libertarian_socialist_DEF:0 "Russian Republic"
+
+ RUS_libertarian_fascism:0 "Russian State"
+ RUS_libertarian_fascism_DEF:0 "Russian State"
+
+ RUS_libertarian_conservative:0 "Russian Empire"
+ RUS_libertarian_conservative_DEF:0 "Russian Empire"
+
+ RUS_libertarian_liberal:0 "Russian Republic"
+ RUS_libertarian_liberal_DEF:0 "Russian Republic"
+
+ RUS_libertarian_corporatist:0 "Russian Corporate Republic"
+ RUS_libertarian_corporatist_DEF:0 "Russian Corporate Republic"
+
+ RUS_libertarian_anarcho_capitalist:0 "Libertarian Russia"
+ RUS_libertarian_anarcho_capitalist_DEF:0 "Libertarian Russia"
+
+ RUS_libertarian_communism_ADJ:0 "Russian"
+ RUS_libertarian_socialist_ADJ:0 "Russian"
+ RUS_libertarian_fascism_ADJ:0 "Russian"
+ RUS_libertarian_conservative_ADJ:0 "Russian"
+ RUS_libertarian_liberal_ADJ:0 "Russian"
+ RUS_libertarian_corporatist_ADJ:0 "Russian"
+ RUS_libertarian_anarcho_capitalist_ADJ:0 "Russian"
+
+
  PRS_unified_communism:0 "German Workers' Republic"
  PRS_unified_communism_DEF:0 "German Workers' Republic"
 
@@ -71,6 +101,7 @@
  PRS_unified_corporatist_ADJ:0 "German"
  PRS_unified_conservative_ADJ:0 "German"
  PRS_unified_fascism_ADJ:0 "German"
+
  ###
 
  BLR_revolt_communism:0 "Belarusian Revolt"

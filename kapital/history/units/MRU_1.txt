@@ -63,4 +63,25 @@ units = {
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.3
 	}
+	division = {
+		name = "Militia"
+		location = 11696
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 3672
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 11724
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
 }

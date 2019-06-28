@@ -41,16 +41,16 @@ set_technology = {
 
 set_popularities = {
 	communism = 0
-	socialist = 0
-	liberal = 2
-	anarcho_capitalist = 7
-	corporatist = 87
-	conservative = 4
-	fascism = 0
+	socialist = 3
+	liberal = 7
+	anarcho_capitalist = 4
+	corporatist = 25
+	conservative = 49
+	fascism = 12
 }
 
 set_politics = {
-	ruling_party = corporatist
+	ruling_party = conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
@@ -61,6 +61,6 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "Portrait_Mafia_Il_Padre.dds"
 	expire = "1965.1.1"
-	ideology = corporatism
+	ideology = democratic_conservatism
 	traits = { }
 }

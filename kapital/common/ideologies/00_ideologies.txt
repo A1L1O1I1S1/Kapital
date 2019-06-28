@@ -37,7 +37,6 @@ ideologies = {
 		types = {
 			radical_socialism = { }
 			social_democracy = { }
-			technocracy = { }
 			authoritarian_socialism = { }
 		}
 		
@@ -215,7 +214,6 @@ ideologies = {
 			imperialism = { }
 			orthodox_fascism = { }
 			theocratic_fascism = { }
-			italo_fascism = { }
 		}
 		
 		dynamic_faction_names = {

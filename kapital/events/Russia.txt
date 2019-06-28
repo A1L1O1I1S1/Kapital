@@ -13,9 +13,82 @@ country_event = {
     add_political_power = -250
     add_stability = -0.10
     set_politics = { ruling_party = anarcho_capitalist }
-    #remove_ideas = RUS_oryol_treaty
 
-    hidden_effect = { country_event = { id = russia.2 days = 14 } }
+    hidden_effect = {
+      country_event = { id = russia.2 days = 14 }
+    
+      137 = { set_demilitarized_zone = yes }
+      217 = { set_demilitarized_zone = yes }
+      232 = { set_demilitarized_zone = yes }
+      233 = { set_demilitarized_zone = yes }
+      234 = { set_demilitarized_zone = yes }
+      235 = { set_demilitarized_zone = yes }
+      236 = { set_demilitarized_zone = yes }
+      399 = { set_demilitarized_zone = yes }  
+      237 = { set_demilitarized_zone = yes }
+      238 = { set_demilitarized_zone = yes }
+      195 = { set_demilitarized_zone = yes }
+      214 = { set_demilitarized_zone = yes }
+      351 = { set_demilitarized_zone = yes }
+      264 = { set_demilitarized_zone = yes }
+      216 = { set_demilitarized_zone = yes }
+      244 = { set_demilitarized_zone = yes }
+      263 = { set_demilitarized_zone = yes }
+      208 = { set_demilitarized_zone = yes }
+      401 = { set_demilitarized_zone = yes }
+      652 = { set_demilitarized_zone = yes }
+      251 = { set_demilitarized_zone = yes }
+      651 = { set_demilitarized_zone = yes }
+      239 = { set_demilitarized_zone = yes }
+      255 = { set_demilitarized_zone = yes }
+      250 = { set_demilitarized_zone = yes }
+      249 = { set_demilitarized_zone = yes }
+      573 = { set_demilitarized_zone = yes }
+      572 = { set_demilitarized_zone = yes }
+      582 = { set_demilitarized_zone = yes }
+      653 = { set_demilitarized_zone = yes }
+      516 = { set_demilitarized_zone = yes }
+      644 = { set_demilitarized_zone = yes }
+      637 = { set_demilitarized_zone = yes }
+      562 = { set_demilitarized_zone = yes }
+      574 = { set_demilitarized_zone = yes }
+      561 = { set_demilitarized_zone = yes }
+      657 = { set_demilitarized_zone = yes }
+      409 = { set_demilitarized_zone = yes }
+      560 = { set_demilitarized_zone = yes }
+      408 = { set_demilitarized_zone = yes }
+      575 = { set_demilitarized_zone = yes }
+      565 = { set_demilitarized_zone = yes }
+      563 = { set_demilitarized_zone = yes }
+      564 = { set_demilitarized_zone = yes }
+      566 = { set_demilitarized_zone = yes }
+      576 = { set_demilitarized_zone = yes }
+      567 = { set_demilitarized_zone = yes }
+      568 = { set_demilitarized_zone = yes }
+      569 = { set_demilitarized_zone = yes }
+      578 = { set_demilitarized_zone = yes }
+      577 = { set_demilitarized_zone = yes }
+      570 = { set_demilitarized_zone = yes }
+      571 = { set_demilitarized_zone = yes }
+      580 = { set_demilitarized_zone = yes }
+      579 = { set_demilitarized_zone = yes }
+      403 = { set_demilitarized_zone = yes }
+      146 = { set_demilitarized_zone = yes }
+      147 = { set_demilitarized_zone = yes }
+      215 = { set_demilitarized_zone = yes }
+      213 = { set_demilitarized_zone = yes }
+      40 = { set_demilitarized_zone = yes }
+      654 = { set_demilitarized_zone = yes }
+
+      370 = { set_demilitarized_zone = yes }
+      398 = { set_demilitarized_zone = yes }
+      262 = { set_demilitarized_zone = yes }
+      581 = { set_demilitarized_zone = yes }
+      397 = { set_demilitarized_zone = yes }
+      256 = { set_demilitarized_zone = yes }
+      400 = { set_demilitarized_zone = yes }
+      252 = { set_demilitarized_zone = yes }
+    }
   }
 }
 
@@ -33,7 +106,19 @@ country_event = {
     add_stability = 0.05
     add_popularity = { ideology = anarcho_capitalist popularity = 0.03 }
     custom_effect_tooltip = RUS_kiev_protocols_tooltip 
-    hidden_effect = { country_event = { id = russia.3 days = 7 } }
+    hidden_effect = {
+    country_event = { id = russia.3 days = 7 }
+
+    370 = { set_demilitarized_zone = no }
+    398 = { set_demilitarized_zone = no }
+    262 = { set_demilitarized_zone = no }
+    581 = { set_demilitarized_zone = no }
+    397 = { set_demilitarized_zone = no }
+    256 = { set_demilitarized_zone = no }
+    400 = { set_demilitarized_zone = no }
+    252 = { set_demilitarized_zone = no }
+    399 = { set_demilitarized_zone = no }  
+    }
   }
 }
 
@@ -61,6 +146,20 @@ country_event = {
       RUS = { country_event = { id = russia.7 days = 35 } }
       MRU = { country_event = { id = monrussia.1 days = 7 } }
       MRU = { load_oob = "MRU_1" }
+
+    MRU = { add_ideas = { extensive_conscription } }
+    MRU = { add_ideas = { partial_economic_mobilisation } }
+
+    137 = { set_demilitarized_zone = no }
+    217 = { set_demilitarized_zone = no }
+    232 = { set_demilitarized_zone = no }
+    233 = { set_demilitarized_zone = no }
+    234 = { set_demilitarized_zone = no }
+    235 = { set_demilitarized_zone = no }
+    236 = { set_demilitarized_zone = no }
+    237 = { set_demilitarized_zone = no }
+    238 = { set_demilitarized_zone = no }
+
     }
   }
 
@@ -81,6 +180,20 @@ country_event = {
       RUS = { country_event = { id = russia.7 days = 35 } }
       MRU = { country_event = { id = monrussia.1 days = 7 } }
       MRU = { load_oob = "MRU_1" }
+
+    MRU = { add_ideas = { extensive_conscription } }
+    MRU = { add_ideas = { partial_economic_mobilisation } }
+
+    137 = { set_demilitarized_zone = no }
+    217 = { set_demilitarized_zone = no }
+    232 = { set_demilitarized_zone = no }
+    233 = { set_demilitarized_zone = no }
+    234 = { set_demilitarized_zone = no }
+    235 = { set_demilitarized_zone = no }
+    236 = { set_demilitarized_zone = no }
+    237 = { set_demilitarized_zone = no }
+    238 = { set_demilitarized_zone = no }
+
     }
   }
 }
@@ -161,7 +274,16 @@ country_event = {
       FIN = { transfer_state = 215 }
       FIN = { transfer_state = 213 }
 
-    hidden_effect = { country_event = { id = russia.9 days = 7 } }
+    hidden_effect = {
+    country_event = { id = russia.9 days = 7 }
+
+    146 = { set_demilitarized_zone = no }
+    147 = { set_demilitarized_zone = no }
+    215 = { set_demilitarized_zone = no }
+    213 = { set_demilitarized_zone = no }
+
+
+    }
     }
 }
 
@@ -187,6 +309,19 @@ country_event = {
     hidden_effect = {
       RUS = { country_event = { id = russia.10 days = 7 } }
       RNS = { load_oob = "RNS_1" }
+
+    RNS = { add_ideas = { extensive_conscription } }
+    RNS = { add_ideas = { partial_economic_mobilisation } }
+
+    195 = { set_demilitarized_zone = no }
+    214 = { set_demilitarized_zone = no }
+    351 = { set_demilitarized_zone = no }
+    264 = { set_demilitarized_zone = no }
+    216 = { set_demilitarized_zone = no }
+    244 = { set_demilitarized_zone = no }
+    263 = { set_demilitarized_zone = no }
+    208 = { set_demilitarized_zone = no }
+
     }
   }
 
@@ -205,6 +340,19 @@ country_event = {
     hidden_effect = {
       RUS = { country_event = { id = russia.10 days = 7 } }
       RNS = { load_oob = "RNS_1" }
+
+    RNS = { add_ideas = { extensive_conscription } }
+    RNS = { add_ideas = { partial_economic_mobilisation } }
+
+    195 = { set_demilitarized_zone = no }
+    214 = { set_demilitarized_zone = no }
+    351 = { set_demilitarized_zone = no }
+    264 = { set_demilitarized_zone = no }
+    216 = { set_demilitarized_zone = no }
+    244 = { set_demilitarized_zone = no }
+    263 = { set_demilitarized_zone = no }
+    208 = { set_demilitarized_zone = no }
+      
     }
   }
 }
@@ -219,10 +367,11 @@ country_event = {
 
     option = {
     name = russia.10.a
-
-      #
-
-    hidden_effect = { country_event = { id = russia.12 days = 7 } }
+      RUS = { load_oob = "RUS_1" }
+      set_cosmetic_tag = RUS_libertarian
+      news_event = { id = news.1 days = 21 } 
+      add_ideas = { extensive_conscription }
+      add_ideas = { partial_economic_mobilisation }
     }
 }
 

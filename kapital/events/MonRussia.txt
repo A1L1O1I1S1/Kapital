@@ -42,6 +42,16 @@ country_event = {
       country_event = { id = monrussia.3 days = 7 }
       RUS = { country_event = { id = russia.5 } }
       MRU = { load_oob = "MRU_2" }
+
+    401 = { set_demilitarized_zone = no }
+    652 = { set_demilitarized_zone = no }
+    251 = { set_demilitarized_zone = no }
+    651 = { set_demilitarized_zone = no }
+    239 = { set_demilitarized_zone = no }
+    255 = { set_demilitarized_zone = no }
+    250 = { set_demilitarized_zone = no }
+    249 = { set_demilitarized_zone = no }
+
     }
   }
 }
@@ -63,6 +73,10 @@ country_event = {
     hidden_effect = {
       country_event = { id = monrussia.4 days = 42 }
       RUS = { country_event = { id = russia.6 } }
+
+    40 = { set_demilitarized_zone = no }
+    654 = { set_demilitarized_zone = no }
+
     }
   }
 }
@@ -111,8 +125,39 @@ country_event = {
 
     hidden_effect = {
       RUS = { country_event = { id = russia.11 } }
-      news_event = { id = news.1 days = 7 } 
       MRU = { load_oob = "MRU_3" }
+
+    573 = { set_demilitarized_zone = no }
+    572 = { set_demilitarized_zone = no }
+    582 = { set_demilitarized_zone = no }
+    653 = { set_demilitarized_zone = no }
+    516 = { set_demilitarized_zone = no }
+    644 = { set_demilitarized_zone = no }
+    637 = { set_demilitarized_zone = no }
+    562 = { set_demilitarized_zone = no }
+    574 = { set_demilitarized_zone = no }
+    561 = { set_demilitarized_zone = no }
+    657 = { set_demilitarized_zone = no }
+    409 = { set_demilitarized_zone = no }
+    560 = { set_demilitarized_zone = no }
+    408 = { set_demilitarized_zone = no }
+    575 = { set_demilitarized_zone = no }
+    565 = { set_demilitarized_zone = no }
+    563 = { set_demilitarized_zone = no }
+    564 = { set_demilitarized_zone = no }
+    566 = { set_demilitarized_zone = no }
+    576 = { set_demilitarized_zone = no }
+    567 = { set_demilitarized_zone = no }
+    568 = { set_demilitarized_zone = no }
+    569 = { set_demilitarized_zone = no }
+    578 = { set_demilitarized_zone = no }
+    577 = { set_demilitarized_zone = no }
+    570 = { set_demilitarized_zone = no }
+    571 = { set_demilitarized_zone = no }
+    580 = { set_demilitarized_zone = no }
+    579 = { set_demilitarized_zone = no }
+    403 = { set_demilitarized_zone = no }
+
     }
   }
 }

@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Cavalry Brigade"
+
+	division_names_group = RUS_INF_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Cavalry Brigade"
+		location = 4333
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Cavalry Brigade"
+		location = 12635
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Cavalry Brigade"
+		location = 10584
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Cavalry Brigade"
+		location = 3618
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Cavalry Brigade"
+		location = 566
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}

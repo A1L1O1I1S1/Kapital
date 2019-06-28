@@ -3,11 +3,26 @@
 		name = "Militia"
 		location = 9258
 		division_template = "Militia"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.0
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
 	division = {
 		name = "Militia"
-		location = 6338
+		location = 3578
+		division_template = "Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 6502
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 1278
 		division_template = "Militia"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.3
@@ -15,6 +30,13 @@
 	division = {
 		name = "Militia"
 		location = 4354
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 392
 		division_template = "Militia"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.3

@@ -133,7 +133,7 @@ units = {
 	}
 	division = {
 		name = "7aya Pekhotnaya"
-		location = 11342
+		location = 6459
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.1
@@ -245,21 +245,21 @@ units = {
 	}
 	division = {
 		name = "23aya Pekhotnaya"
-		location = 9056
+		location = 197
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.1
 	}
 	division = {
 		name = "24aya Pekhotnaya"
-		location = 3009
+		location = 2994
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.1
 	}
 	division = {
 		name = "25aya Pekhotnaya"
-		location = 11105
+		location = 9206
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.1

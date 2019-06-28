@@ -27,4 +27,60 @@
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.3
 	}
+	division = {
+		name = "Militia"
+		location = 7789
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 10696
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 1821
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 9292
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 4724
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 4797
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 7757
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Militia"
+		location = 10329
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+	}
 }
