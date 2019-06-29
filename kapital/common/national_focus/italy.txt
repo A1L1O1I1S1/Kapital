@@ -1,0 +1,1557 @@
+focus_tree = {
+	id = italy_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1900 }
+
+ #INDUSTRIAL
+
+	focus = {
+		id = ITA_expanding_hectors_economic_control
+		icon = GFX_goal_generic_demand_territory
+		x = 5
+		y = 0
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_support_x_in_spanish_civil_war
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = { focus = ITA_expanding_hectors_economic_control }
+		mutually_exclusive = { focus = ITA_seize_balearic_islands_and_morocco }
+		x = 0
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_invest_in_x_in_spanish_civil_war
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = ITA_support_x_in_spanish_civil_war }
+		x = 0
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_invite_spain_to_pact_of_rome
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = ITA_invest_in_x_in_spanish_civil_war }
+		x = 0
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_seize_balearic_islands_and_morocco
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ITA_expanding_hectors_economic_control }
+		mutually_exclusive = { focus = ITA_support_x_in_spanish_civil_war }
+		x = 2
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_improve_new_holdings
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = ITA_seize_balearic_islands_and_morocco }
+		x = 2
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_subsidize_fiat
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = ITA_expanding_hectors_economic_control }
+		x = 4
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_complete_autostrade
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ITA_subsidize_fiat }
+		x = 4
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_expand_autostrade_north
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ITA_complete_autostrade }
+		x = 3
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_improve_industry_north
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = ITA_expand_autostrade_north }
+		x = 3
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+
+	focus = {
+		id = ITA_expand_autostrade_south
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ITA_complete_autostrade }
+		x = 5
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_improve_industry_south
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = ITA_expand_autostrade_south }
+		x = 5
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_nova_via_romana
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ITA_improve_industry_north }
+		prerequisite = { focus = ITA_improve_industry_south }
+		x = 4
+		y = 5
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_subsidize_beretta
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = ITA_expanding_hectors_economic_control }
+		x = 8
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_subsidize_macchi
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = ITA_subsidize_beretta }
+		x = 7
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_subsidize_cnt
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = ITA_subsidize_macchi }
+		x = 7
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_militarize_central_italy
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ITA_subsidize_beretta }
+		x = 9
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_militarize_southern_italy
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ITA_militarize_central_italy }
+		x = 9
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_militarize_northern_italy
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ITA_militarize_southern_italy }
+		x = 9
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_foregin_volunteers
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = ITA_militarize_northern_italy }
+		x = 9
+		y = 5
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_economic_satsuia
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = ITA_expanding_hectors_economic_control }
+		x = 11
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_steelworks_italia
+		icon = GFX_focus_generic_steel
+		prerequisite = { focus = ITA_economic_satsuia }
+		x = 11
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_oil_field_expansion
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = ITA_steelworks_italia }
+		x = 11
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_synthetic_oil_expansion
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = ITA_oil_field_expansion }
+		x = 11
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_oil_in_colonies
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = ITA_synthetic_oil_expansion }
+		x = 11
+		y = 5
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_military_research_facilities
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ITA_steelworks_italia }
+		x = 13
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_roman_electronics
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = ITA_military_research_facilities }
+		x = 13
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_military_industrial_complex
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ITA_roman_electronics }
+		x = 13
+		y = 5
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+ #FOREGIN POLICY
+
+	focus = {
+		id = ITA_il_quadrumvirs
+		icon = GFX_focus_generic_home_defense
+		x = 17
+		y = 0
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_curriculum_fasciste
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = ITA_il_quadrumvirs }
+		x = 15
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_segnale_italia
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = ITA_curriculum_fasciste }
+		x = 15
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_populi_nova_romani
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = ITA_segnale_italia }
+		x = 15
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_montegiordano_incident
+		icon = GFX_focus_rom_parties_end
+		prerequisite = { focus = ITA_il_quadrumvirs }
+		x = 17
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_appeal_to_petain
+		icon = GFX_goal_molotov_ribbentrop_pact
+		prerequisite = { focus = ITA_montegiordano_incident }
+		x = 17
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_demand_sicily
+		icon = GFX_focus_attack_italy
+		prerequisite = { focus = ITA_appeal_to_petain }
+		x = 17
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_nova_caesar
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = ITA_il_quadrumvirs }
+		x = 19
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_romanization
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = ITA_nova_caesar }
+		x = 19
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_roma_reborn
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = ITA_romanization }
+		x = 19
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_invite_serbia_to_pact_of_rome
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = ITA_nova_caesar }
+		x = 21
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_invite_france_to_pact_of_rome
+		icon = GFX_focus_chi_reach_out_to_france
+		prerequisite = { focus = ITA_invite_serbia_to_pact_of_rome }
+		x = 21
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_invite_germany_to_pact_of_rome
+		icon = GFX_focus_chi_mission_to_germany
+		prerequisite = { focus = ITA_invite_france_to_pact_of_rome }
+		x = 20
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_invite_japan_to_pact_of_rome
+		icon = GFX_focus_chi_collaboration_with_the_japanese
+		prerequisite = { focus = ITA_invite_france_to_pact_of_rome }
+		x = 22
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_create_faction_research_sharing
+		icon = GFX_goal_tfv_generic_tech_sharing
+		prerequisite = { focus = ITA_invite_france_to_pact_of_rome focus = ITA_invite_germany_to_pact_of_rome focus = ITA_invite_japan_to_pact_of_rome }
+		x = 21
+		y = 5
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+ #HECTOR
+
+	focus = {
+		id = ITA_hectors_dream
+		icon = GFX_focus_ger_assassinate_mussolini
+		x = 26
+		y = 0
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_prepare_for_the_west
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = ITA_hectors_dream }
+		x = 23
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_retake_the_west
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		prerequisite = { focus = ITA_prepare_for_the_west }
+		x = 23
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_prepare_for_the_north
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = ITA_hectors_dream }
+		x = 25
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_retake_the_north
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		prerequisite = { focus = ITA_prepare_for_the_north }
+		x = 25
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_develop_gaulic_resources
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = ITA_retake_the_west focus = ITA_retake_the_north }
+		x = 24
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_prepare_for_the_east
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = ITA_hectors_dream }
+		x = 27
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_retake_the_east
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		prerequisite = { focus = ITA_prepare_for_the_east }
+		x = 27
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_develop_easern_resources
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = ITA_retake_the_north focus = ITA_retake_the_east }
+		x = 26
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_prepare_for_the_south
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = ITA_hectors_dream }
+		x = 29
+		y = 1
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_retake_the_south
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		prerequisite = { focus = ITA_prepare_for_the_south }
+		x = 29
+		y = 2
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_develop_african_and_asian_resources
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = ITA_retake_the_east focus = ITA_retake_the_south }
+		x = 28
+		y = 3
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_strike_britannia
+		icon = GFX_focus_eng_decolonization
+		prerequisite = { focus = ITA_retake_the_north }
+		x = 25
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_strike_russia
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		prerequisite = { focus = ITA_retake_the_east }
+		x = 27
+		y = 4
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_governors_of_roma
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = ITA_strike_britannia focus = ITA_strike_russia }
+		x = 26
+		y = 5
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+ #BALBO
+
+	focus = {
+		id = ITA_balbos_ambtions
+		icon = GFX_goal_support_fascism
+		x = 2
+		y = 6
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_sardinian_uprising
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = ITA_balbos_ambtions }
+		x = 0
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_intervene_in_turkish_arab_war
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = ITA_sardinian_uprising }
+		x = 0
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_taking_back_egypt
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = ITA_intervene_in_turkish_arab_war }
+		x = 0
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_a_home_for_hebrews
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = ITA_taking_back_egypt }
+		x = 0
+		y = 10
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_demand_southern_tyrol
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = ITA_balbos_ambtions }
+		x = 2
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_support_prussia
+		icon = GFX_focus_ger_revive_kaiserreich
+		prerequisite = { focus = ITA_demand_southern_tyrol }
+		x = 2
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_intervene_in_germany
+		icon = GFX_focus_ger_oppose_hitler
+		prerequisite = { focus = ITA_support_prussia }
+		x = 2
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_submission_for_austria_and_alsace
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = ITA_intervene_in_germany }
+		x = 2
+		y = 10
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_demand_istria
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = ITA_balbos_ambtions }
+		x = 4
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_dalmatia_for_peace
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = ITA_demand_istria }
+		x = 4
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_sarajevo_arbitration
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = ITA_dalmatia_for_peace }
+		x = 4
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_zogs_submission
+		icon = GFX_focus_rom_handle_king
+		prerequisite = { focus = ITA_sarajevo_arbitration }
+		x = 4
+		y = 10
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_help_megali
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = ITA_zogs_submission }
+		x = 4
+		y = 11
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_restore_byzantium
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = ITA_help_megali }
+		x = 4
+		y = 12
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_align_serbia
+		icon = GFX_goal_molotov_ribbentrop_pact
+		prerequisite = { focus = ITA_sarajevo_arbitration }
+		x = 6
+		y = 10
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+ #ARMY
+
+	focus = {
+		id = ITA_follow_graziani
+		icon = GFX_goal_generic_army_artillery2
+		x = 10
+		y = 6
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_new_roman_calvary
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = ITA_follow_graziani }
+		x = 10
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_batter_the_barbarians
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ITA_new_roman_calvary }
+		x = 10
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_a_legion_of_guns
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = ITA_batter_the_barbarians }
+		x = 10
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_a_new_form_of_armor
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = ITA_follow_graziani focus = ITA_follow_messe focus = ITA_follow_badoglio }
+		x = 12
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_trained_in_the_alps
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = ITA_a_new_form_of_armor }
+		x = 12
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_follow_messe
+		icon = GFX_goal_generic_army_doctrines
+		x = 14
+		y = 6
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_trust_in_the_generals
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = ITA_follow_messe }
+		x = 14
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_support_company_integration
+		icon = GFX_focus_generic_provoke_border_clashes
+		prerequisite = { focus = ITA_trust_in_the_generals }
+		x = 14
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_an_adaptable_army
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = ITA_support_company_integration }
+		x = 14
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_the_new_legions
+		icon = GFX_goal_rhineland
+		prerequisite = { focus = ITA_follow_graziani focus = ITA_follow_messe focus = ITA_follow_badoglio }
+		x = 16
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_an_army_marches_on_their_stomach
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = { focus = ITA_the_new_legions }
+		x = 16
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_follow_badoglio
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 18
+		y = 6
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_no_roman_left_behind
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = ITA_follow_badoglio }
+		x = 18
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_handling_the_expanse
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = { focus = ITA_no_roman_left_behind }
+		x = 18
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_the_roman_wave
+		icon = GFX_focus_prc_infiltration
+		prerequisite = { focus = ITA_handling_the_expanse }
+		x = 18
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_a_modern_roman_army
+		icon = GFX_focus_research
+		prerequisite = { focus = ITA_a_legion_of_guns focus = ITA_an_adaptable_army focus = ITA_the_roman_wave }
+		x = 14
+		y = 10
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+ #AIR AND NAVY
+
+	focus = {
+		id = ITA_sons_of_mercury
+		icon = GFX_goal_generic_build_airforce
+		x = 21
+		y = 6
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_support_from_above
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = ITA_sons_of_mercury }
+		mutually_exclusive = { focus = ITA_vulcans_fury }
+		x = 20
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_jupiters_blessing
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = ITA_support_from_above }
+		x = 20
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_roman_rockets
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = ITA_jupiters_blessing }
+		mutually_exclusive = { focus = ITA_project_thanatos }
+		x = 20
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_vulcans_fury
+		icon = GFX_goal_generic_occupy_start_war
+		prerequisite = { focus = ITA_sons_of_mercury }
+		mutually_exclusive = { focus = ITA_support_from_above }
+		x = 22
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_super_inferos
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = ITA_vulcans_fury }
+		x = 22
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_project_thanatos
+		icon = GFX_focus_wonderweapons
+		prerequisite = { focus = ITA_super_inferos }
+		mutually_exclusive = { focus = ITA_roman_rockets }
+		x = 22
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_rebuild_romes_fleet
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 28
+		y = 6
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_secure_mediterranian_safety
+		icon = GFX_focus_usa_escort_fighters
+		prerequisite = { focus = ITA_sons_of_mercury }
+		prerequisite = { focus = ITA_rebuild_romes_fleet }
+		x = 24
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_watch_the_skies_and_the_seas
+		icon = GFX_goal_generic_radar
+		prerequisite = { focus = ITA_secure_mediterranian_safety }
+		x = 24
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_protecting_rome
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = { focus = ITA_watch_the_skies_and_the_seas }
+		x = 24
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_roman_carriers
+		icon = GFX_goal_generic_navy_carrier
+		prerequisite = { focus = ITA_rebuild_romes_fleet }
+		mutually_exclusive = { focus = ITA_roman_grand_navy }
+		x = 26
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_stop_their_sabotage
+		icon = GFX_goal_generic_navy_anti_submarine
+		prerequisite = { focus = ITA_roman_carriers }
+		x = 26
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_everything_is_bigger_in_rome
+		icon = GFX_goal_generic_occupy_states_coastal
+		prerequisite = { focus = ITA_stop_their_sabotage }
+		x = 26
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_naval_aviation_is_the_future
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = ITA_protecting_rome }
+		prerequisite = { focus = ITA_everything_is_bigger_in_rome }
+		x = 25
+		y = 10
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_roman_grand_navy
+		icon = GFX_focus_generic_navy_battleship2
+		prerequisite = { focus = ITA_rebuild_romes_fleet }
+		mutually_exclusive = { focus = ITA_roman_carriers }
+		x = 28
+		y = 7
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_forged_in_rome
+		icon = GFX_goal_generic_navy_cruiser
+		prerequisite = { focus = ITA_roman_grand_navy }
+		x = 28
+		y = 8
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+
+	focus = {
+		id = ITA_dominate_the_mediterranian
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = ITA_forged_in_rome }
+		x = 28
+		y = 9
+		cost = 70
+		available_if_capitulated = no
+
+		completion_reward = {
+			#
+		}
+    }
+}
