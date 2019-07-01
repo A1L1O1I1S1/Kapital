@@ -12,13 +12,13 @@ set_technology = {
 set_convoys = 5
 
 set_popularities = {
-	communism = 0
-	socialist = 5
-	liberal = 10
-	anarcho_capitalist = 0
-	corporatist = 0
-	conservative = 85
-	fascism = 0
+	communism = 1
+	socialist = 11
+	liberal = 11
+	anarcho_capitalist = 2
+	corporatist = 1
+	conservative = 70
+	fascism = 4
 }
 
 set_politics = {
@@ -29,9 +29,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Haile Selassie"
+	name = "Meles Gidada"
 	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+	picture = "Portrait_Ethiopia_Meles_Gidada.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = { }

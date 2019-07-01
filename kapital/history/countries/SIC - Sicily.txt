@@ -1,6 +1,6 @@
 ﻿capital = 115
 
-oob = "MAF_1936"
+oob = "SIC_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -59,7 +59,7 @@ set_politics = {
 create_country_leader = {
 	name = "Il Padre"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Mafia_Il_Padre.dds"
+	picture = "Portrait_Sicily_Il_Padre.dds"
 	expire = "1965.1.1"
 	ideology = democratic_conservatism
 	traits = { }

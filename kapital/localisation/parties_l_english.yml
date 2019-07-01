@@ -84,8 +84,8 @@
  ARM_fascism_party:0 "Taronists"
  ARM_fascism_party_long:0 "Taronists"
 
- MAF_corporatist_party:0 "United Mafias"
- MAF_corporatist_party_long:0 "United Mafias of Italy"
+ SIC_corporatist_party:0 "United Mafias"
+ SIC_corporatist_party_long:0 "United Mafias of Italy"
 
  CDB_corporatist_party:0 "Caribbean Defence Committee"
  CDB_corporatist_party_long:0 "Caribbean Defence Committee"
@@ -121,6 +121,16 @@
  XEN_conservative_party_long:0 "Foreign Mandate"
  XEN_fascism_party:0 "Foreign Mandate"
  XEN_fascism_party_long:0 "Foreign Mandate"
+
+
+ ETH_socialist_party:0 "Leftist Republicans"
+ ETH_socialist_party_long:0 "Leftist Republicans"
+ ETH_liberal_party:0 "Rightist Republicans"
+ ETH_liberal_party_long:0 "Rightist Republicans"
+ ETH_conservative_party:0 "Loyalists"
+ ETH_conservative_party_long:0 "Loyalists"
+ ETH_fascism_party:0 "Radical Loyalists"
+ ETH_fascism_party_long:0 "Radical Loyalists"
 
  FIN_conservative_party:0 "Centre Party"
  FIN_conservative_party_long:0 "Centre Party"

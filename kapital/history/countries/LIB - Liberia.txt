@@ -27,9 +27,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Edwin Barclay"
+	name = "Edmund Biden"
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	picture = "Portrait_Liberia_Edmund_Biden.dds"
 	expire = "1965.1.1"
 	ideology = democratic_conservatism
 	traits = { }

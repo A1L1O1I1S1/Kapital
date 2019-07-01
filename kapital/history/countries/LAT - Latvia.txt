@@ -16,11 +16,11 @@ set_convoys = 10
 set_popularities = {
 	communism = 0
 	socialist = 9
-	liberal = 5
+	liberal = 13
 	anarcho_capitalist = 1
 	corporatist = 0
 	conservative = 17
-	fascism = 68
+	fascism = 60
 }
 
 set_politics = {
@@ -31,10 +31,10 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Karlis Ulmanis"
+	name = "Klāvs Ezeriņš"
 	desc = "POLITICS_KARLIS_ULMANIS_DESC"
-	picture = "GFX_Portrait_latvia_karlis_ulmanis"
+	picture = "Portrait_Latvia_Klavs_Ezerins.dds"
 	expire = "1965.1.1"
-	ideology = orthodox_fascism
+	ideology = nationalism
 	traits = { }
 }

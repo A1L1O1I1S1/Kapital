@@ -45,7 +45,7 @@ set_technology = {
 	radio_detection = 1
 }
 
-give_guarantee = MAF
+give_guarantee = SIC
 
 set_convoys = 800
 

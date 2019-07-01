@@ -15,12 +15,12 @@ set_convoys = 5
 
 set_popularities = {
 	communism = 0
-	socialist = 3
-	liberal = 61
-	anarcho_capitalist = 7
+	socialist = 7
+	liberal = 42
+	anarcho_capitalist = 5
 	corporatist = 1
-	conservative = 17
-	fascism = 11
+	conservative = 27
+	fascism = 18
 }
 
 set_politics = {
@@ -31,10 +31,10 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Konstantin Päts"
+	name = "Juss Tomingas"
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
-	picture = "GFX_Portrait_estonia_konstantin_pats"
+	picture = "Portrait_Estonia_Juss_Tomingas.dds"
 	expire = "1965.1.1"
-	ideology = classical_liberalism
+	ideology = social_liberalism
 	traits = { }
 }

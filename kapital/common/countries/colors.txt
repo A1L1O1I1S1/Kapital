@@ -105,10 +105,6 @@ FIN = {
 	color = rgb { 205 212 228 }
 	color_ui = rgb { 255 255 255 }
 }
-IRE = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
-}
 HUN = {
 	color = rgb { 190  82  58 }
 	color_ui = rgb { 190  82  58 }
@@ -172,10 +168,6 @@ RAJ = {
 UKR = {
 	color = rgb { 54  54  54 }
 	color_ui = rgb { 54  54  54  }	
-}
-AZR = {
-	color = rgb { 69  151  49 }
-	color_ui = rgb { 69  151  49 }
 }
 GEO = {
 	color = rgb { 153  0  0 }
@@ -252,7 +244,7 @@ D15 = {
 
 #
 
-MAF = {
+SIC = {
 	color = rgb { 100 153 118 }
 	color_ui = rgb { 100 153 118 }
 }
@@ -292,10 +284,6 @@ OTT = {
 POL = {
 	color = rgb { 197 92 106 }
 	color_ui = rgb { 197 92 106 }
-}
-SLC = {
-	color = rgb { 207 155 112 }
-	color_ui = rgb { 207 155 112 }
 }
 BLC = {
 	color = rgb { 207 155 112 }
