@@ -616,7 +616,7 @@
  UKR_conservative_DEF:0 "State of Ukraine"
 
  UKR_fascism:0 "Radical Ukraine"
- UKR_fascism_DEF:0 "Radical  Ukraine"
+ UKR_fascism_DEF:0 "Radical Ukraine"
 
  UKR_communism_ADJ:0 "Ukranian"
  UKR_socialist_ADJ:0 "Ukranian"
@@ -778,34 +778,34 @@
 
 
 
- GER_communism:0 "German Commune"
- GER_communism_DEF:0 "German Commune"
-
- GER_socialist:0 "German Republic"
- GER_socialist_DEF:0 "German Republic"
-
- GER_fascism:0 "Germany"
- GER_fascism_DEF:0 "Germany"
-
- GER_conservative:0 "German Republic"
- GER_conservative_DEF:0 "German Republic"
-
- GER_liberal:0 "Republic of Germany"
- GER_liberal_DEF:0 "Republic of Germany"
-
- GER_corporatist:0 "German Corporate Republic"
- GER_corporatist_DEF:0 "German Corporate Republic"
-
- GER_anarcho_capitalist:0 "Free Germany"
- GER_anarcho_capitalist_DEF:0 "Anarcho-capitalist Germany"
-
- GER_communism_ADJ:0 "German"
- GER_socialist_ADJ:0 "German"
- GER_fascism_ADJ:0 "German"
- GER_conservative_ADJ:0 "German"
- GER_liberal_ADJ:0 "German"
- GER_corporatist_ADJ:0 "German"
- GER_anarcho_capitalist_ADJ:0 "German"
+# GER_communism:0 "German Commune"
+# GER_communism_DEF:0 "German Commune"
+#
+# GER_socialist:0 "German Republic"
+# GER_socialist_DEF:0 "German Republic"
+#
+# GER_fascism:0 "Germany"
+# GER_fascism_DEF:0 "Germany"
+#
+# GER_conservative:0 "German Republic"
+# GER_conservative_DEF:0 "German Republic"
+#
+# GER_liberal:0 "Republic of Germany"
+# GER_liberal_DEF:0 "Republic of Germany"
+#
+# GER_corporatist:0 "German Corporate Republic"
+# GER_corporatist_DEF:0 "German Corporate Republic"
+#
+# GER_anarcho_capitalist:0 "Free Germany"
+# GER_anarcho_capitalist_DEF:0 "Anarcho-capitalist Germany"
+#
+# GER_communism_ADJ:0 "German"
+# GER_socialist_ADJ:0 "German"
+# GER_fascism_ADJ:0 "German"
+# GER_conservative_ADJ:0 "German"
+# GER_liberal_ADJ:0 "German"
+# GER_corporatist_ADJ:0 "German"
+# GER_anarcho_capitalist_ADJ:0 "German"
 
 
  AUS_communism:0 "Austrian Commune"

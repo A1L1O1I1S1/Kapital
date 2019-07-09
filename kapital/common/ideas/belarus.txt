@@ -30,7 +30,7 @@ ideas = {
 			}
 		}
 
-		BLR_competent_officers = {
+		BLR_idea_competent_officers = {
 			allowed = { original_tag = BLR }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1

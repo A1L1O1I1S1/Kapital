@@ -30,11 +30,14 @@ country_event = {
       RUS = { transfer_state = 207 }
       RUS = { transfer_state = 241 }
       drop_cosmetic_tag = yes
-      remove_ideas = BLR_organized_uprising
       set_country_flag = BLR_flag_uprising_successful
       add_ideas = limited_conscription
       add_ideas = low_economic_mobilisation
-    hidden_effect = { RUS = { country_event = { id = russia.1 days = 7 } } }
+    hidden_effect = {
+    RUS = { country_event = { id = russia.1 days = 7 } }
+    BLR = { country_event = { id = belarus.6 days = 1 } }
+
+    }
     }
 }
 
@@ -173,5 +176,201 @@ country_event = {
    add_war_support = 0.05
    add_popularity = { ideology = communism popularity = -0.03 }
    set_cosmetic_tag = BLR_revolt_new
+  }
+}
+
+country_event = {
+  id = belarus.6
+  title = belarus.6.t
+  desc = belarus.6.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.6.a
+   #
+    hidden_effect = { BLR = { country_event = { id = belarus.12 days = 28 } } }
+  }
+
+  option = {
+  name = belarus.6.b
+   #
+    hidden_effect = { BLR = { country_event = { id = belarus.7 days = 21 } } }
+  }
+
+  option = {
+  name = belarus.6.c
+    hidden_effect = {
+      BLR = {
+        random_list = {
+          50 = {
+            country_event = { id = belarus.9 days = 21 }
+          }
+          25 = {
+            country_event = { id = belarus.8 days = 21 }
+          }
+          25 = {
+            country_event = { id = belarus.10 days = 21 }
+          }
+        }
+      }
+    }
+  }
+
+  option = {
+  name = belarus.6.e
+   #
+    hidden_effect = { BLR = { country_event = { id = belarus.11 days = 21 } } }
+  }
+}
+
+country_event = {
+  id = belarus.7
+  title = belarus.7.t
+  desc = belarus.7.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.7.a
+   #
+    custom_effect_tooltip = BLR_opposition_dealt_with_tooltip 
+    hidden_effect = { set_country_flag = BLR_flag_opposition_dealt_with }
+  }
+}
+
+country_event = {
+  id = belarus.8
+  title = belarus.8.t
+  desc = belarus.8.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.8.a
+   #
+    custom_effect_tooltip = BLR_opposition_dealt_with_tooltip 
+    hidden_effect = { set_country_flag = BLR_flag_opposition_dealt_with }
+  }
+}
+
+country_event = {
+  id = belarus.9
+  title = belarus.9.t
+  desc = belarus.9.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.9.a
+   #
+    custom_effect_tooltip = BLR_opposition_dealt_with_tooltip 
+    hidden_effect = { set_country_flag = BLR_flag_opposition_dealt_with }
+  }
+}
+
+country_event = {
+  id = belarus.10
+  title = belarus.10.t
+  desc = belarus.10.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.10.a
+   #
+    hidden_effect = { BLR = { country_event = { id = belarus.12 days = 7 } } }
+  }
+}
+
+country_event = {
+  id = belarus.11
+  title = belarus.11.t
+  desc = belarus.11.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.11.a
+   #
+  }
+}
+
+country_event = {
+  id = belarus.12
+  title = belarus.12.t
+  desc = belarus.12.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.12.a
+   #
+  }
+
+  option = {
+  name = belarus.12.a
+   #
+  }
+
+
+  option = {
+  name = belarus.12.a
+   #
+  }
+}
+
+country_event = {
+  id = belarus.13
+  title = belarus.13.t
+  desc = belarus.13.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.13.a
+   #
+    custom_effect_tooltip = BLR_communists_overthrown_tooltip 
+    hidden_effect = { set_country_flag = BLR_flag_communists_overthrown }
+  }
+}
+
+country_event = {
+  id = belarus.14
+  title = belarus.14.t
+  desc = belarus.14.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.14.a
+   #
+    custom_effect_tooltip = BLR_opposition_dealt_with_tooltip 
+    hidden_effect = { set_country_flag = BLR_flag_opposition_dealt_with }
+  }
+}
+
+country_event = {
+  id = belarus.15
+  title = belarus.15.t
+  desc = belarus.15.d
+  picture = GFX_report_event_generic_read_write
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  option = {
+  name = belarus.15.a
+   #
+    custom_effect_tooltip = BLR_communists_overthrown_tooltip 
+    hidden_effect = { set_country_flag = BLR_flag_communists_overthrown }
   }
 }

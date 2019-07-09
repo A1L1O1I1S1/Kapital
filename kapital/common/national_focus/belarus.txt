@@ -400,7 +400,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = BLR_competent_officers
+			add_ideas = BLR_idea_competent_officers
 		}
     }
 
@@ -454,7 +454,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		available = {
-		    has_country_flag = BLR_flag_uprising_successful
+		    has_country_flag = BLR_flag_opposition_dealt_with
 		}
 
 		completion_reward = {
@@ -915,7 +915,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		available = {
-		    has_country_flag = BLR_flag_uprising_successful
+		    has_country_flag = BLR_flag_communists_overthrown
 		}
 
 		completion_reward = {
@@ -1084,11 +1084,7 @@ focus_tree = {
 		y = 1
 		cost = 70
 		available_if_capitulated = no
-
-		available = {
-		    has_country_flag = BLR_flag_uprising_successful
-		}
-
+		
 		completion_reward = {
 		    #
 		}
@@ -1104,10 +1100,6 @@ focus_tree = {
 		cost = 70
 		available_if_capitulated = no
 
-		available = {
-		    has_country_flag = BLR_flag_uprising_successful
-		}
-
 		completion_reward = {
 		    #
 		}
@@ -1122,10 +1114,6 @@ focus_tree = {
 		y = 2
 		cost = 70
 		available_if_capitulated = no
-
-		available = {
-		    has_country_flag = BLR_flag_uprising_successful
-		}
 
 		completion_reward = {
 		    #

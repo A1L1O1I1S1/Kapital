@@ -21,7 +21,7 @@ country_event = {
 			NOT = { tag = JAP }
 			NOT = { tag = USA }
 			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = { tag = RUS }
 		}
 	}
 	desc = {
@@ -34,7 +34,7 @@ country_event = {
 				tag = JAP
 				tag = USA
 				tag = ENG
-				tag = SOV
+				tag = RUS
 			}
 		}
 	}
@@ -60,7 +60,7 @@ country_event = {
 			NOT = { tag = JAP }
 			NOT = { tag = USA }
 			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = { tag = RUS }
 		}
 	}
 	desc = {
@@ -73,7 +73,7 @@ country_event = {
 				tag = JAP
 				tag = USA
 				tag = ENG
-				tag = SOV
+				tag = RUS
 			}
 		}
 	}
@@ -100,7 +100,7 @@ country_event = {
 			NOT = { tag = JAP }
 			NOT = { tag = USA }
 			NOT = { tag = ENG }
-			NOT = { tag = SOV }
+			NOT = { tag = RUS }
 		}
 	}
 	desc = {
@@ -113,7 +113,7 @@ country_event = {
 				tag = JAP 
 				tag = USA 
 				tag = ENG
-				tag = SOV
+				tag = RUS
 			} 
 		}
 	}
@@ -146,7 +146,7 @@ country_event = {
 								tag = JAP 
 								tag = USA 
 								tag = ENG
-								tag = SOV
+								tag = RUS
 							} 
 						} 
 					}
@@ -161,7 +161,7 @@ country_event = {
 								tag = JAP 
 								tag = USA 
 								tag = ENG
-								tag = SOV
+								tag = RUS
 							} 
 						}
 					}
@@ -182,7 +182,7 @@ country_event = {
 						tag = JAP 
 						tag = USA 
 						tag = ENG
-						tag = SOV
+						tag = RUS
 					} 
 				}
 			}
@@ -195,7 +195,7 @@ country_event = {
 						tag = JAP 
 						tag = USA 
 						tag = ENG
-						tag = SOV
+						tag = RUS
 					} 
 				}
 			}
@@ -230,7 +230,7 @@ country_event = {
 								tag = JAP 
 								tag = USA 
 								tag = ENG
-								tag = SOV
+								tag = RUS
 							} 
 						} 
 					}
@@ -245,7 +245,7 @@ country_event = {
 								tag = JAP 
 								tag = USA 
 								tag = ENG
-								tag = SOV
+								tag = RUS
 							} 
 						}
 					}
@@ -266,7 +266,7 @@ country_event = {
 						tag = JAP 
 						tag = USA 
 						tag = ENG
-						tag = SOV
+						tag = RUS
 					} 
 				}
 			}
@@ -279,7 +279,7 @@ country_event = {
 						tag = JAP 
 						tag = USA 
 						tag = ENG
-						tag = SOV
+						tag = RUS
 					} 
 				}
 			}
@@ -314,7 +314,7 @@ country_event = {
 								tag = JAP 
 								tag = USA 
 								tag = ENG
-								tag = SOV
+								tag = RUS
 							} 
 						} 
 					}
@@ -329,7 +329,7 @@ country_event = {
 								tag = JAP 
 								tag = USA 
 								tag = ENG
-								tag = SOV
+								tag = RUS
 							} 
 						}
 					} 
@@ -350,7 +350,7 @@ country_event = {
 						tag = JAP 
 						tag = USA 
 						tag = ENG
-						tag = SOV
+						tag = RUS
 					} 
 				}
 			}
@@ -363,7 +363,7 @@ country_event = {
 						tag = JAP 
 						tag = USA 
 						tag = ENG
-						tag = SOV
+						tag = RUS
 					} 
 				}
 			}

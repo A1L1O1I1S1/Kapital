@@ -299,7 +299,7 @@ ideas = {
 					#Block has plenty manpower
 					factor = 0
 					NOT = { tag = CHI }
-					NOT = { tag = SOV }
+					NOT = { tag = RUS }
 					manpower_per_military_factory >  3000
 				}
 
@@ -318,7 +318,7 @@ ideas = {
 				}
 				modifier = {
 					factor = 1000
-					original_tag = SOV
+					original_tag = RUS
 					check_variable = { manpower_k < 3000 }
 				}
 
@@ -428,7 +428,7 @@ ideas = {
 				}
 				modifier = {
 					factor = 10
-					original_tag = SOV
+					original_tag = RUS
 					date > 1943.1.1
 					has_manpower < 2000000	
 				}

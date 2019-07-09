@@ -319,8 +319,7 @@
  PRS_naval_air_effort:0 "Naval Air Effort"
  PRS_naval_air_effort_desc:0 "The efficacy of air strikes against naval targets was demonstrated by the Americans already back in 1921. We should not neglect this branch of the Air Force if we intend to wage war on a naval power."
 
- PRS_air_innovation_2:0 ""
- PRS_air_innovation_2_desc:0 ""
+
 
  PRS_suppress_revanchism:0 "Suppress Revanchism"
  PRS_suppress_revanchism_desc:0 ""
@@ -536,8 +535,8 @@
 
  #
 
- ITA_balbos_ambtions:0 "Balbo's Ambtions"
- ITA_balbos_ambtions_desc:0 ""
+ ITA_loquarellos_ambtions:0 "Loquarello's Ambtions"
+ ITA_loquarellos_ambtions_desc:0 ""
 
  ITA_sardinian_uprising:0 "Sardinian Uprising"
  ITA_sardinian_uprising_desc:0 ""
@@ -930,6 +929,8 @@
  BLR_stability_restored_desc:0 ""
 
  BLR_flag_uprising_successful:0 "Uprising Successful"
+ BLR_flag_opposition_dealt_with:0 "Opposition Dealt With"
+ BLR_flag_communists_overthrown:0 "Communists Overthrown"
 
  ### ILLYRIA
 

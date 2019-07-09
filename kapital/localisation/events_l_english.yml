@@ -219,10 +219,10 @@
  lithuania.2.a:0 "Leave the Commonwealth."
  lithuania.2.b:0 "We should not anger the Poles."
 
- lithuania.2.t:0 "Prussia demands Memel"
- lithuania.2.d:0 ""
- lithuania.2.a:0 "We have no choice."
- lithuania.2.b:0 "We refuse."
+ lithuania.3.t:0 "Prussia demands Memel"
+ lithuania.3.d:0 ""
+ lithuania.3.a:0 "We have no choice."
+ lithuania.3.b:0 "We refuse."
 
  luxembourg.1.t:0 "Election of 1937"
  luxembourg.1.d:0 "Our first truly democratic elections are right around the corner. We predict that the Revolutionary Council will stay in power, however moderate forces have been getting a serious amount of traction lately so they have all the chances."
@@ -375,6 +375,53 @@
  belarus.5.d:0 ""
  belarus.5.a:0 "Ok"
 
+ belarus.6.t:0 "Our next step"
+ belarus.6.d:0 "During the revolt, our goals with our enemies temporarily coincided, but now that our independence is assured, the counterrevolutionaries have shown their true face. There is a hidden struggle throughout our country between our supporters and the bourgeois. It's now time for us to choose our next move. We can do nothing and wait for our opponents to make their move first, although a more radical solution is also available. We can use our influence in the country to purge the counterrevolutionary elements with the help of repressions and brute force, or, without creating superfluous noise, eliminate the most influential opposition leaders, decapitating the latter, and then using our agents to destroy the revolution from within. Some party leaders offer a different option, however. Relax our agitation efforts, and consolidate ties with the army instead, fall back to our strongholds and prepare to resolve the issue with the help of bullets. This will strengthen the opposition, but it will also lose vigilance, and we have a high chance to see the moderate socialists split from the hardline rightists, and this can play into our hands. What should we do?"
+ belarus.6.a:0 "Don't risk it. Preserve the status quo and wait for them to make the first move."
+ belarus.6.b:0 "We should end this quick. Deal with them head-on."
+ belarus.6.c:0 "Play it smart. Our agents snall get rid of them without unwanted noise."
+ belarus.6.e:0 "Retreat and then deal with them with direct warfare."
+
+ belarus.7.t:0 "Opposition dealt with"
+ belarus.7.d:0 "We launched a full offensive agaist the opposition. Their leaders were dealt with without any trial. Belarus was declared a one party state and repressions were started agaist all political dissidents. We have won."
+ belarus.7.a:0 "Good, good."
+
+ belarus.8.t:0 "Opposition dealt with"
+ belarus.8.d:0 "Everything went as planned. Our agents did their work with minimal noise, and the opposition parties were quickly infiltrated. We now have de-facto controll over the country."
+ belarus.8.a:0 "Great news!"
+
+ belarus.9.t:0 "Opposition dealt with"
+ belarus.9.d:0 "A number of our men were sent to infitrate the opposition. The majority of thier leaders were deal with, although some managed to escape and and we were forced to deal with them with more brute methods. It did not go unnoticed, however. Our enemies used critisised our moves and it even went as far as open fighting on the streets, although we don't have to worry about them anymore. We now have full controll over the country."
+ belarus.9.a:0 "That was a close call, we shall learn from our mistakes not to allow anything like this to happen in the future."
+
+ belarus.10.t:0 "Operation failed"
+ belarus.10.d:0 "Most of our missions resulted in a failure. Our enemies were quick to use this agaist us and we lost a lot of ground as a result. We still have our agents working inside their ranks, and our losses are not critical, but the chance to strike that we had is now lost, we can only wait for the opposition to make their move."
+ belarus.10.a:0 "We still have a chance to come back from this."
+
+ belarus.11.t:0 "A strategic retreat"
+ belarus.11.d:0 "We have cut our spending on agitation and anti-opposition effort, redirecting our efforts towards expanding our influence in the army and other structures. Our headquarters were made into an impenetrable fortress. The counterrevolutionaries used our weakness in the political field and consolidated their positions across the country. As we expected, this has caused a disunity in their ranks. Looks like we chose the right strategy."
+ belarus.11.a:0 "It's still far from over..."
+
+ belarus.12.t:0 "The opposition makes its move"
+ belarus.12.d:0 "The time has now come to the opposition forces to make their move. Today various political groups opposed to us organized a series of protests in various parts of the country. They are denouncing our regime and calling for immediate elections. Out leadership proposes to isolate the demonstrations and sow discord within the opposition ranks with the help of our special agents. Some suggest to ignore the protests, and some call for a crackdown on the demonstrations, although this may have dire consequences, as our influence in the country is limited."
+ belarus.12.a:0 "Ignore it, they'll calm down soon."
+ belarus.12.b:0 "Isolate them and infiltrate from within."
+ belarus.12.c:0 "Send in the army."
+
+ belarus.13.t:0 "The Collapse"
+ belarus.13.d:0 "The protests quickly turned into violent fighting and soon our government building was stormed by the counterrevolutionaries."
+ belarus.13.a:0 "What now?..."
+
+ belarus.14.t:0 "Protests ended"
+ belarus.14.d:0 "With the help of our best men we have managed to isolate disorganize the protests. The members of the opposition quickly turned on one another and out victory is now secured."
+ belarus.14.a:0 "A close call."
+
+ belarus.15.t:0 "The Collapse"
+ belarus.15.d:0 "The protesters were ready for our actions and soon a peaceful demonstrations were turned into bloodbaths. The counterrevolutionaries soon came on top and our regime was overthrown."
+ belarus.15.a:0 "What now?..."
+
+ BLR_opposition_dealt_with_tooltip:0 "We have averted the counterrevolution."
+ BLR_communists_overthrown_tooltip:0 "The communists have fallen."
  #
 
  illyria.1.t:0 "The 1936 parliamentary election"

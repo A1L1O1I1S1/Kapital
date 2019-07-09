@@ -833,10 +833,10 @@ focus_tree = {
 		}
     }
 
- #BALBO
+ #loquarello
 
 	focus = {
-		id = ITA_balbos_ambtions
+		id = ITA_loquarellos_ambtions
 		icon = GFX_goal_support_fascism
 		x = 2
 		y = 6
@@ -851,7 +851,7 @@ focus_tree = {
 	focus = {
 		id = ITA_sardinian_uprising
 		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = ITA_balbos_ambtions }
+		prerequisite = { focus = ITA_loquarellos_ambtions }
 		x = 0
 		y = 7
 		cost = 70
@@ -907,7 +907,7 @@ focus_tree = {
 	focus = {
 		id = ITA_demand_southern_tyrol
 		icon = GFX_focus_generic_treaty
-		prerequisite = { focus = ITA_balbos_ambtions }
+		prerequisite = { focus = ITA_loquarellos_ambtions }
 		x = 2
 		y = 7
 		cost = 70
@@ -963,7 +963,7 @@ focus_tree = {
 	focus = {
 		id = ITA_demand_istria
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = ITA_balbos_ambtions }
+		prerequisite = { focus = ITA_loquarellos_ambtions }
 		x = 4
 		y = 7
 		cost = 70

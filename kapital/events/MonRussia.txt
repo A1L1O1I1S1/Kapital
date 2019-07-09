@@ -4,7 +4,7 @@ country_event = {
   id = monrussia.1
   title = monrussia.1.t
   desc = monrussia.1.d
-  picture = GFX_report_event_generic_military_parade
+  picture = GFX_report_event_generic_read_write
   fire_only_once = yes
   is_triggered_only = yes
 
@@ -23,7 +23,7 @@ country_event = {
   id = monrussia.2
   title = monrussia.2.t
   desc = monrussia.2.d
-  picture = GFX_report_event_generic_military_parade
+  picture = GFX_report_event_generic_read_write
   fire_only_once = yes
   is_triggered_only = yes
 
@@ -60,7 +60,7 @@ country_event = {
   id = monrussia.3
   title = monrussia.3.t
   desc = monrussia.3.d
-  picture = GFX_report_event_generic_military_parade
+  picture = GFX_report_event_generic_read_write
   fire_only_once = yes
   is_triggered_only = yes
 
@@ -85,7 +85,7 @@ country_event = {
   id = monrussia.4
   title = monrussia.4.t
   desc = monrussia.4.d
-  picture = GFX_report_event_generic_military_parade
+  picture = GFX_report_event_generic_read_write
   fire_only_once = yes
   is_triggered_only = yes
 
