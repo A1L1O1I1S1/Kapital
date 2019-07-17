@@ -356,111 +356,111 @@
  ###ITALY
 
  ITA_expanding_hectors_economic_control:0 "Expanding Hector's Economic Control"
- ITA_expanding_hectors_economic_control_desc:0 ""
+ ITA_expanding_hectors_economic_control_desc:0 "Duce Hector is prepared to turn Italy into the economic capital of Europe, the other nations foolishly let the free market or communism control the economy, only a truly organized and efficient leader can turn create an economic powerhouse."
 
  ITA_support_x_in_spanish_civil_war:0 "Support X in Spanish Civil War"
- ITA_support_x_in_spanish_civil_war_desc:0 ""
+ ITA_support_x_in_spanish_civil_war_desc:0 "Spain has found itself in a civil war that has created hysteria for Iberia. If we are to continue to expand our sphere of influence, we must support NAME and the FACTION, they will make a useful ally."
 
  ITA_invest_in_x_in_spanish_civil_war:0 "Invest in X in Spanish Civil War"
- ITA_invest_in_x_in_spanish_civil_war_desc:0 ""
+ ITA_invest_in_x_in_spanish_civil_war_desc:0 "If NAME is to win the civil war, he will need more production than what he has now, an early investment in this new state will be most rewarding in the future."
 
  ITA_invite_spain_to_pact_of_rome:0 "Invite Spain to Pact of Rome"
- ITA_invite_spain_to_pact_of_rome_desc:0 ""
+ ITA_invite_spain_to_pact_of_rome_desc:0 "The Spanish Civil War is over and we have done much in hopes of assuring the right side wins. With the dust settled and they have been given time to recover, we can extend the olive branch."
 
  ITA_seize_balearic_islands_and_morocco:0 "Seize Balearic Islands and Morocco"
- ITA_seize_balearic_islands_and_morocco_desc:0 ""
+ ITA_seize_balearic_islands_and_morocco_desc:0 "Spain is clearly too volatile to trust, they have sunk themselves into a civil war and now are unable to hold themselves together, we are Rome, it is only right that we take back control of lands that were ours."
 
  ITA_improve_new_holdings:0 "Improve New Holdings"
- ITA_improve_new_holdings_desc:0 ""
+ ITA_improve_new_holdings_desc:0 "Morocco and the Balearic Islands are useful to us, but, they will need proper investment to assure that they will be ready to support the Roman war machine."
 
  ITA_subsidize_fiat:0 "Subsidize FIAT"
- ITA_subsidize_fiat_desc:0 ""
+ ITA_subsidize_fiat_desc:0 "FIAT is one of the most prosperous automotive companies in Europe, as we invest in and take more control of the company, we will surely see great growth in the economy. Il Duce already has ideas on how to expand them in just the right ways."
 
  ITA_complete_autostrade:0 "Complete Autostrade"
- ITA_complete_autostrade_desc:0 ""
+ ITA_complete_autostrade_desc:0 "One of Hector's greatest projects is the Autostrade, a massive network of roadways that connect central Italy and the neighboring areas. The Autostrade is even being called the 'Eighth Wonder of the World' for it's scale. We must complete it's construction soon, after all, all roads lead to Rome."
 
  ITA_expand_autostrade_north:0 "Expand Autostrade North"
- ITA_expand_autostrade_north_desc:0 ""
+ ITA_expand_autostrade_north_desc:0 "The Autostrade has seen massive success in connecting the nation and improving the economy, but we are not done. The Autostrade will allow all Italians to be connected, now we must expand construction to the north while we have momentum."
 
  ITA_improve_industry_north:0 "Improve Industry North"
- ITA_improve_industry_north_desc:0 ""
+ ITA_improve_industry_north_desc:0 "Rome was not built in a day, and neither will the Italian war machine be, but we will not shirk the responsibility to our people. The areas away from Rome must also be given the chance to prosper, we will fund industrial growth in the north immediately."
 
  ITA_expand_autostrade_south:0 "Expand Autostrade South"
- ITA_expand_autostrade_south_desc:0 ""
+ ITA_expand_autostrade_south_desc:0 "The Autostrade has seen massive success in connecting the nation and improving the economy, but we are not done. The Autostrade will allow all Italians to be connected, now we must expand construction to the south while we have momentum."
 
  ITA_improve_industry_south:0 "Improve Industry South"
- ITA_improve_industry_south_desc:0 ""
+ ITA_improve_industry_south_desc:0 "Rome was not built in a day, and neither will the Italian war machine be, but we will not shirk the responsibility to our people. The areas away from Rome must also be given the chance to prosper, we will fund industrial growth in the south immediately."
 
  ITA_nova_via_romana:0 "Nova Via Romana"
- ITA_nova_via_romana_desc:0 ""
+ ITA_nova_via_romana_desc:0 "Truly all roads do lead to Rome, and if we find any that do not in our new Roman Empire, we will make sure they do. Our domain grows beyond simply Italy and all our subjects will understand the might and efficiency of our empire."
 
  ITA_subsidize_beretta:0 "Subsidize Beretta"
- ITA_subsidize_beretta_desc:0 ""
+ ITA_subsidize_beretta_desc:0 "Beretta has been employed in producing weapons for every major European war for almost 300 years. With tensions rising global and our goals to rebuild the Roman Empire, it is most auspicious that we subsidize and control Beretta to assure our war machine is well equipped."
 
  ITA_subsidize_macchi:0 "Subsidize Macchi"
- ITA_subsidize_macchi_desc:0 ""
+ ITA_subsidize_macchi_desc:0 "We mourn the recent passing of Giulio Macchi, a genius in the aeronautics field. Though he has passed his legacy lives on in Aermacchi, or Macchi as it's been called, a company that creates efficient and agile fighter planes. With additional investment and control of Macchi, Il Duce will assure that Rome rules even the skies."
 
  ITA_subsidize_cnt:0 "Subsidize CNT"
- ITA_subsidize_cnt_desc:0 ""
+ ITA_subsidize_cnt_desc:0 "Cantiere Navale Triestino is a naval manufacturing company that we have gained control of after we were ceded control of Trieste. Their expertise in large and powerful ships are exactly what we need to revive the Roman navy, our investiture and control will assure we can create the navy we need."
 
  ITA_militarize_central_italy:0 "Militarize Central Italy"
- ITA_militarize_central_italy_desc:0 ""
+ ITA_militarize_central_italy_desc:0 "The Roman Empire understood what it meant to have a people ready for war, we will assure that the military legacy of Rome guides us to a new era. With reform in the local governments, adopting institutions to prepare the younger citizens, and paramilitary programs, central Italy can be prepared for total war."
 
  ITA_militarize_southern_italy:0 "Militarize Southern Italy"
- ITA_militarize_southern_italy_desc:0 ""
+ ITA_militarize_southern_italy_desc:0 "The Roman Empire understood what it meant to have a people ready for war, we will assure that the military legacy of Rome guides us to a new era. With reform in the local governments, adopting institutions to prepare the younger citizens, and paramilitary programs, southern Italy can be prepared for total war."
 
  ITA_militarize_northern_italy:0 "Militarize Northern Italy"
- ITA_militarize_northern_italy_desc:0 ""
+ ITA_militarize_northern_italy_desc:0 "The Roman Empire understood what it meant to have a people ready for war, we will assure that the military legacy of Rome guides us to a new era. With reform in the local governments, adopting institutions to prepare the younger citizens, and paramilitary programs, northern Italy can be prepared for total war."
 
  ITA_foregin_volunteers:0 "Foregin Volunteers"
- ITA_foregin_volunteers_desc:0 ""
+ ITA_foregin_volunteers_desc:0 "Just as before, we can recruit supportive populations into the military to bolster our numbers. Of course, we can not expect the same numbers from the foreigners, but the ones that will volunteer will be treated as our legions all the same. We must assure that the administration can effectively recruit these people."
 
  ITA_economic_satsuia:0 "Economic Satsuia"
- ITA_economic_satsuia_desc:0 ""
+ ITA_economic_satsuia_desc:0 "Based on the Latin phrase 'sat sui' which means self sufficient, the Satsuia idea is the idea that we can be self sufficient and not have to rely on any other nation, especially economically. With investiment into the right resources, we can assure that we will can fight a war without major imports."
 
  ITA_steelworks_italia:0 "Steelworks Italia"
- ITA_steelworks_italia_desc:0 ""
+ ITA_steelworks_italia_desc:0 "Steel is the body of the war machine, and as such, we must work to keep our body well kept. Steel industries must be subsidized and commercially viable mines must be expanded upon. Hector also has plans to assure they are under more control of the government, but this is only for the best."
 
  ITA_oil_field_expansion:0 "Oil Field Expansion"
- ITA_oil_field_expansion_desc:0 ""
+ ITA_oil_field_expansion_desc:0 "Oil is the blood of the war machine, and as such, we must work to keep our blood flowing. Oil is not as common in our lands, but there are market viable options surely awaitng us somewhere in our lands. With enough investment and willpower, we can find ourselves oil fields that can assure that our blood flows plentifully."
 
  ITA_synthetic_oil_expansion:0 "Synthetic Oil Expansion"
- ITA_synthetic_oil_expansion_desc:0 ""
+ ITA_synthetic_oil_expansion_desc:0 "Synthetic oil is a relatively new technology, a burgeoning industry that can patch many of the problems that we may face when working on our oil supply. The blood of the body is integral, with that in mind, we will work on our oil Satsuia. "
 
  ITA_oil_in_colonies:0 "Oil in Colonies"
- ITA_oil_in_colonies_desc:0 ""
+ ITA_oil_in_colonies_desc:0 "The deserts of Africa and Asia Minor are seemingly brimming with oil. With the expansive presence we have created, we can invest in and nationalize the oil within our new borders. The war machine will not be reliant on imported oil, we can create a Roman thalassocracy."
 
  ITA_military_research_facilities:0 "Military Research Facilities"
- ITA_military_research_facilities_desc:0 ""
+ ITA_military_research_facilities_desc:0 "Researcg institutes like the ISPI and INdAM must focus their efforts on assisting the new Roman Empire. With some additional funding, some behind the scenes moves, and a few black bags, surely we can have much of the academia in Italy agreeing to our ideals. Academia is too important in these times to allow it work without proper control."
 
  ITA_roman_electronics:0 "Roman Electronics"
- ITA_roman_electronics_desc:0 ""
+ ITA_roman_electronics_desc:0 "Electricity is the mind of the war machine, and as such, we must work to keep the mind working. Electrification of the nation is a prestige not all countries have, but we will assure we are one of the countries that does. Focusing the academia on electronics and the related fields will mean a great advantage to us in practically every pursuit."
 
  ITA_military_industrial_complex:0 "Military Industrial Complex"
- ITA_military_industrial_complex_desc:0 ""
+ ITA_military_industrial_complex_desc:0 "The military-industrial complex, such a term is new and has been used to fearmonger. The people should be shown such an idea is not to be feared, with a military to defend them, a government to feed them, and a police to stabilize them, the people can live in a nation that is unbreakable in it's unity and efficiency. We must not allow fearmongering to stop progress."
 
  #
 
  ITA_il_quadrumvirs:0 "Il Quadrumvirs"
- ITA_il_quadrumvirs_desc:0 ""
+ ITA_il_quadrumvirs_desc:0 "Hector Franchetti, Romano Loquarello, Monaldo Bonoarelli, and Mennone Li Giovanni, the four brave leaders that brought about our new regime. Hector now leads and will need to appoint an heir apparent and second in command in case of his death. Romano, a diplomat and careful analyzer of the situation. Monaldo, a white supremacist ready to subjugate. Mennone, an oppurtunist who is ready to turn any situation to his advantage."
 
  ITA_curriculum_fasciste:0 "Curriculum Fasciste"
- ITA_curriculum_fasciste_desc:0 ""
+ ITA_curriculum_fasciste_desc:0 "The children of the new Roman Empire must understand their role in the new world order. The boys must be ready to become men who will fight, build, and conquer. The women must be ready to have children, keep the homefront stable, and make the homes. The old Rome will be reborn in the new generation."
 
  ITA_segnale_italia:0 "Segnale Italia"
- ITA_segnale_italia_desc:0 ""
+ ITA_segnale_italia_desc:0 "The radio is a fantastic tool that will surely be important for the next century, we must not sit idly while such a useful tool is at our disposal. The people of Italy will hear the words of Il Duce himself and hear the news of every new conquest. The Sengale Italia, a broadcast all across our empire."
 
  ITA_populi_nova_romani:0 "Populi Nova Romani"
  ITA_populi_nova_romani_desc:0 ""
 
  ITA_montegiordano_incident:0 "Montegiordano Incident"
- ITA_montegiordano_incident_desc:0 ""
+ ITA_montegiordano_incident_desc:0 "The Republic of Sicily is a mistake that needs to be corrected, a direct attack could reflect badly for us in our goal to reunite the Italians under the new Rome. As we all know, The Republic of Sicily is riddled with mob rule and disorganization, if and when one of them steps out of line, we will be sure to report their atrocity and be ready to attack. We are only reacting to their disfunctional attacks."
 
  ITA_appeal_to_petain:0 "Appeal to Petain"
- ITA_appeal_to_petain_desc:0 ""
+ ITA_appeal_to_petain_desc:0 "Petain may still be French, but he is not far off in ideology from us. He has enough trouble now dealing with the rest of the world, perhaps a friendly reminder that he does not need even more problems will have him learn that the agreements between our two nations are outdated."
 
  ITA_demand_sicily:0 "Demand Sicily"
- ITA_demand_sicily_desc:0 ""
+ ITA_demand_sicily_desc:0 "Sicily is righ ours and no others should be allowed to divide our people ever again. The Republic of Sicily has acted treasonous for long enough, it is time that we demand their immediate reintegration or face the ultimate consequences."
 
  ITA_nova_caesar:0 "Nova Caesar"
  ITA_nova_caesar_desc:0 ""
