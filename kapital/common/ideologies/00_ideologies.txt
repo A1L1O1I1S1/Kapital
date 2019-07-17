@@ -1,15 +1,16 @@
 ideologies = {
 	
-	communism = {
+	libertarian_socialism = {
 	
 		types = {
-			classical_communism = { }
-			vanguardism = { }
+			anti_chaotic_leninism = { }
+			council_communism = { }
+			anarcho_syndicalism = { }
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNISM_1"
-			"FACTION_NAME_COMMUNISM_2"
+			"FACTION_NAME_LIBERTARIAN_SOCIALISM_1"
+			"FACTION_NAME_LIBERTARIAN_SOCIALISM_2"
 		}
 		
 		color = { 225 0 0 }
@@ -32,19 +33,19 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	socialist = {
+	democratic_socialism = {
 	
 		types = {
-			radical_socialism = { }
-			social_democracy = { }
-			authoritarian_socialism = { }
+			revisionist_socialism = { }
+			agrarian_socialism = { }
+			religious_socialism = { }
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIALIST_1"
-			"FACTION_NAME_SOCIALIST_2"
-			"FACTION_NAME_SOCIALIST_3"
-			"FACTION_NAME_SOCIALIST_4"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_1"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_2"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_3"
+			"FACTION_NAME_DEMOCRATIC_SOCIALISM_4"
 		}
 		
 		color = { 225 73 120 }
@@ -71,8 +72,8 @@ ideologies = {
 	
 		types = {
 			social_liberalism = { }
-			classical_liberalism = { }
-			libertarianism = { }
+			market_liberalism = { }
+			liberal_nationalism = { }
 		}
 		
 		dynamic_faction_names = {
@@ -172,9 +173,9 @@ ideologies = {
 	conservative = {
 	
 		types = {
-			democratic_conservatism = { }
-			authoritarian_conservatism = { }
-			despotism = { }
+			social_conservatism = { }
+			traditional_conservatism = { }
+			conservative_nationalism = { }
 		}
 		
 		dynamic_faction_names = {
@@ -205,15 +206,47 @@ ideologies = {
 
 		can_be_boosted = no
 	}
+	
+	despotism = {
+	
+		types = {
+			military_rule = { }
+			absolute_monarchy = { }	
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_despotism_1"
+			"FACTION_NAME_despotism_2"
+			"FACTION_NAME_despotism_3"
+			"FACTION_NAME_despotism_4"
+			"FACTION_NAME_despotism_5"
+		}
+		
+		color = { 53 60 51 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
 
+		ai_neutral = yes
+
+		can_be_boosted = no
+	}
+	
 	fascism = {
 	
 		types = {
-			nationalism = { }
-			fascist_socialism = { }
-			imperialism = { }
-			orthodox_fascism = { }
-			theocratic_fascism = { }
+			authoritarian_nationalism = { }
+			reactionary_populism = { }	
 		}
 		
 		dynamic_faction_names = {
@@ -225,6 +258,42 @@ ideologies = {
 		}
 		
 		color = { 127 51 0 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_fascist = yes
+
+		can_be_boosted = no
+	}
+	
+	social_imperialism = {
+	
+		types = {
+			imperativism = { }
+			ethno_futurism = { }	
+			technocratic_passionarism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_social_imperialism_1"
+			"FACTION_NAME_social_imperialism_2"
+			"FACTION_NAME_social_imperialism_3"
+			"FACTION_NAME_social_imperialism_4"
+			"FACTION_NAME_social_imperialism_5"
+		}
+		
+		color = { 29 82 30 }
 		
 		rules = {
 			can_force_government = no
