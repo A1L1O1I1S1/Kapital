@@ -67,6 +67,39 @@ ideologies = {
 
 		can_be_boosted = no
 	}
+	
+	social_democracy = {
+	
+		types = {
+			welfare_state_democracy = { }
+			progressive_democracy = { }
+			labour = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRACY_1"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_2"
+		}
+		
+		color = { 225 0 0 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_democratic = yes
+
+		can_be_boosted = no
+	}
 
 	liberal = {
 	
