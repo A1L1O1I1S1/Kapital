@@ -1,4 +1,77 @@
 ideologies = {
+
+        	
+	hedonism = {
+	
+		types = {
+			polyamo_leninism = { }
+			nihilism = { }
+			esoteric_hedonism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_hedonism_1"
+			"FACTION_NAME_hedonism_2"
+			"FACTION_NAME_hedonism_3"
+			"FACTION_NAME_hedonism_4"
+		}
+		
+		color = { 163 73 164 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_fascist = yes
+
+		can_be_boosted = no
+	}
+	
+		
+	adherence_to_chaos = {
+	
+		types = {
+			chaotic_chauvinism = { }
+			chaotic_leninism = { }
+			blood_cult = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_adherence_to_chaos_1"
+			"FACTION_NAME_adherence_to_chaos_2"
+			"FACTION_NAME_adherence_to_chaos_3"
+			"FACTION_NAME_adherence_to_chaos_4"
+			"FACTION_NAME_adherence_to_chaos_5"
+		}
+		
+		color = { 152 12 47 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = { }
+		faction_modifiers = { }
+
+		ai_communist = yes
+
+		can_be_boosted = no
+	}
 	
 	libertarian_socialism = {
 	
@@ -13,7 +86,7 @@ ideologies = {
 			"FACTION_NAME_LIBERTARIAN_SOCIALISM_2"
 		}
 		
-		color = { 225 0 0 }
+		color = { 225 0 31 }
 		
 		rules = {
 			can_force_government = no
@@ -106,7 +179,7 @@ ideologies = {
 		types = {
 			social_liberalism = { }
 			market_liberalism = { }
-			liberal_nationalism = { }
+			national_liberalism = { }
 		}
 		
 		dynamic_faction_names = {
@@ -138,15 +211,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	anarcho_capitalist = {
+	libertarian = {
 	
 		types = {
-			marxism = { }
+			objectivism = { }
+			pan_illegalism = { }
+			bleeding_heart_libertarianism = { }
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_ANARCHO_CAPITALIST_1"
-			"FACTION_NAME_ANARCHO_CAPITALIST_2"
+			"FACTION_NAME_LIBERTARIAN_1"
+			"FACTION_NAME_LIBERTARIAN_2"
 		}
 		
 		color = { 225 216 0 }
@@ -169,46 +244,12 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	corporatist = {
-	
-		types = {
-			criminal_syndicate = { }
-			corporatism = { }
-			colonial_administration = { }
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_CORPORATIST_1"
-			"FACTION_NAME_CORPORATIST_2"
-			"FACTION_NAME_CORPORATIST_3"
-		}
-		
-		color = { 181 181 0 }
-		
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = no
-		}
-		
-		war_impact_on_world_tension = 0.25
-		faction_impact_on_world_tension = 0.1
-		
-		modifiers = { }
-		faction_modifiers = { }
-
-		ai_neutral = yes
-
-		can_be_boosted = no
-	}
-
 	conservative = {
 	
 		types = {
 			social_conservatism = { }
 			traditional_conservatism = { }
-			conservative_nationalism = { }
+			liberal_nationalism = { }
 		}
 		
 		dynamic_faction_names = {
@@ -240,22 +281,21 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	despotism = {
+	nationalist = {
 	
 		types = {
-			military_rule = { }
-			absolute_monarchy = { }	
+			liberal_nationalism = { }
+			conservative_nationalism = { }
+			authoritarian_nationalism = { }
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_despotism_1"
-			"FACTION_NAME_despotism_2"
-			"FACTION_NAME_despotism_3"
-			"FACTION_NAME_despotism_4"
-			"FACTION_NAME_despotism_5"
+			"FACTION_NAME_NATIONALIST_1"
+			"FACTION_NAME_NATIONALIST_2"
+			"FACTION_NAME_NATIONALIST_3"
 		}
 		
-		color = { 53 60 51 }
+		color = { 148 148 148 }
 		
 		rules = {
 			can_force_government = no
@@ -274,23 +314,21 @@ ideologies = {
 
 		can_be_boosted = no
 	}
-	
-	fascism = {
+
+	reactionary_despotism = {
 	
 		types = {
-			authoritarian_nationalism = { }
-			reactionary_populism = { }	
+			military_rule = { }
+			absolute_monarchy = { }
+			reactionary_populism = { }
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_fascism_1"
-			"FACTION_NAME_fascism_2"
-			"FACTION_NAME_fascism_3"
-			"FACTION_NAME_fascism_4"
-			"FACTION_NAME_fascism_5"
+			"FACTION_NAME_reactionary_despotism_1"
+			"FACTION_NAME_reactionary_despotism_2"
 		}
 		
-		color = { 127 51 0 }
+		color = { 53 60 51 }
 		
 		rules = {
 			can_force_government = no
@@ -305,7 +343,7 @@ ideologies = {
 		modifiers = { }
 		faction_modifiers = { }
 
-		ai_fascist = yes
+		ai_neutral = yes
 
 		can_be_boosted = no
 	}
