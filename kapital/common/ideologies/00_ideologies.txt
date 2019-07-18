@@ -249,7 +249,7 @@ ideologies = {
 		types = {
 			social_conservatism = { }
 			traditional_conservatism = { }
-			liberal_nationalism = { }
+			liberal_conservatism = { }
 		}
 		
 		dynamic_faction_names = {
